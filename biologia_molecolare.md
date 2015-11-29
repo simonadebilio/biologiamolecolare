@@ -297,6 +297,8 @@ La fedeltà della replicazione del DNA può essere dunque riassunta in:
 Poichè tutte le DNA polimerasi possono polimerizzare il DNA soltanto in direzione 5' $\rightarrow$ 3', ciò crea un problema nella progressione della forcella replicativa.
 Soltanto uno dei due filamenti di neosintesi può essere sintetizzato in modo continuo seguendo la direzione della forcella replicativa: questo filamento di neosintesi viene chiamato **filamento continuo** o **leading strand**. Per rispettare la polarità di sintesi del DNA (5' $\rightarrow$ 3') l'altro filamento deve essere sintetizzato in modo discontinuo e genera quello che viene definito **filamento ritardato** o **lagging strand**. Tale filamento è definito ritardato perchè la sua la sua sintesi può iniziare solo dopo che il progredire della forcella di replicazione ha generato sufficiente DNA a singolo filamento da far partire la sintesi del filamento "lagging". La sintesi del filamento ritardato si realizza attraverso la generazione di frammenti discontinui di DNA che vengono chiamati **frammenti di Okazaki**.
 
+(immagine 12)
+
 La sintetizzazione discontinua del frammento lagging implica la necessità di dell'enzima **DNA ligasi**, un enzima in grado di saldare il 3'OH di un frammento di Okazaki con il 5'-fosfato del frammento di Okazaki sintetizzato precedentemente.
 
 #### Innesco della sintesi di DNA
@@ -326,19 +328,120 @@ La **DNA primasi** di E. coli, codificata dal **gene dnaG**, è costituita da un
 La DNA polimerasi replicativa di E. coli è la **DNA polimerasi III oloenzima**, una macchina proteica molto complessa formata da numerose subunità che si assemblano in modo sequenziale a formare un dimero catalitico.
 Ci sono due copie del nucleo catalitico, che è formato da 3 subunità: **$\alpha$** (attività DNA polimerizzante), **$\varepsilon$** (attività esonucleasica correttore di bozze 3'$\rightarrow$ 5') e **$\theta$** (stimola la esonucleasi).
 Ci sono anche due copie delle subunità **$\tau$**, che media la dimerizzazione dei 2 nuclei catalitici. Questi possono assemblarsi sul DNA solo dopo che un complesso di 5 proteine, chiamato **"complesso $\gamma$"**, è riuscito a caricare sul DNA due copie della subunità $\beta$; per tale processo il complesso $\gamma$, che è una *ATPasi DNA-dipendente*, richiede e consuma ATP. La subunità **$\beta$** forma un omodimero con una forma a ciambella in grado di abbracciare il singolo filamento di DNA che passa nel foro della ciambella.
+
+Il dimero $\beta$ ha una struttura a forma di anello con un diametro di 80 A ed una cavità di 35 A. Lo spazio tra l’anello proteico ed il DNA è occupato da H$_2$O. L’anello $\beta$ è legato al DNA, ma non entra a contatto direttamente con il DNA; scivola sul DNA stabilendo o eliminando contatti con le molecole di H$_2$O.
+
 I due nuclei catalitici presenti nel modello dimerico di replicazione del DNA replicano contemporaneamente il filamento leading e il filamento lagging della doppia elica.
 
-L'aspeytto più importante del modello è che la sintesi del filamento leading induce la formazione, sull'altro filamento, di un'ansa che fornisce lo stampo per la sintesi del filamento ritardato.
+L'aspetto più importante del modello è che la sintesi del filamento leading induce la formazione, sull'altro filamento, di un'ansa che fornisce lo stampo per la sintesi del filamento ritardato.
 
 (Figura 6.19, p 161)
 
+Il replisoma consiste dunque di un **dimero asimmetrico** formato da **2 nuclei catalitici** (DNA polimerasi III) e da proteine associate necessarie per la dimerizzazione e la funzione catalitica della polimerasi (900 kDa):
+
++ 2 copie di **nuclei catalitici** ($\alpha$, $\varepsilon$, $\theta$);
++ 2 copie della proteina $\tau$, responsabile della dimerizzazione;
++ 2 copie dell’anello **“clamp” (pinza)**, formato da un omodimero della subunità $\beta$. Questo mantiene i nuclei catalitici sul filamento stampo, si lega al DNA ed è responsabile della processività della polimerasi;
++ 1 complesso $\gamma$ o **“clamp loader”** formato da 5 proteine, carica l’anello $\beta$ sul DNA.
+
+Il clamp loader utilizza ATP per caricare l’anello $\beta$ sul complesso stampo-primer. A questo punto $\beta$ cambia conformazione e lega il nucleo polimerasico.
+Il dimero $\tau$ lega il nucleo polimerasico e svolge la funzione di dimerizzazione legando un secondo nucleo polimerasico associato ad un altro anello $\beta$. 
+Ciascuno dei complessi catalitici sintetizza 1 dei nuovi filamenti di DNA.
+Durante la sintesi del filamento guida la polimerasi resta sempre associata allo stampo, mentre durante la sintesi del filamento ritardato la polimerasi si associa e si dissocia alla fine della sintesi di ciascun frammento di Okazaki, per poi riassociarsi
+all’innesco sintetizzato dalla primasi nella regione dell’ansa.
+Il “clamp loader” resta associato al nucleo polimerasico che sintetizza il filamento ritardato.
+
+(immagine 11)
+
+Quando un frammento di Okazaki è completo l'anello $\beta$ viene aperto dal complesso $\gamma$ rilasciando l'ansa. 
+$\gamma$ è una pinza molecolare che tramite l'utilizzo di ATO riesce a modificare la conformazione di $\beta$.
+La polimerasi del filamento ritardato si sposta da un anello $\beta$ a quello successivo senza dissociarsi dal complesso replicativo.
+
+E. coli presenta dunque più DNA polimerasi:
+
++ **DNA polimerasi I** (103 kDa). Formata da un'unica subunità con due domini. Il frammento di Klenow (68 kDa) ha attività polimerasica ed esonucleasica 3’ $\rightarrow$ 5’. Il dominio con attività esonucleasica 5' $\rightarrow$ 3’ (35 kDa) rimuove i primer di RNA e poi riempie i vuoti tra i frammenti di Okazaki. Riempie anche i vuoti che si formano durante la riparazione del DNA. È l’unica con attività esonucleasica 5’ $\rightarrow$ 3’;
++ **DNA polimerasi II**. Riempie le interruzioni in seguito a danno strutturale (risposta SOS inducibile);
++ **DNA polimerasi III**. E' resposabile dell'allungamento della forcella di replicazione. Svolge polimerizzazione in direzione 5’ $\rightarrow$ 3’ e attività esonucleasica in direzione 3’ $\rightarrow$ 5’. Possiede un nucleo catalitico formato da 3 subunità $\alpha$ (attività polimerasica), $\varepsilon$ (esonucleasica 3’$\rightarrow$5’) e $\theta$ (stimolo all’esonucleasi);
++ **DNA polimerasi IV e V**, sintesi di DNA translesione (bypass).
 
 
+Nel DNA completamente replicato non possono venire inglobati i piccoli frammenti di RNA sintetizzati dalla DNA primasi: questi vengono principalmente rimossi dall'attività esonucleasica 5' $\rightarrow$ 3' della DNA polimerasi I che, mentre elimina gli RNA primer, è in grado di riempire i buchi o "gap" che essa stessa genera. 
+I "nick", cioè le interruzioni che rimangono tra i vari frammenti di Okazaki sono, infine, saldati dall'azione della **DNA ligasi** che unisce i frammenti legando l’estremità 3’-OH di un frammento con il
+5’-fosfato del frammento seguente.
+
+La reazione ligasica avviene in due stadi.
+Inizialmente l’enzima forma un complesso con l'AMP e si lega al 5’-fosfato del DNA formando il *complesso ligasi-AMP-5’P-DNA*. 
+Successivamente viene formato un legame fosfodiestere tra il 3’-OH ed il complesso ligasi-AMP-5’P-DNA.
+L’enzima di E. coli utilizza NAD come cofattore in sostituzione ad ATP, mentre la ligasi 16 del fago T4 utilizza ATP.
+
+(immagine 13)
+
+La terminazione della replicazione di E. coli è controllata da ripetizioni di una breve sequenza di 23 pb,  chiamata **ter**. 
+Le sequenze *ter* sono posizionate a circa 180° rispetto a *oriC* e le diverse sequenze fanno terminare l'una o l'altra delle due forcelle di replicazione. 
+Per impedire il movimento delle forcelle di replicazione le sequenze *ter* vengono riconosciute da una **controelicasi unidirezionale (Tus)** che lega una proteina chiamata **TBP (Ter Binding Protein)** che impedisce alla forca replicativa di procedere oltre. 
+
+Durante la terminazione della replicazione è anche necessaria l'azione di DNA topoisomerasi per separare fisicamente le due molecole di DNA circolari che si sono originate.
 
 
+### Meccanismo di replicazione degli eucarioti
 
+Per molti aspetti la replicazione degli eucarioti è molto simile a quella batterica (semiconservativa, bidirezionale e simidiscontinua).
 
+Negli eucarioti, a causa della maggior quantità di DNA presente, le origini di replicazioni sono numerose (+ repliconi).
 
+Gli eucarioti presentano un maggior numero di DNA polimerasi.
+Le sequenze delle origini di replicazione non sono ben definite a parte quella del lievito S. cerevisiae (ARS).
+
+La replicazione negli eucarioti avviene durante la fase S del ciclo cellulare.
+
+Il modello di studio di questo meccanismo è stato il virus delle scimmie SV40 il quale utilizza per lo più l’apparato replicativo
+dell’ospite.
+
+La velocità di replicazione negli eucarioti è di 500-3.500 basi/min, mentre in E. coli è di 50.000 basi/min.
+
+#### Polimerasi eucariotiche
+
+Le DNA polimerasi degli eucarioti si dividono in:
+
++ **replicative**, sono enzimi multimerici. Possiedono una subunità responsabile della catalisi e una subunità con funzioni ausiliarie (es. sintesi dell'innesco, processività...). Replicano il DNA con alta fedeltà.
++ **riparative**, sono più semplici. Generalmente sono formate da una subunità e distinte in polimerasi riparative ad alta fedeltà e polimerasi inclini all’errore (sintesi di translesione). 
+
+Nella replicazione del DNA nucleare eucariote sono coinvolte 3 polimerasi: 
+
+1. **polimerasi $\alpha$** (inizia la sintesi dei nuovi filamenti);
+2. **polimerasi $\varepsilon$** (allunga il filamento continuo);
+3. **polimerasi $\delta$** (allunga il filamento discontinuo).
+
+La polimerasi $\alpha$ è atipica. Questa polimerasi è capace di iniziare la sintesi di una nuova catena e può iniziare sia la
+sintesi del filamento continuo che di quello ritardato. 
+La pol $\alpha$ è formata da più subunità: una subunità catalitica (180 kDa) e tre subunità accessorie.
+Le subunità accessorie sono formate da una subunità B, necessaria per
+l’assemblaggio del complesso, ed altre due subunità più piccole per l’attività primasica (RNA polimerasi). 
+Il complesso è chiamato **polimerasi $\alpha$-primasi**.
+
+#### Il processo replicativo negli eucarioti
+
+Per dividersi e proliferare, tutte le cellule eucariotiche devono eseguire correttamene un programma genetico, definito ciclo cellulare, che sovrintende alla corretta replicazione e segregazione del materiale ereditario nelle cellule figlie.
+
+La selezione e preparazione delle origini di replicazione del DNA negli eucarioti inizia quando le cellule escono dalla mitosi e prosegue  nella fase G1 del ciclo cellulare.
+In questo lasso di tempo si forma su ciascuna origine un **complesso di pre-replicazione (pre-RC)**.
+Il costituente principale del pre-RC è il complesso ORC.
+Il complesso pre-RC comincia a formarsi quando al complesso ORC si agganciano due proteine chiamate **Cdc6** e **Cdt1**; queste sono richieste per il caricamento del complesso dell'elicasi, nota come **MCM2-7**.
+L'attività delle proteine chinasi CDK trasforma il pre-RC in quello che è chiamato **pre-initiation complex**, cioè una macchina proteica più complessa che diventa competente per la replicazione e innesca la sintesi vera e propria del DNA. 
+Eventi di fosforilazione catalizzati dalle CDK provocano il distacco di Cdc6 e Cdt1, e il contemporaneo aggancio di altre proteine.
+
+durante la fase S viene attivata l’elicasi. 
+In questo processo sono coinvolte 2 proteine chinasi, **CDK (ciclin dependent kinase)** e **DDK (Dbf4, dependent kinase)**, inattive durante la fase G1.
+CDK attiva **Sld2** e **Sld3**, mentre DDK attiva Mcm2-7. 
+
+Sld2 e Sld3, quando vengono fosforilate, legano **Dpb11** ed insieme facilitano il legame di **GINS** e **Cdc45** all’elicasi.
+
+(immagine 14)
+
+Nella *fase G1* Mcm2-7, non attiva, viene caricata intorno al dsDNA come dimero (2 elicasi).
+Nella *fase S*, dopo il legame di Cdc45 e GINS, un filamento di DNA viene espulso dal canale centrale di ciascuna elicasi. Le interazioni tra le due elicasi vengono eliminate.
+
+(immagine 15)
 
 
 
