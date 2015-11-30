@@ -484,8 +484,51 @@ La formazione del complesso di pre-replicazione avviene solo quando l’attivit�
 In questa fase si forma il complesso ORC-Cdc6-Cdt1 e viene caricato Mcm2-7.
 
 
+### La replicazione dei telomeri
 
+Nei cromosomi eucarioti lineari è sorto un problema legato al meccanismo di sintesi discontinua del filamento lagging.
+Mentre la replicazione del filamento leading continua fino a copiare l'estremità 5', nella replicazione del filamento lagging rimane il tratto dell'RNA primer 5' che, una volta rimosso, lascia un segmento di DNA non replicato che non può essere riempito da alcuna delle polimerasi conosciute.
 
+Le regioni terminali dei cromosomi eucariotici sono note come **telomeri** e la loro struttura è molto importante per il controllo della stabilità del genoma.
+I telomeri sono strutture specializzate per proteggere le estremità dei cromosomi lineari.
+
+I telomeri sono costituiti da sequenze di DNA contenenti numerose ripetizioni in tandem di brevi sequenze ricche in G che lasciano un'estremità sporgente in 3' (nell'uomo è 5'-TTAGGG-3').
+
+I telomeri hanno una struttura ripetitiva con un filamento ricco in G-T che si allunga oltre un filamento ricco in C-A. 
+L’estensione G-T rimane a singolo filamento per 14-16 basi ed è probabilmente prodotta da una degradazione specificatamente limitata al filamento ricco in C-A.
+
+Il numero di ripetizioni è variabile nelle diverse specie: nell’uomo sono lunghe 5-10 kbp, mentre nel lievito 300 bp.
+
+I telomeri svolgono 3 funzioni:
+
+1. proteggono le estremità del cromosoma;
+2. permettono al telomero di essere esteso;
+3. facilitano la riorganizzazione dei cromosomi meiotici.
+
+Legate ai telomeri vi sono anche due proteine, **TRF1** e **TRF2** (nei mammiferi), che riconoscono e legano la sequenza telomerica, proteggendo così le estremità del DNA. 
+
+E' stato osservato che le estremità dei telomeri non sono lineari, ma assumono una struttura a forma di loop denominata **T-loop**.
+Questa struttura è dovuta all'appaiamento tra le sequenze TTAGGG dell'estremità 3' che protrude a singolo filamento e il filamento complementare in un breve tratto denaturato nella ripetitiva adiacente al duplex.
+La struttura è stabilizzata dalla formazione di complessi con numerose proteine implicate nella funzione telomerica e nella protezione dell'estremità del cromosoma.
+
+Nei mammiferi le proteine sono 6: TRF1, TRF2, hRap1, TIN2, TPP1 e POT1. Queste formano un complesso detto Schelterina che protegge i telomeri
+dall’attività dei sistemi di riparo del danno al DNA.
+
+Il mantenimento dei telomeri è assicurato dall'azione di un particolare enzima, chiamato **telomeasi**.
+La telomerasi è una ribonucleoproteina costituita da due componenti principali:
+
++ una proteina chiamata **TERT** che agisce come una trascrittasi inversa, essendo capace di sintetizzare DNA copiando uno stampo di RNA;
++ una molecola di RNA stampo, chiamata **TERC**.
+
+La subunità catalitica TERT si associa con altre proteine accessorie (chiamate Est) a formare la macchina proteica coinvolta nel mantenimento dei telomeri.
+
+Contrariamente a quanto ci si potrebbe aspettare, la telomerasi non estende il filamento 5' ritardato più corto ma allunga ulteriormente il terminale 3' sporgente.
+Per fare questo il terminale sporgente 3' si appaia con il TERC della telomerasi, che ha una sequenza complementare alla sequenza sporgente telomerica: la parte proteica della telomerasi copia la sequenza del suo RNA allungando di una ripetizione la sequenza 3' sporgente.
+La successiva traslocazione e il riposizionamente della telomerasi fanno sì che questo processo possa ripetersi più volte.
+
+L'estensione delle sequenze ripetute da parte della telomerasi permette di raggiungere un'omeostasi della lunghezza dei telomeri che non ne altera la funzionalità e impedisce l'erosione dell'informazione genetica.
+
+Il numero di ripetizioni aggiunte è controllato da proteine ausiliarie che funzionano come deboli inibitori ed impediscono alla telomerasi di legare il DNA.
 
 
 
