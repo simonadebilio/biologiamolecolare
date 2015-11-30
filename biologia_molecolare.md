@@ -425,12 +425,15 @@ Per dividersi e proliferare, tutte le cellule eucariotiche devono eseguire corre
 
 La selezione e preparazione delle origini di replicazione del DNA negli eucarioti inizia quando le cellule escono dalla mitosi e prosegue  nella fase G1 del ciclo cellulare.
 In questo lasso di tempo si forma su ciascuna origine un **complesso di pre-replicazione (pre-RC)**.
+
 Il costituente principale del pre-RC è il complesso ORC.
 Il complesso pre-RC comincia a formarsi quando al complesso ORC si agganciano due proteine chiamate **Cdc6** e **Cdt1**; queste sono richieste per il caricamento del complesso dell'elicasi, nota come **MCM2-7**.
-L'attività delle proteine chinasi CDK trasforma il pre-RC in quello che è chiamato **pre-initiation complex**, cioè una macchina proteica più complessa che diventa competente per la replicazione e innesca la sintesi vera e propria del DNA. 
+L'attività delle proteine chinasi CDK trasforma il pre-RC in quello che è chiamato **pre-initiation complex**, cioè una macchina proteica più complessa che diventa competente per la replicazione e innesca la sintesi vera e propria del DNA.
 Eventi di fosforilazione catalizzati dalle CDK provocano il distacco di Cdc6 e Cdt1, e il contemporaneo aggancio di altre proteine.
 
-durante la fase S viene attivata l’elicasi. 
+(immagine 16)
+
+Durante la fase S viene attivata l’elicasi.
 In questo processo sono coinvolte 2 proteine chinasi, **CDK (ciclin dependent kinase)** e **DDK (Dbf4, dependent kinase)**, inattive durante la fase G1.
 CDK attiva **Sld2** e **Sld3**, mentre DDK attiva Mcm2-7. 
 
@@ -442,6 +445,43 @@ Nella *fase G1* Mcm2-7, non attiva, viene caricata intorno al dsDNA come dimero 
 Nella *fase S*, dopo il legame di Cdc45 e GINS, un filamento di DNA viene espulso dal canale centrale di ciascuna elicasi. Le interazioni tra le due elicasi vengono eliminate.
 
 (immagine 15)
+
+L'inizio della sintesi di DNA sulla leading strand richiede l'azione del **complesso DNA polimerasi $\alpha$-primasi** che porta alla sintesi del primo RNA primer (circa 10 bp) e 20-30 basi di DNA (iDNA = iniziatore).
+
+A questo stadio avviene una reazione definita **scambio delle polimerasi**.
+Pol $\alpha$-primasi viene sostituita dalla DNA polimerasi $\delta$ sul 3'OH della catena nascente di DNA. Per effettuare questo scambio intervengono due proteine proteine: 
+
++ **PCNA**,un trimero, simile all’anello $\beta$ di E. coli;
++ **RFC** (simile al clamp loader $\gamma$ di E. coli). 
+
+La pinza PCNA viene caricata sul DNA per azione di RFC, il quale utilizza ATP per aprire l’anello PCNA. 
+
+Pol $\alpha$-primasi viene rimpiazzata da pol $\delta$ sul filamento lento e pol $\varepsilon$ sul filamento guida.
+
+Nella sintesi del DNA degli eucarioti la processività della pol $\delta$ e $\varepsilon$ dipende da PCNA, mentre nei procarioti dipende dall'anello $\beta$.
+
+(immagine 17)
+
+Successivamente interviene **FEN1**, una esonucleasi, a rimuovere i primer di RNA e, formando un complesso con DNA polimerasi $\delta$ sintetizza DNA in modo analogo alla DNA pol I di E. coli
+
+(immagine 18)
+
+Infine interviene una ligasi che lega i frammenti mediante la formazione di un legame fosfodiestere.
+
+(immagine 19)
+
+Non è noto un equivalente di $\tau$ di E. coli responsabile della coordinazione della replicazione negli eucarioti.
+
+Una differenza tra procarioti ed eucarioti è che nei procarioti, non appena vengono reclutate le proteine iniziatrici in corrispondenza delle origini, vengono reclutate anche le DNA elicasi e la sintesi inizia.
+
+Nelle cellule eucariote invece, si ha la formazione di un complesso di pre-replicazione (abilitazione alla replicazione) che avviene in un altro momento del ciclo (Fase G1). 
+Una volta che la cromatina eucariota è stata aperta, le proteine iniziatrici riconoscono la sequenza di DNA all’origine e vi si legano formando il complesso ORC-Cdc6-Cdt1 che, idrolizzando ATP, carica l’elicasi Mcm2-7. 
+Quando Mcm2-7 è caricato, il complesso Cdc6-Cdt1 non serve più. 
+Solo quando la cellula entra nella fase S, l’elicasi si attiva e viene caricata la pol $\alpha$-primasi ed inizia la sintesi.
+
+Gli eventi di abilitazione alla replicazione sono sotto il controllo dell’attività CDK/ciclina.
+La formazione del complesso di pre-replicazione avviene solo quando l’attività CDK è bassa, nella fase G1 del ciclo. 
+In questa fase si forma il complesso ORC-Cdc6-Cdt1 e viene caricato Mcm2-7.
 
 
 
