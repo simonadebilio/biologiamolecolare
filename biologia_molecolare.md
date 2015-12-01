@@ -359,9 +359,9 @@ La polimerasi del filamento ritardato si sposta da un anello $\beta$ a quello su
 
 E. coli presenta dunque più DNA polimerasi:
 
-+ **DNA polimerasi I** (103 kDa). Formata da un'unica subunità con due domini. Il frammento di Klenow (68 kDa) ha attività polimerasica ed esonucleasica 3’ $\rightarrow$ 5’. Il dominio con attività esonucleasica 5' $\rightarrow$ 3’ (35 kDa) rimuove i primer di RNA e poi riempie i vuoti tra i frammenti di Okazaki. Riempie anche i vuoti che si formano durante la riparazione del DNA. È l’unica con attività esonucleasica 5’ $\rightarrow$ 3’;
++ **DNA polimerasi I** (103 kDa). Formata da un'unica subunità con due domini. Il frammento di Klenow (68 kDa) ha attività polimerasica ed esonucleasica 3' $\rightarrow$ 5'. Il dominio con attività esonucleasica 5' $\rightarrow$ 3' (35 kDa) rimuove i primer di RNA e poi riempie i vuoti tra i frammenti di Okazaki. Riempie anche i vuoti che si formano durante la riparazione del DNA. È l’unica con attività esonucleasica 5’ $\rightarrow$ 3';
 + **DNA polimerasi II**. Riempie le interruzioni in seguito a danno strutturale (risposta SOS inducibile);
-+ **DNA polimerasi III**. E' resposabile dell'allungamento della forcella di replicazione. Svolge polimerizzazione in direzione 5’ $\rightarrow$ 3’ e attività esonucleasica in direzione 3’ $\rightarrow$ 5’. Possiede un nucleo catalitico formato da 3 subunità $\alpha$ (attività polimerasica), $\varepsilon$ (esonucleasica 3’$\rightarrow$5’) e $\theta$ (stimolo all’esonucleasi);
++ **DNA polimerasi III**. E' resposabile dell'allungamento della forcella di replicazione. Svolge polimerizzazione in direzione 5' $\rightarrow$ 3' e attività esonucleasica in direzione 3’ $\rightarrow$ 5’. Possiede un nucleo catalitico formato da 3 subunità $\alpha$ (attività polimerasica), $\varepsilon$ (esonucleasica 3' $\rightarrow$ 5') e $\theta$ (stimolo all’esonucleasi);
 + **DNA polimerasi IV e V**, sintesi di DNA translesione (bypass).
 
 
@@ -529,6 +529,114 @@ La successiva traslocazione e il riposizionamente della telomerasi fanno sì che
 L'estensione delle sequenze ripetute da parte della telomerasi permette di raggiungere un'omeostasi della lunghezza dei telomeri che non ne altera la funzionalità e impedisce l'erosione dell'informazione genetica.
 
 Il numero di ripetizioni aggiunte è controllato da proteine ausiliarie che funzionano come deboli inibitori ed impediscono alla telomerasi di legare il DNA.
+
+## Sistemi di riparazione del DNA
+
+Variazioni nella sequenza nucleotidica del DNA prendono il nome di **mutazioni**.
+Le mutazioni possono essere *spontanee* (o naturali) o *indotte*, se dovute ad agenti mutageni esterni.
+
+
+
+La maggior parte delle mutazioni sono definite **puntiformi**, in quanto determinano il cambiamento di un singolo nucleotide.
+Le mutazioni puntiformi sono divise in due categorie: 
+
+1. le **transizioni**, che sono cambiamenti da una purina a un'altra o da una pirimidina a un'altra;
+2. le **trasversioni**, che sono cambiamenti da purina a pirimidina o da pirimidina a purina.
+
+Se durante il processo replicativo si introduce un appaiamento non corretto tra i due filamenti del DNA e tale errore non viene riparato, al secondo ciclo di replicazione del DNA la mutazione viene fissata nel genoma.
+
+Se il cambiamento nucleotidico cade nella regione di un gene codificante per una proteina ci sono tre possibilità:
+
+1. mutazione **silente (o sinonima)**, se la mutazione cambia la sequenza di una tripletta (codone) codificante per un certo amminoacido ma, grazie alla degenerazione del codice genetico, il nuovo codone codifica per lo stesso aa codificato dal codone originario;
+2. mutazione **missenso**, se la mutazione puntiforme causa la formazione di un codone con un significato diverso dall'originario con conseguente cambiamento di un singolo aa. Questa mutazione può alterare le proprietà della proteina determinando una variazione nel fenotipo;
+3. mutazioni **non senso**, se la sotituzione di un singolo nucleotide nella regione codificante di un gene determina la formazine di una delle 3 triplette non senso del codice genetico. Questo causa la formazione di una proteina tronca.
+
+Nel DNA possono verificarsi anche delle **delezioni** o **inserzioni** di un singolo nucleotide. Questa perdita o aggiunta di un nucleotide determina uno sfasamento del codice di lettura di un gene codificante per una proteina.
+Queste mutazioni vengono chiamate **frameshift** e alterano tutta la sequenza di amminoacidi a valle del punto in cui è avvenuta la mutazione.
+
+Alcune regioni del DNA hanno un'aumentata instabilità genomica a causa della ripetizione di sequenze nucleotidiche. Se una sequenza di pochi nucleotidi si ripete più volte in una regione di DNA, durante il processo replciativo, le sequenze ripetute possono formare appaiamenti strutturali alternativi con una stabilità termodinamica simile a quella dell'appaiamento corretto. Le polimerasi possono, quindi, "scivolare" durante la replicazione di queste regioni, portando a una contrazione o a un'espansione delle sequenze ripetute stesse.
+
+Le mutazioni che causano un cambiamento del fenotipo possono essere divise in due categorie:
+1. la perdita di funzione o **loss of function** è la conseguenza di una mutazione che abolisce o riduce l'attività di una proteina;
+2. l'acquisizione di funzione o **gain of function** si verifica se la mutazione è in grado di conferire alla proteina alterata codificata dal gene mutato una funzione anomala.
+
+
+Le cause delle mutazioni possono essere:
+
++ errori di replicazione;
++ danni chimici e fisici come perdita o alterazione di basi, rottura dello scheletro, ecc.;
++ inserimento di trasposoni.
+
+I danni causati al DNA possono essere dovuti a:
+
++ cambiamento di basi singole;
++ distorsioni strutturali (da raggi UV, agenti intercalanti, ecc);
++ danno all'ossatura del DNA (da siti abasici e da rotture del doppio filamento).
+
+I processi riparativi possono essere raggruppati essenzialmente in 3 classi:
+
++ riparazione diretta del danno, in cui le basi vengono revertite chimicamente (es. fotoattivazione);
++  riparazione tramite escissione, in cui segmenti più o meno lunghi di un filamento di DNA danneggiato vengono eliminati con siccessiva sintesi riparativa  utilizzando il filamento intatto come stampo;
++ riparazione tramite aggiramento del danno (sintesi di translesione).
+
+Una prima opera di riparazione dei danni al DNA viene eseguita dalle DNA polimerasi.
+
+La **DNA polimerasi III**: questo complesso svolge, grazie alla subunità $\varepsilon$, un'attività esonucleasica 3' $\rightarrow$ 5'.
+
+L’inserimento di un nucleotide non corretto produce una deformazione strutturale del filamento di DNA che induce la polimerasi a fermarsi o a rallentare. Successivamente l’enzima retrocede e rimuove l’errore.
+
+La **DNA polimerasi I** invece, svolge una funzione *"proofreading"*.
+questo enzima consiste di un'unic acatena polipeptidica (103 kDa) che, mediante trattamento proteolitico può essere suddivisa in due frammenti:
+
++ il maggiore, chiamato **frammento di Klenow** è dotato di un'attività polimerasica 5' $\rightarrow$ 3' e di un'attività esonucleasica
+3' $\rightarrow$ 5' (correzione delle bozze). I due siti attivi sono separati 30 A (separazione spaziale tra il sito dove viene aggiunta la base da quello dove viene escissa);
++ il minore possiede anche un'attività esonucleasica 5' $\rightarrow$ 3', che determina l'escissione di nucleotidi a valle dell'enzima.
+
+### Aggiramento della lesione: sintesi di translesione
+
+La replicazione del DNA si blocca se trova una lesione (e.g. dimeri di 
+T). La Pol III a questo punto si distacca e al suo posto entra la DNA pol translesione. Copia il DNA con poca fedeltà, e poi si stacca per far posto alla Pol III.
+
+Le DNA pol inclini all’errore si sostituiscono alla replicativa e sintetizzano il tratto di DNA utilizzando le stesse proteine ausiliarie (sintesi di translesione).
+
+Aggirato il danno la pol viene sostituita nuovamente dalla pol replicativa.
+
+Queste polimerasi introducono errori con una frequenza 10$^-$$^1$, 10$^-$$^3$, ma risolvono il grave problema dell’arresto della sintesi.
+
+Le pol translesione in E. coli sono la DNA pol IV (dinB) e V (umuCD).
+
+La sintesi delle DNA pol translesione è indotta in risposta al danno al DNA. In E. coli RecA attiva DNA pol V umuD$_2$C a UmuD’$_2$C (è il sistema SOS, vedi dopo).
+
+(immagine 22)
+
+### Reversione tramite fotoliasi
+
+La fotoliasi è un enzima, appartenente alla classe delle liasi, che lega specificamente i filamenti di DNA danneggiati dall'esposizione a radiazione ultravioletta, le quali provocano la formazione di *dimeri di pirimidina* e di 6-4 fotoprodotti. 
+
+I dimeri di pirimidina si producono quando due basi azotate adiacenti (timina e\o citosina) sullo stesso filamento di DNA vengono legate covalentemente fra di loro. 
+La fotoliasi ha alta affinità per queste strutture chimiche, alle quali si lega reversibilmente e le ripara. 
+
+Questo enzima funziona come un meccanismo di riparazione del DNA quando la luce di lunghezza d'onda compresa fra 320 e 370 nm lo colpisce attivandolo. La reazione enzimatica prevede la rottura del dimero e la ricostituzione della struttura corretta delle basi (fotoriattivazione).
+
+Questo enzima è una flavoproteina che contiene due gruppi cromofori ed agisce attraverso il trasferimento di elettroni. Nella reazione redox la molecola FAD agisce da donatore di elettroni, mentre il dimero agisce da accettore di elettroni.
+
+La fotoliasi è presente e funzionante nei procarioti, è presente negli eucarioti inferiori come il lievito dove si ritiene abbia però un ruolo minore, ed è assente nelle cellule umane e nei mamiferi placentati in genere.
+
+(immagine 23)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
