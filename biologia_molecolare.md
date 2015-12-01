@@ -624,6 +624,61 @@ La fotoliasi è presente e funzionante nei procarioti, è presente negli eucario
 
 (immagine 23)
 
+### Riparazione per escissione
+
+I meccanismi di escissione possono essere di due tipi:
+
+1. sistemi per **escissione di nucleotidi (NER)**;
+2. sistemi per **escissione delle basi (BER)**.
+
+Questi due sistemi condividono le stesse fasi del meccanismo:
+
+1. Riconoscimento;
+2. incisione (una endonucleasi taglia il filamento su entrambi i lati del danno);
+3. rimozione (un'esonucleasi rimuove il DNA);
+4. sintesi;
+5. unione.
+
+#### Sistemi NER in E. coli
+
+Questo sistema si basa su diverse proteine chiamate globalmente **Uvr** (UvrA, UvrB, UvrC e UvrD).
+
+UvrA-UvrB cercano e riconoscono le distorsioni del DNA.
+
+UvrB fonde (?) il DNA e recluta UvrC (UvrA viene rilasciato) che taglia il DNA 8 nucleotidi a monte e 3-4 nucleotidi a valle del sito danneggiato.
+
+L’elicasi UvrD svolge la regione in cui è avvenuto il taglio permettendo il rilascio del filamento tagliato.
+
+Successivamente intervengono DNA Pol I per sintetizzare nuovamente la porzione di DNA tagliata e ligasi.
+
+(immagine 23)
+
+#### Sistemi NER negli eucarioti
+
+La riparazione per escissione di nucleotidi è coinvolta nella riparazione di lesioni che provocano una distorsione della doppia elica del DNA e sono causate da agenti chimico-fisici.
+
+Il meccanismo del NER negli eucarioti si suddivide in due percorsi che sono distinti nella prima fase per poi convergere in un meccanismo comune:
+
++ il **GG-NER (Global Genome NER)**, che controlla l'intero genoma alla ricerca di eventi che causano una distorsione della doppia elica;
++ il **TCR-NER (Transcription-Couple Repair NER)**, che agisce su danno localizzati nelle regioni trascritte dalle RNA polimerasi.
+
+Nel GG-NER il complesso proteico **XPC-hHR23B** più che ricercare specifiche lesioni sul DNA, individua regioni in cui il corretto appaiamento tra i due filamenti di DNA è alterato a causa di una distorsione della doppia elica.
+
+Nel TCR-NER diversi tipi di lesione nelle regioni trascritte determinano un blocco delle RNA polimerasi che devono essere rimosse dal DNA per permettere la riparazione dei danni.
+
+Questo evento richiede due proteine specifiche del TCR-NER, chiamate **CSA** e **CSB**.
+
+I passaggi successivi sono comuni sia al GG-NER che al TCR-NER.
+
+Il **complesso multiproteico TFIIH**, che contiene due polipeptidi chiamati **XPB** e **XPD** con attività DNA elicasica, apre il DNA per un tratto di circa 30 nt attorno alla lesione.
+La proteina **XPA** conferma la presenza della lesione legandosi a essa, altrimenti tutta la reazione termina a questo stadio. 
+La regione del DNA aperta dall'azione dell'elicasi è stabilizzata dal legame con la proteina **RPA**, che è un fattore coinvolto anche nella replicazione del DNA e che ha un'elevata affinità di legame per il DNA a singolo filamento.
+**XPG** e **ERCC1/XPF** sono due endonucleasi NER-specifiche che tagliano rispettivamente in 3' e in 5' il filamento di DNA contenente la lesione, generando un frammento di circa 30 nt con una estremità 3'OH nel filamento danneggiato.
+A questo punto il filamento può essere riparato dai normali enzimi che replicano il DNA copiando il filamento complementare che non è stato danneggiato.
+
+(immagine 24)
+
+Nell’uomo, lo *Xeroderma pigmentosum*, patologia recessiva responsabile della ipersensibilità alla luce solare, è dovuta ad un difetto nelle riparazioni NER a causa della mutazione di uno dei geni XPA-G coinvolti nel meccanismo.
 
 
 
