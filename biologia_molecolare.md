@@ -832,6 +832,16 @@ Il legame di H1 aumenta il compattamento del DNA sul nucleosoma, imponendo una c
 
 Le proteine istoniche, che interagiscono con il DNA carico negativamente, sono fortemente basiche (oltre 20% degli aa sono Arg e Lys). Presentano una struttura conservata costituita da tre regioni ad $\alpha$-elica denominata **histone-fold** e da una coda N-terminale.
 
+Tutti gli istoni sono soggetti a modificazioni covalenti; la maggior  parte delle quali interessano la regione N-terminale. 
+Modifiche transitorie a livello di numerosi siti di acetilazione,
+fosforilazione e metilazione.
+
+In condizioni di bassa forza ioni e in assenza dell'istone H1 si osserva la struttura meno condensata della cromatina, la "collana di perle", chiamata anche **"fibra da 10 nm"**.
+Se analizziamo la cromatina in condizioni più fisiologiche, essa appare come una **"fibra da 30 nm"**, chiamata anche *solenoide*, in cui i nucleosomi appaiono organizzati in una struttura elicoidale con sei nucleosomi per giro.
+
+Il modello strutturale della cromatina che presenta il maggiore impaccamento vede la formazione di anse bloccate alla base da una struttura proteica, la **matrice nucleare** o l'**impalcatura (scaffold) del cromosoma**. 
+La **topoisomerasi II e le **proteine SMC** *(Structural Maintenance of Chromosome)* sono componenti essenziali di quese strutture proteiche.
+
 
 
 
