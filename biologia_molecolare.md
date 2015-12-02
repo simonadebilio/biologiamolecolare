@@ -785,7 +785,52 @@ Come conseguenza a danni al DNA si accumulano regioni di DNA a singolo filamento
 
 La forma attivata di RecA è in grado di legarsi al repressore LexA e di indurre la sua distruzione tramite l'attività proteolitica che LexA stessa possiede. Questo causa la depressione, cioè l'attivazione di una serie di geni i cui prodotti sono richiesti per una corretta risposta a danni al DNA.
 
+## Organizzazione e impacchettamento del DNA eucariotico
 
+### La cromatina
+
+Nei nuclei delle cellule eucariotiche il amteriale genetico costituisce la massa di cromatina la cui organizzazione è soggetta a vistosi cambiamenti nel corso del ciclo cellulare.
+
+Le molecole di DNA sono associate alle proteine istoniche a formare la fibra cromatinica da 10 nm di diametro.
+Queste lunghe moleocle di DNA sono organizzate in numerose anse della lunghezza media di 30-100 kpb ancorate alla base su una struttura filamentosa chiamate **matrice nucleare**.
+Queste anse costituiscono domini topologici indipendenti in quanto capaci individualmente di mantenere o perdere superavvolgimenti.
+Queste anse sono ancorate a una "impalcatura" centrale del cromosoma costituita da proteine specifiche.
+
+La fibra cromatinica risulta dall'interazione del DNA genomico con proteine istoniche e con proteine non istoniche, e subisce notevoli variazioni della compattazione nel corso del ciclo cellulare.
+
+Nei nuclei interfasici i singoli cromosomi sono indistinguibili e il materiale genetico nel nucleo si presenta come una rete diffusa di filamenti (la cromatina) che si possono visualizzare con specifici coloranti.
+La colorazione non omogenea della cromatina nei nuclei interfasici suggerisce l’esistenza di due diverse organizzazioni strutturali.
+
+Nella maggior parte dello spazio nucleare le fibre cromatiniche appaiono relativamente disperse, molto meno densamente compattate che nei cromosomi mitotici, e prendono il nome di **eucromatina**.
+
+In alcune regioni nucleari invece si osservano delle masse di cromatina più compatta che prendono il nome di **eterocromatina**.
+L'eterocromatina può essere distinta in due tipi:
+
+1. **eteroctomatina costitutiva**, che resta sempre compatta e rappresenta regioni del genoma che, non avendo capacità codificante, non vengono mai espresse e che potrebbero avere un ruolo strutturale nel cromosoma;
+2. **eterocromatina facoltativa**, che è tale solo in alcune situazioni, rappresenta regioni che hanno capacità codificante, che possono essere trascritta e che possono pertanto diventare eucromatina.
+
+Gli **istoni** sono proteine basiche che rappresentano i veri costituenti strutturali della cromatina. 
+
+La cromatina presenta una struttura ripetitiva che appare come una collana costituita da grani impilati du un filo, dove i grani rappresentano i **nucleosomi**, le unità elementari della struttura della cromatina.
+
+Le unità monomeriche possono presentare lunghezze diverse dovute alla variabilità delle dimensioni del DNA linker (DNA che lega un nucleosoma all'altro, il "filo" della collana di perle).
+Le dimensioni del tratto di DNA strettamente avvolto attorno al nucleosoma, infatti, sono strettamente conservate, e sono lunghe 147 pb. 
+
+La forte interazione tra DNA e core istonico è mediata da circa 140 legami a idrogeno. Quasi tutti i legami si instaurano con gli atomi di ossigeno dei legami fosfodiesterici vicini al solco minore; solo 7 legami vengono formati tra le proteine e le basi attraverso il solco maggiore. Da qui la conclusione che il legame tra DNA e nucleosoma è forte ma non è sequenza-specifico.
+
+La natura basica degli istoni maschera le cariche negative dei fosfati, permettendone un avvicinamento fisico, determinato dalla curvatura del DNA, altrimenti impossibile.
+
+Il nucleosoma è costituito da un tratto di DNA di circa 200 pb associato con un ottamero di proteine istoniche, che consiste di due copie di ciascuno degli istoni **H2A**, **H2B**, **H3** e **H4**.
+
+L'ottamero di istoni costituisce la struttura centrale o "nucleo" (core) del nucleosoma, a forma di cilindro appiattito del diametro di circa 10 nm. 
+All'intorno del cilindro la doppia elica di DNA compie quasi due giri. 
+
+A questo nucleosoma, ma esternamente rispetto ad esso, si trova associata una molecola dell'**istone H1**, che quindi è presente in quantità pari alla metà di quella degli altri istoni.
+
+L'istone H1 interagisce con il tratto di DNA tra due nucleosomi (DNA linker) producendo una maggiore adesione del DNA all'ottamero istonico.
+Il legame di H1 aumenta il compattamento del DNA sul nucleosoma, imponendo una costrizione sugli angoli di entrata e uscita del DNA dal nucleosoma.
+
+Le proteine istoniche, che interagiscono con il DNA carico negativamente, sono fortemente basiche (oltre 20% degli aa sono Arg e Lys). Presentano una struttura conservata costituita da tre regioni ad $\alpha$-elica denominata **histone-fold** e da una coda N-terminale.
 
 
 
