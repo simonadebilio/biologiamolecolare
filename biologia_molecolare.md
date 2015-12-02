@@ -842,13 +842,90 @@ Se analizziamo la cromatina in condizioni più fisiologiche, essa appare come un
 Il modello strutturale della cromatina che presenta il maggiore impaccamento vede la formazione di anse bloccate alla base da una struttura proteica, la **matrice nucleare** o l'**impalcatura (scaffold) del cromosoma**. 
 La **topoisomerasi II e le **proteine SMC** *(Structural Maintenance of Chromosome)* sono componenti essenziali di quese strutture proteiche.
 
+## La trascrizione
 
+Un gene è una sequenza di DNA contenente le informazioni per la sintesi di un prodotto indipendente (rRNA, tRNA, RNA regolatori, mRNA $\rightarrow$ proteina).
 
+Si definisce **"espressione genica"** il meccanismo attraverso cui l’informazione presente in una sequenza di DNA viene utilizzata per produrre un RNA, o un polipeptide, mediante trascrizione e traduzione.
+La relazione tra la sequenza di DNA e la sequenza aa è detta **codice genetico**. 
+Un gene contiene una serie di codoni che vengono letti in maniera sequenziale a partire da un sito di inizio fino a un sito di terminazione.
 
+Mentre nei batteri la trascrizione è contestuale alla traduzione, dato che non presentano una compartimentazione cellulare, negli eucarioti la trascrizione avviene nel nucleo mentre le traduzione nel citoplasma.
+L’mRNA va incontro a maturazione e solo successivamente viene tradotto.
 
+Il processo di sintesi dell'RNA su uno stampo di DNA è chiamato **trascrizione** e l'attore primario dell'intero meccanismo è un enzima chiamato **RNA polimerasi**.
 
+La RNA pol è una complessa macchina molecolare formata da varie subunità che dopo essersi legata al DNA lo apre, creando una zona denaturata, chiamata **bolla di trascrizione**, che fornisce all'enzima il filamento stampo da cui è diretta la sintesi dell'RNA. La bolla si muove con l'enzima e il DNA si apre via via che l'enzima procede e si richiude posteriormente.
 
+Il processo di trascrizione comprende tre diverse fasi: inizio, allungamento e terminazione.
 
+L'RNA prodotto non rimane appaiato al DNA, ma si stacca dallo stampo a una distanza di pochi nucleotidi da dove è stato aggiunto l'ultimo ribonucleotide alla catena.
+
+### L'unità di trascrizione
+
+Quando la doppia elica del DNA viene aperta, l'RNA pol usa uno solo dei due filamenti come stampo.
+
+Il filamento di DNA che funge da stampo è chiamato **filamento stampo** ed è complementare al messaggero (RNA), mentre l'altro filamento, che viene chiamato **fiamento non stampo** o **codificante**, ha la stessa sequenza del messaggero, con le T al posto delle U.
+
+L’RNA è una catena polinucleotidica a *singolo filamento*.
+Lo zucchero è rappresentato dal **ribosio** anzichè 2’-deossiribosio.
+Il residuo 2'-OH rende questa molecola molto reattiva (funzioni catalitiche).
+Tra le basi dell'RNA troviamo l'uracile al posto della timina.
+Questo filamento assorbe la luce a una lunghezza d'onda di 260 nm.
+
+La sintesi dell'RNA è la stessa sia nei procarioti che negli eucarioti, ma la regolazione del processo è molto più complessa negli eucarioti.
+
+La trascrizione dei geni sia nei procarioti che negli eucarioti è regolata da sequenze specifiche di DNA che costituiscono delle regioni di controllo della trascrizione.
+
+L'RNA pol sintetizza l'RNA in direzione 5' $\rightarrow$ 3'.
+
+L'RNA pol si lega a particolari sequenze sul DNA che si chiamano **promotori** e che sono situate all'inizio del gene. 
+Il promotore contiene anche il nucleotide da cui inizia la sintesi dell'RNA, che viene definito **sito d'inizio della trascrizione (TSS)**. La trascrizione procede poi fino a una particolare sequenza chiamata **terminatore** e si definisce **unità di trascrizione** il tratto di DNA che va dal promotore fino al terminatore, espresso come una singola molecola di RNA.
+
+L'RNA pol, a differenza della DNA pol, non ha bisogno di un innesco per sintetizzare un nuovo filamento di RNA. 
+Dopo il suo posizionamento, il gruppo 3'OH del primo nucleotide reagisce con il successivo nucleoside 5' trifosfato il cui fosfato in posizione $\alpha$ è usato per formare il legame fosfodiesterico, mentre i fosfati $\beta$ e $\gamma$ sono rilasciati come una molecola di pirofosfato.
+
+La bolla di trascrizione è lunga circa 25 pb, ma il tratto che forma un ibrido tra DNA e RNA è lungo 8-9 pb.
+
+### Le 3 fasi della trascrizione
+
+1. La **fase di inizio**
+
+In questa fase avviene il riconoscimento del promotore e il DNA si apre formando la bolla di trascrizione per iniziare la sintesi dell'RNA;
+
+2. La **fase di allungamento**
+
+In questa fase la polimerasi e la bolla si muovono lungo il DNA estendendo la catena di RNA;
+
+3. La **fase di terminazione**
+
+In questa fase l'RNA pol si arresta al terminatore, il trascritto di RNA si dissocia dalla polimerasi e la bolla si richiude.
+
+Il legame che si forma inizialmente tra l'RNA pol e il promotore viene definito **complesso chiuso** perchè il DNA non è stato ancora aperto per formare la bolla.
+
+Una volta che l'enzima è stabilmente legato al promotore, una serie di cambiamenti conformazionali al suo interno promuovono l'apertura della bolla e la formazione del **complesso aperto**. 
+Questa apertura rende disponibile il filamento stampo al riconoscimento complementare dei nucleotidi.
+
+Inizialmente l'RNA polimerasi sintetizza, senza distaccarsi dal promotore, un frammento di RNA che viene rilasciato prima di raggiungere i 9 nt di lunghezza. 
+Questa sintesi abortiva è ripetuta più volte fino a quando, superata la lunghezza di 9 nt, si forma un ibrido DNA-RNA sufficientemente stabile.
+La polimerasi può a questo punto rilasciare il promotore e proseguire nella fase di allungamento.
+
+Durante la fase di allungamento l'enzima si muove lungo il filamento stampo in direzione 3' $\rightarrow$ 5' sintetizzando la catena di RNA dal 5' al 3' e muove con sé la bolla di trascrizione; il DNA si apre nella direzione della sintesi e si richiude alle sue spalle, mantenendo la bolla di una lunghezza costante.
+
+Se viene incorporato un nucleotide non corretto, l'appaiamento di basi nella bolla risulterà anomalo e questo indurrà la polimerasi a tornare indietro e a eliminare il nucleotide sbagliato con un meccanismo di correzione. 
+
+La terminazione è l'ultima fase della trascrizione in cui l'RNA polimerasi rilascia il filamento di RNA prodotto e si dissocia dal DNA.
+
+### L'RNA polimerasi
+
+La chimica della sintesi degli RNA è la stessa per tutti i tipi di RNA; catalizza la formazione del legame fosfodiesterico utilizzando ioni Mg$^2$$^+$ quali cofattori.
+L’enzima è completamente processivo, per cui un trascritto completo viene sintetizzato da un'unica RNA polimerasi. 
+Una volta iniziata la sintesi dell’RNA, la RNA polimerasi si
+sposta unidirezionalmente lungo la catena stampo di DNA trascrivendo l'RNA in direzione 5' $\rightarrow$ 3'.
+Non necessitano di primer di innesco e non sono dotate di attività di correzione dei trascritti.
+
+Le RNA polimerasi sono capaci di individuare e trascrivere selettivamente i geni interagendo, con l’ausilio di altre proteine (elementi trans), con siti specifici del DNA (elementi cis) presenti nella regione del promotore della trascrizione.
+Una volta riconosciuto un elemento cis, la RNA polimerasi inizia la sintesi dell’RNA.
 
 
 
