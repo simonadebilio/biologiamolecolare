@@ -934,7 +934,7 @@ Il DNA è costretto dalla struttura a fare una piegatura di quasi 90° nella par
 
 (immagine 31)
 
-#### I promotori e il fattore sigma
+#### I promotori e il fattore sigma in E.coli
 
 Per trascrivere un determinato gene l'enzima dve essere in grado di riconoscerne il sito di inizio con grande precisione.
 
@@ -998,7 +998,7 @@ Durante la fase di allungamento l'enzima si muove lungo il filamento stampo in d
 
 La terminazione è l'ultima fase della trascrizione in cui l'RNA polimerasi rilascia il filamento di RNA prodotto e si dissocia dal DNA.
 
-#### Passaggio complesso aperto-chiuso
+#### Passaggio complesso aperto-chiuso in E. coli
 
 Nel **complesso chiuso**:
 + il DNA si lega alla superficie con $\alpha$ e $\sigma$;
@@ -1061,10 +1061,21 @@ Oltre ai "rut", Rho utilizza per terminare la trascrizione delle sequenze di ter
 
 Rho lega l'RNA dall’estremità 3' sulla faccia esterna dei domini N-term, mentre l’estremità 5' è legata da un sito secondario posto all’interno dell’esamero.
 
-
 Nei batteri la trascrizione è contestuale alla traduzione.
 L’accesso di Rho al sito rut è mascherato dai ribosomi. 
-Una mutazione non senso che fa staccare i ribosomi prematuramente, fa entrare Rho che blocca la trascrizione dei geni distali (stesso meccanismo di prima)
+Una mutazione non senso che fa staccare i ribosomi prematuramente, fa entrare Rho che blocca la trascrizione dei geni distali (stesso meccanismo di prima).
+
+(immagine 31)
+
+### Differenza tra mRNA mono e policistronico
+
+L'mRNA si dice **monocistronico** quando porta l'informazione per un solo gene, ed è una caratteristica tipica degli eucarioti mentre nei procarioti l'mRNA è molto spesso **policistronico** e cioè porta l'informazione per più geni (il trascritto di mRNA corrispondente è in grado di tradurre per più catene polipeptidiche diverse, in sequenza).
+
+Un **cistrone** è una sequenza di basi nucleotidiche compresa tra una tripletta di inizio AUG e una di stop. Il termine deriva dal fatto che due mutazioni puntiformi diverse possono complementare (ossia dare un fenotipo normale) solo se sono in cis, ossia nello stesso filamento (per cui l'altro cistrone è selvatico), e non se sono in trans, in quanto entrambi i polipeptidi risultano anormali.
+
+La tipica organizzazione policistronica dell'mRNA dei procarioti è dovuta alla caratteristica organizzazione dei geni in *operoni*, ovvero una serie di geni disposti uno accanto all'altro lungo il cromosoma che codificano enzimi con funzione correlata tra loro (solitamente coinvolti nello stesso pathway) controllati da un unico induttore e che sono trascritti su un'unica molecola di mRNA.
+
+### La trascrizione negli eucarioti
 
 
 
