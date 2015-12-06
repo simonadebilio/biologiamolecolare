@@ -1077,6 +1077,103 @@ La tipica organizzazione policistronica dell'mRNA dei procarioti è dovuta alla 
 
 ### La trascrizione negli eucarioti
 
+Sebbene il meccanismo di trascrizione del DNA sia simile, il macchinario necessario perchè la trascrizione avvenga è, negli eucarioti, considerevolmente più complesso:
++ è necessaria una modulazione del grado di compattezza della cromatina;
++ l'RNA polimerasi richiede fattori proteici, detti **fattori di trascrizione basale**, per legare il promotore ed iniziare la trascrizione;
++ esistono 3 differenti RNA polimerasi. 
+L'**RNA polimerasi I** trascrive i geni per l'rRNA (localizzata principalmente nel nucleo), l'**RNA polimerasi II** trascrive i precursori degli mRNA (localizzata nel nucleoplasma), mentre l'**RNA polimerasi III** trascrive i geni per l'rRNA 5S, per i tRNA e per piccoli RNA coinvolti nella formazione di mRNA maturi.
+
+Nelle piante esistono altre due RNA pol non essenziali per la vita delle cellule: **RNA pol IVa e pol IVb**.
+
+Ognuna delle 3 RNA pol funziona in associazione con una serie di fattori specifici che riconoscono elementi in *cis* sul DNA nella regione del promotore.
+
+#### La RNA pol I
+
+La RNA pol I trascrive esclusivamente i geni per gli RNA ribosomali. 
+
+Il promotore del precursore degli rRNA è costituito da due regioni: un tratto che si sovrappone al sito d'inizio della trascrizione TSS che costituisce il core del promotore e un elemento più a monte, chiamato **elemento UPE** o **UCE**.
+
+La formazione del complesso di inizio richiede almeno due fattori trascrizionali ausiliari, chiamati:
+
++ **UBF**, una proteina che si lega al DNA con domini multipli del tipo HMG e interagisce direttamente con il core del promotore e con l'elemento UCE;
++ **SL1**, un complesso multiproteico che comprende la **TATA Binding Protein (TBP)**, che è un componente essenziale dei complessi d'inizio di tutte e 3 le RNA pol eucariotiche. SL1 non si lega al DNA riconoscendo una sequenza specifica, ma il reclutamento sul promotore è mediato da interazioni specifiche con UBF. Una volta posizionato sul promotore, il complesso SL1 contatta direttamente il DNA e promuove la trascrizione, reclutando Pol I.
+
+Un dimero di UBF si lega sia a UCE che al core del promotore, promuovendo la formazione di un'ansa sul DNA. A questo punto interviene SL1 che richiama Pol I sul promotore e la sintesi dell'rRNA può iniziare.
+
+#### La RNA pol II
+
+Mentre nei procarioti interviene un solo fattore addizionale di trascrizione ($\sigma$), negli eucarioti l'RNA pol II, per iniziare la propria trascrizione, necessita di 2 gruppi di fattori di trascrizione (qualsiasi proteina sia necessaria per l'inizio della trascrizione ma non sia parte della polimerasi, è un fattore din trascrizione):
+
+1. il primo gruppo è formato da una serie di proteine chiamate **fattori basali (GTF)**, richieste per reclutare l'RNA pol su tutti i promotori di Pol II e formare il complesso di inizio. L'RNA pol II associata a questi fattori costituisce l'**apparato basale** della trascrizione di Pol II;
+2. il secondo gruppo è costituito da proteine chiamate **fattori di trascrizione regolatori** che sono responsabili della regolazione della trascrizione, sia come attivatori che come repressori.
+
+
+La struttura dei **promotori di Pol II** è piuttosto complessa.
+Il **promotore minimo** di Pol II è costituito dal tratto di DNA indispensabile per permettere ai fattori basali di far iniziare la trascrizione. Tale promotore minimo contiene l'elemento chiamato **iniziatore (INR)** da cui parte la trascrizione.
+
+Un altro elemento molto importante è una sequenza chiamata **TATA box** (sequenza conservata TATAAA). Tale sequenza è, in genere, preceduta da un altro elemento chiamato **BRE** che permette il legame del fattore basale **TFIIIB**.
+Un elemento chimato **DPE** è tipicamente presente in quei promotori che non  contengono le TATA box (**TATA-less*). 
+L'elemento **DCE** può invece essere presente in più copie nei promotori contenenti la TATA box.
+
++ Le TATA-box sono presenti nel 32% dei nuclei del promotore. 
+Esistono promotori TATA-less. 
+LE TATA box sono il sito di legame per la TBP (TATA binding protein), una subunità di TFIID, e sono circondate da seq ricche in GC. 
+Sono posizionate a -25 bp dal sito di inizio.
+
++ L'iniziatore (Inr) si trova posizionato a livello del sito di inizio, tendenzialmente la prima base è una A fiancheggiata da pirimidine
+(Py 2 CAPy 5 ). 
+E posizionato a -3 - +5, e viene riconosciuta da TPB e TAFII (???). Agisce anche in assenza della TATA box, ma se agisce in sinergia con quest'ultima ha una maggiore efficienza di inizio della trascrizione.
+
++ L'elemento DPE è formato da 7 nucleotidi. Funziona nei TATA-less e richiede Inr. Viene riconoisciuto da TAF9 e TAF6 (subunità di TFIID).
+
++ L'elemento DCE è legato a TAF1 e contribuisce all’attività dei promotori con TATA-box. E' presente in tre copie.
+
++ L'elemento BRE è l'unico riconosciuto da TFIIB.
+
+
+##### I promotori della RNA pol II
+
+Un promotore di Pol II è costituito da vari elementi che possiamo suddividere in due gruppi:
+
+1. quelli *prossimali* (fino a circa 200 pb) al sito d'inizio della trascrizione, a cui si legano i fattori basali di trascrizione, la polimerasi e alcuni attivatori. 
+2. quelli *distali* (circa 100 kb di distanza) ai quali si legano i fattori di regolazione della trascrizione.
+
+Nel lievito la maggior parte dei geni ha un elemento chiamato **UAS** al quale si legano attivatori specifici per il gene posto a valle.
+
+I siti di riconoscimento prossimali nel promotore sono, in generale, formati da sequenze nucleotidiche che si presentano in blocchi (box) quali la **CAAT box** e la **GC box**.
+Queste sequenze fanno parte degli elementi prossimali del promotore, funzionano in entrambi i sensi, sono localizzate a monte del sito di inizio della trascrizione e ne fanno aumentare la frequenza di inizio.
+
+Alla CAAT box si lega il fattore trascrizionale noto CBF. La CAAT box può funzionare in entrambi gli orientamenti e si ritiene che influenzi l'efficienza di un promotore, ma non abbia un ruolo nel determinarne la specificità trascrizionale.
+Alla GC box (GGGCGG) si lega il fattore Sp1, presente in molti organismi compreso l'uomo, che è coinvolto nell'espressione di molti geni necessari per la vitalità delle cellule definiti **housekeeping**. 
+
+Non sempre i promotori funzionano da soli.
+In alcuni casi l'attività di un promotore è aumentata enormemente dalla presenza di un enhancer.
+Gli **enhancer** (amplificatori) sono elementi distali che contengono molti elementi o sequenze di riconoscimento alle quali si legano i fattori di trascrizione, per lo più con funzione attivatrice.
+
+Gli enhancer possono funzionare in entrambi gli orientamenti rispetto alla direzione della trascrizione e possono trovarsi sia a monte che a valle del gene che controllano.
+Svolgono il loro ruolo attraverso l'associazione con diverse proteine, tra cui diversi fattori coinvolti nell'avvio della trascrizione stessa. Il complesso che viene a formarsi (enhancer + attivatori) prende il nome di **enhanceosoma**.
+
+Oltre agli enhancer esistono anche i **silencer** che funzionano in modo simile, legando repressori della trascrizione (invece di attivatori). Come gli enhancer possono trovarsi a valle o a monte dei geni che controllano.
+Questi repressori possono agire in modi diversi: possono mascherare la regione di attivazione agli attivatori, o competere con il legame sul mediatore.
+
+L'individuazione della funzione di sequenze di DNA coinvolte nella regolazione della trascrizione sono state eseguite mediante diverse tecniche, tra le quali la **mappatura per delezione**. 
+In breve: vengono preparate molecole di DNA con delezioni in diversi punti del promotore del gene; le molecole modificate di DNA vengono inserite (trasfezione) in cellule che lo inglobano nel loro DNA. 
+Successivamente si determina la capacità e l’efficienza della trascrizione del DNA trasfettato nella cellule.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
