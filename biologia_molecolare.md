@@ -1218,18 +1218,97 @@ Questo ha il ruolo di riconoscere e discriminare il nucleotide corretto per evit
 Il trigger loop posiziona il nuovo NTP nel sito attivo in modo tale che, se l'appaiamento è corretto, il nucleotide riesce a posizionarsi correttamente rispetto al 3'OH della molecola di RNA nascente e al nucleotide complementare nel filamento stampo del DNA.
 Il trigger loop promuove l'attacco nucleofilo da parte del 3'OH e il distacco del pirofosfato.
 
+#### Altri fattori proteici
+
+Il DNA è normalmente impaccato nei nucleosomi e nella cromatina. Pertanto, l’inizio della trascrizione in vivo, richiede l’intervento di altri fattori proteici quali il *complesso mediatore*, *proteine regolatrici della trascrizione* (attivatori) e *enzimi che rimodellano la cromatina*.
+Al contrario degli attivatori procariotici che interagiscono direttamente con la polimerasi posizionandola sul promotore, gli attivatori eucariotici reclutano indirettamente la polimerasi interagendo con componenti del complesso trascrizionale come TFIID o il complesso mediatore.
+
++ Il mediatore.
+
+Il mediatore è un complesso proteico di grandi dimensioni che si lega al complesso d'inizio trasportandovi l'RNA pol. 
+Questa è legata direttamente al mediatore che interagisce con il CTD, mascherandolo. 
+
+Il principale ruolo del mediatore è quello di fare da ponte tra gli attivatori legati a monte e il complesso d'inizio e, inoltre, alcune sue subunità possono avere un ruolo nella repressione della trascrizione.
+
++ Gli enhancer
+
+L'espressione della maggior parte dei geni può essere controllata anche dagli enhancer (intensificatori). 
+Questi sono sequenze del DNA poste anche a molta distanza dal promotore che possono essere spostate ed anche ruotate di 180° senza che ciò
+interferisca con la capacità dei fattori di trascrizione ad esse legate di stimolare la trascrizione. 
+
+Questi fattori proteici hanno la capacità di legare i fattori proteici del promotore piegando ad ansa il filamento di DNA.
+
+Ogni enhancer lega gruppi di fattori di trascrizione diversi che rispondono a stimoli diversi e che possono agire indipendentemente.
+
+Gli enhancer sono distanti dal gene che controllano e per evitare interazioni errate con altri geni, si ritiene che ogni sistema promotore/enhancer sia isolato da sequenze di confine specifiche chiamate insulator (isolatori), alle quali si legherebbero proteine della matrice nucleare.
+
+Enhanceosoma = complesso di attivatori che legano l’enhancer. 
+Questo entra in contatto con le regioni prossimali del promotore attraverso la formazione di un'ansa sul DNA, questi vengono a contatto col il co-attivatore (manca il dominio di legame al DNA) che a sua volta richiama l’RNA pol.
+
+Il silencer è una sequenza di DNA in grado di legare dei fattori di trascrizione detti repressori. Quando il silencer è legato dal repressore, l’RNA polimerasi non è in grado di iniziare la trascrizione.
 
 
+#### Regolazione della trascrizione tramite attivatori
+
+(immagine 34)
+
+#### Regolazione tramite repressori
+
+Il repressore può mascherare il dominio di trasporto nucleare dell'attivatore.
+
+(immagine 35)
+
+Il repressore può legare l'attivatore nascondendo il dominio di attivazione.
+
+(immagine 36)
+
+Il repressore può essere trattenuto nel citoplasma.
+
+(immagine 37)
+
+Può esserci competizione per il legame sull'enhancer.
+
+(immagine 38)
+
+I fattori di trascrizione hanno una struttura "modulare", cioè sono composti da diversi domini:
+
++ un dominio di legame al DNA (classificazione degli attivatori);
++ un dominio di connessione (linker);
++ un dominio di attivazione vero e proprio;
++ un dominio di dimerizzazione;
++ un dominio di legame ai ligandi;
++ un dominio di localizzazione nucleare;
++ un dominio di esportazione nucleare.
+
+Ogni dominio si comporta come un modulo separato che funziona in modo indipendente (doppio ibrido).
+
+I fattori di trascrizione vengono suddivisi in *attivatori* e *repressori* e, in base alla funzione, vengono distinti in:
+
+1. **veri attivatori**, legano siti specifici e stabiliscono contatti con l'apparato basale direttamente o attraverso coattivatori;
+2. **proteine architettoniche**, cambiano la struttura del DNA;
+3. **antirepressori**, reclutano gli enzimi che modellano e modificano la cromatina.
 
 
+#### I veri attivatori
 
+La funzione dell'attivatore è quella di facilitare ed accellerare l'assemblaggio del complesso di inizio.
 
+Il dominio di attivazione agisce contattando:
 
++ direttamente i fattori generici di trascrizione coinvolti nelle fasi iniziali di assemblaggio del complesso di inizio (tipicamente TFIID, TFIIB o TFIIA;
++ il mediatore o i coattivatori.
 
+#### I fattori di trascrizione architettonici
 
+Questi fattori modificano la struttura del DNA, generalmente piegandola. 
 
+Agiscono curvando il DNA; possono agire riunendo le proteine legate per favorire la formazione di un complesso cooperativo, o curvando il DNA nell'altra direzione per impedire la formazione del complesso.
 
+(immagine 39)
 
+#### Gli antirepressori
+
+Nei cromosomi eucariotici il DNA è strettamente associato con gli istoni dei nucleosomi, ed evidenze sperimentali dimostrano che queste interazioni impediscono l'accesso al DNA dei fattori della trascrizione.
 
 
 
