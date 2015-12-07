@@ -1065,7 +1065,7 @@ Nei batteri la trascrizione è contestuale alla traduzione.
 L’accesso di Rho al sito rut è mascherato dai ribosomi. 
 Una mutazione non senso che fa staccare i ribosomi prematuramente, fa entrare Rho che blocca la trascrizione dei geni distali (stesso meccanismo di prima).
 
-(immagine 31)
+(immagine 32)
 
 ### Differenza tra mRNA mono e policistronico
 
@@ -1160,7 +1160,63 @@ L'individuazione della funzione di sequenze di DNA coinvolte nella regolazione d
 In breve: vengono preparate molecole di DNA con delezioni in diversi punti del promotore del gene; le molecole modificate di DNA vengono inserite (trasfezione) in cellule che lo inglobano nel loro DNA. 
 Successivamente si determina la capacità e l’efficienza della trascrizione del DNA trasfettato nella cellule.
 
+#### Il complesso di pre-inizio
 
+Vediamo ora come si assembla sul promotore il complesso d'inizio della trascrizione, promosso dai fattori basali. 
+Questo viene chiamato **complesso di pre-inizio** o **PIC**.
+
+Il primo fattore a legarsi al promotore è il **TFIID** che contiene la **TBP** insieme a numerosi **TAF** (*TBP Asocciated Factors*).
+I fattori TAF sono il bersaglio di proteine attivatrici che aumentano il livello di trascrizione.
+I TAF associati alla TBP sono diversi per i 3 sistemi di trascrizione Pol I, Pol II e Pol III.
+
+TBP è una proteina molto particolare che si lega come una "sella" sul DNA, interagendo con il solco minore.
+La molecola è un monomero con un asse di simmetria che la divide in due regioni simmetriche e, attraverso due loop molto conservati contenenti critici residui di fenilalanina, si lega alla TATA box, piegando il DNA di circa 80°. Questa piegatura facilita l'interazione di altri fattori nella regione del promotore.
+
+Dopo TFIID si lega al complesso **TFIIA** che ha la doppia funzione di stabilizzare il complesso TFIID-DNA e di impedire il legame di repressori che potrebbero interferire con la formazione dle complesso di pre-inizio. 
+
+Successivamente, al complesso si lega **TFIIB**, che ha il compito di posizionare precisamente Pol II sul sito d'inizio "misurandone" la distanza dalla TATA box.
+
+TFIIB interagisce con la TBP e il DNA, grazie alla piegatura indotta da TBP a monte e a valle della TATA box, è in grado d'interagire anche con la polimerasi, che si associa al complesso aiutata da **TFIIF**.
+TFIIB sembra avere un ruolo importante nelle fasi iniziali della sintesi dell'RNA.
+
+Il complesso TFIIB-RNA pol ha rivelato la presenza nella regione N-terminale di TFIIB di un dominio che, attraverso un lungo loop, si inoltra all'interno dell'enzima fino alla regione del suo sito attivo.
+Questo loop, denominato **dito B** si trova nella stessa regione dell'ibrido DNA-RNA nel complesso che sta trascrivendo e tale posizione non interferisce, ma anzi stabilizza la struttura dell'ibrido RNA-DNA.
+Quando l'RNA supera i 5 o 6 nt, deve competere con TFIIB per lo spazio nella cavità di Pol II.
+
+**TFIIF** si lega a Pol II quando l'enzima è ancora libero da interazioni con altri fattori e ne impedisce il legame a regioni di DNA diverse dal promotore. TFIIF stabilizza le interazioni della polimerasi con TBP e TFIIB e sembra avere un ruolo nell'inizio della trascrizione.
+
+La coda C-terminale (CTD) di Pol II, è libera e non modificata.
+Quando si forma il complesso con l'RNA pol, intervengono altri due fattori: **TFIIE** e **TFIIH**.
+
+TFIIE ha la funzione di reclutare TFIIH nel complesso e TFIIH, che è costituito da varie subunità, ha un duplice ruolo.
+Il primo è quello di aprire il DNA mediante la sua attività elicasica ATP-dipendente e di formare il complesso di trascrizione "aperto".
+L'altra funzione essenziale di TFIIH è quella di *fosforilare il CTD*.
+
+Questa modificazione della coda CTD, cambiando la qualità delle interazioni tra il CTD e i vari componenti del PIC, promuove il distacco di Pol II dal promotore e permette l;inizio della fase di allungamento della trascrizione. 
+
+Le modificazioni post-traduzionali della coda CTD sono anche essenziali per reclutare, nella fase di allungamento, le varie componenti che contribuiscono alla maturazione dell'RNA.
+
+(immagine 33)
+
+#### La struttura di Pol II e la fase di allungamento dell'RNA
+
+La fosforilazione del CTD, che avviene in concomitanza con l'inizio della fase di allungamento, provoca uno scambio tra i fattori di inizio e quelli necessari per l'allungamento e la maturazione dell'RNA. 
+In questo stadio molti fattori basali vengono rilasciati e fra questi anche il mediatore (interagisce con CTD non fosforilato). 
+La fosforilazione del CTD serve come punto di riconoscimento e di
+ancoraggio per altre proteine per agganciarsi alla pol.
+Il complesso di trascrizione è costituito dalla RNApol-TFIIE-TFIIH e dai fattori di allungamento che includono P-TEFb che fosforila CTD (in Ser2), hSPT5, TAT-SF1, TFIIS (che impedisce le pause scorrette e correzione di bozze).
+
+Pol II è costituita da più subunità che danno a questo enzima una forma a "pinza" che si apre e si chiude sul DNA inglobandolo in una lunga scanalatura nella struttura dell'oloenzima.
+La parte superiore della "pinza" è quella più mobile e permette l'ingresso del DNA.
+La brusca curvatura che, a causa della struttura del "muro", il filamento è costretto a fare, ha come risultato quello di esporre la base non appaiata nel sito attivo, pronta ad appaiarsi con il nucleotide successivo che entrerà nel complesso.
+
+Come fa l'RNA pol a riconoscere il giusto nucleotide che deve essere aggiunto alla catena di RNA?
+
+Nell'RNA pol è presente un dominio proteico chiamato **trigger loop** (grilletto). 
+Questo ha il ruolo di riconoscere e discriminare il nucleotide corretto per evitare errori nella sintesi; inoltre, promuove la formazione del legame fosfodiesterico e l'avanzamento della polimerasi. 
+
+Il trigger loop posiziona il nuovo NTP nel sito attivo in modo tale che, se l'appaiamento è corretto, il nucleotide riesce a posizionarsi correttamente rispetto al 3'OH della molecola di RNA nascente e al nucleotide complementare nel filamento stampo del DNA.
+Il trigger loop promuove l'attacco nucleofilo da parte del 3'OH e il distacco del pirofosfato.
 
 
 
