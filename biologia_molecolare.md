@@ -1308,26 +1308,96 @@ Agiscono curvando il DNA; possono agire riunendo le proteine legate per favorire
 
 #### Gli antirepressori
 
-Nei cromosomi eucariotici il DNA è strettamente associato con gli istoni dei nucleosomi, ed evidenze sperimentali dimostrano che queste interazioni impediscono l'accesso al DNA dei fattori della trascrizione.
+Nei cromosomi eucariotici il DNA è strettamente associato con gli istoni dei nucleosomi, ed evidenze sperimentali dimostrano che queste interazioni impediscono l'accesso al DNA dei fattori di trascrizione.
+
+(immagine 40)
 
 
+Gli antirepressori possono facilitare il legame del complesso trascrizionale al promotore sia reclutando fattori che aggiungono gruppi chimici alle code N-terminali degli istoni (es. l'enzima *istone acetil transferasi, HAT*, che aggiunge gruppi acetile) sia reclutando fattori che rimodellano la cromatina (es. SWI/SNF ATP-dipendente).
 
 
+#### Modificazioni istoniche
+
+La molecola di ciascun istone del nucleosoma presenta un'estremità N-terminale flessibile che si estende fuori dall'elica del DNA. Modificazioni chimiche di queste code hanno un importante impatto sulla struttura e sulla funzione della cromatina.
+
+Le code istoniche N-terminali sono modificate covalentemente nella porzione che esce dal core del nucleosoma.
+Le code sono metilate, acetilate, fosforilate o ubiquinate su specifici residui aminoacidici. La combinazione di specifiche modificazioni su una data coda istonica può influenzare la funzione o l'accessibilità delle regioni di DNA associate.
 
 
+L'*acetilazione* degli istoni agirebbe su due livelli molecolari diversi: 
+
+1. impedendo la compattazione della cromatina;
+2. favorendo lo stato di attività delle regioni eucromatiniche.
+
+I gruppi acetile vengono aggiunti a specifici residui di lisina (K) da enzimi chiamati **istone acetiltrasferasi (HAT)** e tolti dalle **istone
+deacetilasi (HDAT)**. Riconosciuti da bromodominio.
+
+L'acetilazione della coda istonica permette il reclutamento di proteine che agiscono sulla cromatina.
+L'acetilazione degli istoni nella cromatina favorisce il reclutamento di proteine contenenti un **bromodominio** che, a loro volta, possono reclutare specificatamente altre proteine che inducono, per esempio, l'attivazione dei geni vicini.
 
 
+La *metilazione* interessa i residui di Arg (fino a 2 -CH$_3$) e Lys (fino a 3 -CH$_3$). 
+
+La metilazione della coda istonica recluta proteine che danno inizio alla formazione di eterocromatina. 
+
+La Lys 9 metilata dell'istone H3 rappresenta un sito per il reclutamento delle proteine che contengono un **cromodominio**.
+La proteina HP1 è un esempio di proteina contenente un cromodominio che aiuta l'inizio della formazione dell'eterocromatina.
+Alcune proteine che contengono il cromodominio interagiscono con altre proteine e le reclutano ai siti della lisina 9 metilata dall'istone H3. 
+
+La metilazione è associata ad attivazione trascrizionale e
+silenziamento. 
+Es. La metilazione di Lys 9 dell'istone H3 è capace di causare il compattamento della cromatina e il silenziamento della trascrizione. 
+La metilazione di Lys 4 dell’istone H3, invece, causa
+attivazione della trascrizione.
 
 
+#### Modificazioni del DNA
+
+La metilazione della citosina in 5 metil-citosina, è associata a processi di silenziamento genico.
+
+La metilazione del DNA può reclutare proteine coinvolte nella modificazione dell'istone e viceversa.
+I gruppi metile possono essere aggiunti sia al DNA sia alle code istoniche. 
+
+I gruppi metile sul DNA reclutano le proteine leganti il metile che a loro volta possono reclutare una deacetilasi istonica che modifica la cromatina rimuovendo i gruppi acetile dalle code istoniche e inizia così il silenziamento.
+
+Le proteine che legano il metile che hanno attività metiltransferasica possono legare i siti metilati del DNA e metilare a loro volta gli istoni generando un segnale per il silenziamento della cromatina.
+
+Le code istoniche metilate possono legare proteine contenenti il cromodominio che a loro volta possono reclutare le DNA metiltransferasi che metilano il DNA adiacente.
+I complessi di rimodellamento del nucleosoma si possono legare in maniera specifica a regioni di DNA metilato, usando le subunità che riconoscono in maniera specifica le citosine metilate.
+
+#### I complessi di rimodellamento della cromatina
+
+Agiscono secondo i seguenti modelli:
+
+1. promuovendo la mobilità dell'ottamero istonico, che scorre sul filamento di DNA lasciando libero il sito di attivazione della
+trascrizione TATA box (sul promotore);
+2. inducendo un'ansa transiente nel DNA, e facendo sporgere dall'ottamero un sito che diventa disponibile al legame con le
+proteine regolatrici;
+3. facilitando la sostituzione di un istone standard del core
+dell'ottamero con un altro che favorisce la trascrizione (H2A/H2B
+con H2AZ/H2B);
+4. dislocando completamente l'ottamero dal DNA.
 
 
+Un esempio degli eventi che avvengono a liivello del promotore in seguito al legame di un attivatore della trascrizione.
 
+I fattori di trascrizione, come il recettore dei **glucocorticoidi (GR)**, si legano al DNA e reclutano i coattivatori, che facilitano l'assemblaggio del complesso di pre-inizio della trascrizione. 
 
+(immagine 41)
 
+Il passaggio 1 illustra la regione di un cromosoma che è in uno stato represso a causa dell'associazione del DNA con istoni deacetilati.
 
+Nel passaggio 2, il GR si è legato all'elemento di risposta ai glucocorticoidi (GRE), reclutando sul DNA il coattivatore CBP. 
+Il CBP contiene una subuntià con attività di istone acetiltransferasi (HAT); questi enzimi trasferiscono gruppi acetile da un donaotre (acetil CoA) ai gruppi amminici di specifici residui di lisina. Di conseguenza, gli istoni delle particelle core dei nucleosomi skituati nelle regioni a monte e a valle della TATA box vengono acetilati.
 
+Nel passaggio 3, gli istoni acetilati hanno reclutato un complesso di rimodellamento della cromatina, chiamato SWI/SNF.
+Insieme, a due coattivatori CBP e SWI/SNF hanno mdoificato la struttura della cromatina in unos tato più aperto ed accessibile. 
 
+Nel passaggio 4, TFIID si lega a una regione accessibile del DNA.
+Anche una delle subunità di TFIID (chiamata TAF$_I$$_I$250 o TAF1) possiede attività acetiltransferasica. 
+Insieme, CBP e TAF$_I$$_I$250 destabilizzano ulteriori nucleosomi per permettetre l'avvio della trascrizione.
 
+Nel passaggio 5, i rimanenti nucleosomi del promotore sono stati acetilati, la RNA polimerasi è legata ala promotore e la trascrizione sta per iniziare.
 
 
 
