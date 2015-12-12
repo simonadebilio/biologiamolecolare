@@ -1583,14 +1583,81 @@ Una volta legato TFIIIB, TFIIIA e TFIIIC possono allontanarsi.
 Il solo TF di inizio per la RNA pol III è quindi TFIIIB!
 
 
+## Modificazioni chimiche dell'RNA
+
+Esistono motleplici livelli di regolazione dell'espressione genica negli eucarioti:
+
++ **meccanismi epigenetici**, consistono in un controllo a lungo raggio mediante rimodellamento della struttura della cromatina;
++ **controllo trascrizionale**, consiste nel legame di fattori trascrizionali tessuto specifici, nel legame diretto di ormoni, di fattori di crescita o di elementi intermedi a elementi responsivi di geni inducibili;
++ **controllo post-trascrizionale**, consiste nello splicing alternativo, nella poliadenilazione alternativa e dell'RNA editing tessut-specifico;
++ **controllo del trasporto**;
++ **controllo della stabilità del trascritto**;
++ **controllo traduzionale**;
++ **controllo post-traduzionale**.
+
+
+La forma più semplice di un gene è data da un segmento di DNA colineare con una proteina.
+I geni batterici sono generalmente di questo tipo, ma anche la maggior parte dei geni degli eucarioti unicellulari ed oligocellulari.
+
+A livello di DNA, la sequenza di un gene piò contenere dei tratti di sequenza interposti ce non compaiono poi nel trascritto maturo funzinale. Tali sequenze interposte sono state chiamate **introni**, mentre i tratti di sequenza che, unendosi, vanno a formare il trascritto maturo sono stati chiamati **esoni**.
+Geni di questo tipo sono stati chiamati **geni discontinui** o **interrotti**.
+
+In questo caso il prodotto della RNA polimerasi è detto **trascritto primario (pre-RNA)** e ha la stessa organizzazione del gene
+Il *pre-RNA* è molto instabile ed ha una maggiore complessità di sequenza rispetto all'mRNA maturo. 
+L'insieme di questi trascritti è definito **hnRNA (RNA eterogeneo nucleare)**.
+
+*Introni* = sequenze che vengono rimosse, durante la maturazione, dal
+trascritto primario.
+
+*Esoni* = sequenze che si ritrovano nell'RNA maturo.
+
+Nei geni unmani il numero di introni può variare da nessuno fino a oltre 300 (gene per la titina)
+
+La lunghezza complessiva degli esoni è pari a circa il 10% della lunghezza complessiva degli introni.
+
+La maturazione del trascritto primario a mRNA avviene nel nucleo e richiede 3 eventi:
+
++ un **capping al 5'**;
++ una **poliadenilazione al 3'**;
++ un fenomeno di **splicing**.
+
+Allungamento, terminazione e maturazione sono fenome interconnessi.
+La RNA polimerasi, mentre trascrive, porta sulla sua coda anche proteine di modificazione del pre-mRNA che vengono trasferite sull’RNA nascente al momento opportuno.
+
+### L'aggiunta del "cap"
+
+Gli mRNA eucariotici vengono generati nel processo trascrizionale all'intenro del nucleo a partire da un RNA precursore (hnRNA) che deve poi subire un processo di maturazione.
+
+Il **capping** consiste nell'aggiunta di uno specifico nucleotide modificato con le funzioni di protezione e riconoscimento all'estremità 5' dell'mRNA precursore.
+
+Il cap è costituito da **7-metilguanosina (m$^7$G)** legata al nucleotide iniziale del trascritto mediante un insolito legame 5'-5'.
+La sequenza degli eventi che porta all'aggiunta del cap richiede 4 diverse attività enzimatiche:
+
+1. una RNA trifosfatasi rimuove il $\gamma$-fosfato all'estremità 5' del trascritto nascente;
+2. una guanilil transferasi aggiunge un GMP, derivato dal GTP, al difosfato rimasto all'estremità del trascritto formando un legame trifosfato 5'-5';
+3. una RNA metil transferasi del trascritto trasferisce un gruppo metilico dall S-adenosilmetionina (AdoMet) all'azoto in posizione 7 della guanosina aggiunta nella reazione precedente;
+4. un'altra metil transferasi usa un'altra molecola di AdoMet per metilare il 2'-OH del primo nucleotide del trascritto.
+
+Nel **cap1**, presente sia in RNA cellulari che virali, risulta metilato il 2'-OH del primo nucleotide del trascritto , tipicamente un'adenina, che a sua votla può essere metilata in posizione 6.
+
+Nel **cap2**, presenta solo negli RNA cellulari, risulta metilato al 2'-OH anche il secondo nucleotide del trascritto.
+
+Nel **cap0**, presente solo negli RNA virali, non vi sono nucleotidi metilati oltre alla 7-metilguanosina.
 
 
 
-
-
-
-
-
+Verso la fine della fase di inizio, quando la coda è fosforilata in Ser5, le proteine del capping si
+legano al CTD.
+La coda viene poi fosforilata in
+Ser2 da una chinasi (pTETb)
+associata alla RNA pol
+(allungamneto) e si attaccano
+alcuni enzimi delle splicing.
+La defosforilazione della
+posizione 2 richiama gli enzimi
+per la poliadenilazione, mentre
+la defosforilazione della Ser5
+ne provoca la dissociazione.
 
 
 
