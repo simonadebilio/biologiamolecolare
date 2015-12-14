@@ -1635,7 +1635,7 @@ La sequenza degli eventi che porta all'aggiunta del cap richiede 4 diverse attiv
 
 1. una RNA trifosfatasi rimuove il $\gamma$-fosfato all'estremità 5' del trascritto nascente;
 2. una guanilil transferasi aggiunge un GMP, derivato dal GTP, al difosfato rimasto all'estremità del trascritto formando un legame trifosfato 5'-5';
-3. una RNA metil transferasi del trascritto trasferisce un gruppo metilico dall S-adenosilmetionina (AdoMet) all'azoto in posizione 7 della guanosina aggiunta nella reazione precedente;
+3. una RNA metil transferasi del trascritto trasferisce un gruppo metilico dall S-adenosilmetionina (AdoMet) all'azoto in posizione 7 (N$_7$) della guanosina aggiunta nella reazione precedente;
 4. un'altra metil transferasi usa un'altra molecola di AdoMet per metilare il 2'-OH del primo nucleotide del trascritto.
 
 Nel **cap1**, presente sia in RNA cellulari che virali, risulta metilato il 2'-OH del primo nucleotide del trascritto , tipicamente un'adenina, che a sua votla può essere metilata in posizione 6.
@@ -1644,20 +1644,152 @@ Nel **cap2**, presenta solo negli RNA cellulari, risulta metilato al 2'-OH anche
 
 Nel **cap0**, presente solo negli RNA virali, non vi sono nucleotidi metilati oltre alla 7-metilguanosina.
 
+Per alcuni RNA, come snRNA o snoRNA, si osserva una ipermetilazione del m$^7$G cap, localizzata nel citoplasma, per formare **2,7,7-trimetilguanosina**.
+
+Il cap viene aggiunto nelle prime fasi della trascrizione, dopo che il trascritto nascente ha raggiunto la lunghezza di 20-40 basi, ma prima dell'occorrenza degli altri processi di maturazione.
+
+Il posizionamento del complesso dei fattori proteici necessari per la formazione del cap al 5' del trascritto è assistito dal dominio C-terminale della RNA pol II (CTD).
+Il CTD è coinvolto nei vari passaggi di maturazione del trascritto di Pol II.
+
+Nella transizione tra la fase di inizio e quella di allungmaento della trascrizione, il CTD della RNA pol II viene fosforilato da TFIIH sulla serina 5 dell'eptapeptide ripetuto YSPTSPS.
+La coda viene poi fosforilata in Ser2 da una chinasi (pTETb) associata alla RNA pol II attivando l'allungamento, lo splicing e la poliadenilazione.
+
+Il CTD fosforilato (P-CTD) recluta il complesso proteico coinvolto nel capping.
+
+Il cap svolge diverse funzioni:
+
++ protegge l'mRNA dalla degradazione;
++ aumenta l'efficienza della traduzione;
++ facilita il trasporto dell'mRNA dal nucleo al citoplasma;
++ contribuisce ad aumentare l'efficienza del processo di splicing.
+
+La defosforilazione della posizione 2 richiama gli enzimi per la poliadenilazione, mentre la defosforilazione della Ser5 ne provoca la dissociazione.
+
+### La poliadenilazione e terminazione della trascrizione degli mRNA eucariotici
+
+Quando l'RNA pol II raggiunge la fine di un gene e trascrive uno specifico motivo di sequenza, denominato **segnale di poliadenilazione**, si innescano i meccanismi che portano alla terminazione del processo trascrizionale, al taglio del pre-mRNA  e all'aggiunta dei una coda di poli(A) all'estremità 3'.
+
+La trascrizone del segnale di poliadenilazione attiva il reclutamento da parte della coda CTD dell'RNA pol II di complessi proteici denominati **CPSF (Cleavage and Poly(A)denylation Specifity Factor)** e **CstF (Cleavage stimulation Factor)**.
+Il segnale di poliadenilazione, che più viene chiamato **segnale di cleavage** o **taglio**, è costituito normalmente dalla sequenza esanucleotidica **AAUAAA**, localizzata a 5-30 nt a monte del sito di taglio e poliadenilazione e viene riconosciuto dal complesso CPSF.
+
+L'apparato di poliadenilazione non riconosce l'estremità 3' terminale del trascritto ma il segnale di poliadenilazione, mentre l'RNA polimerasi II è ancora nella fase di allungamento del trascritto.
+
+Il segnale di poliadenilazione è necessario, ma non sufficiente, affinchè il processo di poliadenilazione possa aver luogo in modo efficiente. Infatti, 20-30 nucleotidi a valle del sito di poliadenilazione si osserva una sequenza ricca in G + U (o solo U) che aumenta sensibilmente l'efficienza della poliadenilazione. QUesta zona è riconosciuta da CstF.
+
+I complessi CPSF e CstF agiscono in modo cooperativo insieme ad altri due fattori proteici, necessari pe ril taglio dell'mRNA, denominati **cleavage factor I e II (CFI e CFII)**, oltre ala poli(A) polimerasi che catalizza l'aggiunta della cosa di poli(A).
+
+La poliadenialzione avviene in due fasi: 
+
++ una fase di inizio, nella quale si ha l'aggiunta della prima decina di adenine (dipendente dal segnale di poliadenilazione). Richiede PAP e CPSF;
++ una fase di allungamento nella quale vengono rapidamente aggiunte ulteriori 200-250 adnine (indipendente dal segnale di poliadenilazione). Richiede PAP, **PABN1 (Poly(A) Binding Protein Nuclear 1**, lega il tratto poli(A) mediante un meccanismo sconosciuto e limita l'attività di PAP a circa 200 A)
+
+La fase di inizio richiede anche l'azione della **poli(A) polimerasi (PAP)** oltre che di CPSF.
+Il PAP utilizza ATP come substrato, non richiede una sequenza stampo (no sequenza su DNA), e ha la stessa chimica della RNA polimerasi II.
+
+La poliadenilazione è necessaria per la maturazione dell’mRNA. 
+La **cardicepina** impedisce la comparsa dell'mRNA citoplasmatico, ma la trascrizione non viene inibita.
+
+L’mRNA maturo viene rilasciato dalla polimerasi, che per un tratto continua la sintesi di RNA sullo stampo, e viene poi trasferito dal
+nucleo al citoplasma (dove sarà tradotto).
+Il polyA nel citoplasma viene accorciato da RNAasi (accorciamento-sintesi nel citoplasma).
+
+Sono stati proposti due modelli di terminazione:
+
+1. **modello siluro**. Un'esonucleasi specifica si legherebbe al 5' dell'RNA che continuerebbe ad essere trascritto dopo il taglio. 
+La degradazione sarebbe però più veloce della sintesi e l'esonucleasi raggiungerebbe dunque l'RNA pol ed inducendo il rilascio del trascritto;
+2. **modello allosterico**. Il taglio dell'mRNA a livello del sito di poliadenilazione genererebbe alcuni cambiamenti conformazionali sia della RNA pol II che della cromatina locale portando la RNA pol a sostare e successivamente a staccarsi.
+
+Entrambi i modelli non sono mutualmente esclusivi, entrambi potrebbero riflettere alcuni aspetti cruciali associati alla teminazione.
+
+## Lo splicing 
+
+L'RNA splicing consiste in un processo che rimuove gli introni e unisce gli esomi formando un *trascritto primario*.
+
+Un introne normalmente contiene uno specifico segnale di splicing ma, in alcuni casi, il segnale per lo splicing può essere mascherato da una proteina regolatoria inducendo uno *splicing alternativo*.
+
+In casi rari, un pre-mRNA può contenere diversi segnali di splicing ambigui, formando più mRNA tramite slipcing diversi.
+
+La sequenza nucleotidica degli introni all'interno dei gnei non è per niente conservata e il corretto riconoscimento dei siti di splicing nel precursore dell'mRNA è determinato da brevissimi segnali conservati in prossimità delle estremità delle sequenze introniche.
+
+Quasi tutti gli introni dei trascritti da Pol II iniziano con il dinucleotide GU e terminano con il dinucleotide AG.
+Oltre ai dinucleotidi GU/AG che delimitano gli intorni al 5' e al 3', che sono detti anche **sito donatore** e **sito accettore**, negli introni vi sono altri due motivi conservati: una regione ricca in pirimidine subito a monte del sito accettore e un sito di ramificazione, anch'esso in prossimità dell'estremità 3' dell'introne.
+
+La reazione di splicing nucleare comporta due successive reazioni di trans-esterificazione:
+
++ la prima reazione consiste nell'attacco nucleofilo da parte del 2'OH dell'adenina presente nel sito di ramificazione al fosfato al 5' del dinucleotide GU. In questo modo si realizza un taglio al 5' della giunzione esone-introne che lascia un 3'OH libero all'estremità dell'esone; l'introne, che rimane legato all'esone a valle, assume una struttura a forma di cappio (*lariat*). L'adenina che ha dato inizio al processo risulta ora implicata in 3 legami fosfodiesterici che coinvolgo le posizioni 2', 3' e 5' del ribosio. Questa è la regione per cui questa adenina viene denominata **sito di ramificazione** (*branching point*).
++ la seconda reazione di trans-esterificazione consiste nell'attacco nucleofilo dell'OH libero all'estremità 3' dell'esone a monte sul fosfato al 5' dell'esone a valle. Questa reazione completa il processo di splicing realizzando la concatenazione dei due esoni e il rilascio dell'introne sotto forma di struttura a forma di cappio, che verrà successivamente linearizzato da un enzima deramificante e poi degradato.
+
+L'introne rimosso che contiene la struttura a forma di cappio con legame 2'-5' fosfodiesterico garantisce la direzione irreversibile della reazione.
+
+La velocità di entrambe queste reazioni è correlata alla concentrazione di entrambi i substrati (cinetica bimolecolare S$_N$2)
+Il processo di splicing composta la rottura e la formazione di due legami fosfodiesterici, perciò il bilancio energetico finale è nullo. 
+
+Lo splicing deve essere estremamente accurato perché anche un minimo spostamento comporterebbe una mutazione nell'RNA maturo e dunque nella proteina tradotta.
+
+### Lo spliceosoma
+
+Il processo di splicing nucleare richiede l'intervento di un grande complesso macromolecolare (oltre 200 proteine e 5 RNA) denominato **spliceosoma**.
+
+Le 5 molecole di RNA presenti nello spliceosoma sono piccoli RNA nucleari ricchi di uridina (*small nuclear RNA*, **snRNA**) denominati U1, U2, U4, U5 e U6, che nella cellula si torvano sotto forma di complessi ribonucleoproteici, denominati **snRNP**.
+Il ruolo dell snRNP è di riconoscere il sito di splicing al 5' e il punto di ramificazione, di avvicinare tra loro questi siti, e di catalizzare le reazioni di transesterificazione.
+
+Ogni snRNP contiene un solo snRNA e alcune proteine, alcune delle quali hanno solo ruoli strutturali e di assemblaggio. 
+le snRNP possiedono un nucleo strutturale comune (eccetto per U6) che consiste in un gruppo di 8 proteine detto **Sm**, tutte riconosciute da un antisiero autoimmune chiamato anti-Sm.
+Le proteine Sm legano la sequenza conservata 5'-AAUUUGUGG-3 presente in
+tutti gli snRNA. 
+SnRNPU6 contiene una serie di proteine simili a Sm dette *Lsm*.
+Le proteine non facenti parte del nucleo sono tipiche di ciascun snRNP.
+
+Il complesso dello spliceosome si assembla sequenzialmente sul pre-mRNA, ma lo splicing avviene solo dopo che tutti i componenti si sono assemblati.
+
+Lo spliceosoma ha 2 funzioni:
+
+1. il corretto riconoscimento dei siti di splicing fra una moltitudine di siti molto simili;
+2. il loro avvicinamento e corretto posizionamento nel sito catalitico per far avvenire in modo efficiente le 2 reazioni di trans-esterificazione.
+
+L'assemblaggio e il funzionamento dello spliceosoma segue un ordine temporale progressivo ben preciso denominato **ciclo dello spliceosoma**.
+
+Il ciclo inizio con il legame della **snRNP U1** al sito di splicing al 5' attraverso un appaiamento complementare tra le estremità 5' dell'snRNA U1 d il sito di splicing al 5'.
+Quindi la proteina BBP si lega al sito di ramificazione e le due subunità del **fattore U2AF** si legano rispettivamente al tratto polipirimidinico e al sito di splicing al 3'. Si forma in questo modo il **complesso E** (early, precoce) che completa il riconoscimento dell'introne che deve essere rimosso.
+
+A questo punto interviene la **snRNP U2**, che scalza la proteina BBP, utilizzando l'energia fornita da ATP, e forma mediante l'snRNA U2 un'interazione complementare con la regione del sito di ramificazione.
+Questa interazione *non coinvolge la A* del sito di ramificazione che, protrudendo dalla regione di appaiamento, viene resa competente per la prima reazione di trans-esterificazine.
+In questo modo si forma il **complesso A** o **pre-spliceosoma**.
+
+Sul complesso A sopraggiunge la **tri-snRNP**, formata da snRNP U4/U6 e U5, che interagendo con le snRNP U1 e U2, induce l'avvicinamento tra il sito di splicing al 5' e il sito di ramificazione.
+Si forma in questo modo il **complesso B1**. In questo complesso tutte le snRNP sono contemporaneamente presenti, ma questo è cataliticamente *inattivo*.
+
+(immagine 46) 
+
+A questo punto viene rilasciata la snRNP U1, che viene rimpiazzata dalla **snRNP U6** nell'interazione complementare con il sito di splicing al 5'. Questo è il **complesso B2**
+
+Lo scambio tra U1 e U6 richiede la proteina **Prp8**, localizzata nella **snRNP U5**, insieme ad ATP.
+Successivamente viene rilasciata anche la snRNP U4, permettendo l'interazione tra le snRNP U2 e U6 dovuta alla complementarietà tra i due snRNA.
+
+Lo spliceosoma così attivato (**complesso B***) catalizza la prima reazione di trans-esterificazione, nella quale viene idrolizzata una molecola di ATP, formando il **complesso C1**.
+
+Nel complesso C1 l'introne forma un intermedio a forma di cappio (*lariat*) che viene staccato dall'esone a valle nella seconda reazione di trans-esterificazione, nella quale viene idrolizzata una seconda molecola di ATP (**complesso C2**).
+
+Infune, l'mRNA maturo viene rilasciato dallo spliceosoma che si dissocia nelle snRNP componenti, che vengono riciclate.
+
+(immagine 47)
+
+Il meccanismo catalitico non è ancora chiaro; evidenze suggeriscono che U2 e U6 contengono tutte le principali componenti del sito catalitico utilizzando Prp8 come cofattore.
+
+snRNP U2 e snRNP U6 hanno somiglianze strutturali con gli introni di tipo II capaci di autosplicing (evoluzione dello splicing moderno).
+
+L'mRNA matura non è nudo, ma associato a divers eproteine specifiche, denominate **mRNP**, che svolgono un ruolo nel controllo dell'accuratezza dello splicing dell'mRNA, facilitano il trasporto dal nucleo al citoplasma e aumentano l'efficienza della traduzione.
+
+In particolare, alcune proteine che costituiscono il **complesso EJC** si legano all'mRNA neoformato a circa 24 nt a monte delle giunzioni esone-esone, marcando così nell'mRNA maturo tutti i siti di splicing.
 
 
-Verso la fine della fase di inizio, quando la coda è fosforilata in Ser5, le proteine del capping si
-legano al CTD.
-La coda viene poi fosforilata in
-Ser2 da una chinasi (pTETb)
-associata alla RNA pol
-(allungamneto) e si attaccano
-alcuni enzimi delle splicing.
-La defosforilazione della
-posizione 2 richiama gli enzimi
-per la poliadenilazione, mentre
-la defosforilazione della Ser5
-ne provoca la dissociazione.
+
+
+
+
+
+
+
 
 
 
