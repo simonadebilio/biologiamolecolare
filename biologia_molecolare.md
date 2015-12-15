@@ -1782,6 +1782,221 @@ L'mRNA matura non è nudo, ma associato a divers eproteine specifiche, denominat
 
 In particolare, alcune proteine che costituiscono il **complesso EJC** si legano all'mRNA neoformato a circa 24 nt a monte delle giunzioni esone-esone, marcando così nell'mRNA maturo tutti i siti di splicing.
 
+### Meccanismi per la corretta selezione dei siti di splicing
+
+Durante la selezione dei siti di splicing possono essere commessi degli errori.
+
+Vi sono due modi diversi per minimizzare gli errori:
+
++ man mano che la trascrizione procede i siti di splicing vengono caricati di specifiche componenti proteiche dalla coda CTD della polimerasi, in questo modo un sito 3' a valle di un sito 5' viene riconosciuto prima che gli altri competitori siano sintetizzati;
++ gli esoni vengono marcati dalle proteine SR (Ser+Arg) che si legano agli ESE (exonic splicing enhancers) e reclutano alcune componenti del macchinario di splicing.
+
+### Trans-splicing
+
+Le reazioni di splicing fino ad ora descritte sono reazioni *intramolecolare* che producono la concatenazione di due esoni presenti nella stessa molecola di RNA precursore (**cis-splicing**).
+
+Tuttavia lo splicing può aver luogo anche in trans quando le reazioni di trans-esterificazione sono intermolecolari e portano alla concatenazione di esoni provenienti da molecole differenti di RNA (**trans-splicing**).
+
+Il tipo più comune di trans-splicing consiste nel trasferimento di un piccolo RNA non-codificante denominato **Sliced Leader (SL)**, proveniente da un RNA donatore (SL RNA) contenuto in una snRNP, all'esone 5' terminale di un'altra molecola di RNA, trascritta indipendentemente.
+
+Il trans-splicing adotta un meccanismo identico a quello per lo splicing nucleare e quindi richiede l'attività dello spliceosoma.
+
+La differenza sostanziale sta nel fatto che il sito donatore (GU) e il sito accettore (AG) sono su due diverse molecole di RNA, con il sito di ramificazione e l'elemento ricco di pirimidine sull'RNA contenente il sito accettore.
+
+(immagine 48)
+
+L'SL RNA è dotato di un cap e di un sito di splicing donatore (5'SS). Il pre-mRNA contiene una adenina al sito di ramificazione un tratto di poli-pirimidine (Py) e un sito accettore al 3' (3'SS).
+Nella prima reazione di trans-esterificazione il 2'OH dell'adenina nel BP effettua un attacco effettua un attacco nucleofilo sul fosfato al 5'SS. Nella seconda trans-esterificazione l'attacco nucleofilo coinvogle il 3'OH dell'RNA SL e il fosfato al 3'SS.
+In questo modo si forma l'mRNA maturo dotato di un SL RNA al 5' con la liberazione di un RNA ramificato a forma di Y che viene rapidamente degradato.
+
+### Autosplicing
+
+Nel 1982 alcuni scienziati scoprirono che un introne dell'rRNA di un protozoo ciliato era capaci di autosplicing senza l'intervento di fattori proteici.
+
+Questi RNA possedevano dunque proprietà catalitiche e potevano svolgere anche la funzione di un enzima (riboenzima).
+
+Questi introni sono stati raggruppati in due classi distinte e denominati **introni autocatalitici di classe I e II**, in funzione del meccanismo catalitico utilizzato nella reazione di splicing.
+
+Gli introni capaci di self-splicing hanno una lunghezza compresa tra 400 e 1000 nt e presentano una estesa conservazione sia nella sequenza che nella struttura secondaria.
+
+I meccanismi di autosplicing di questi 2 gruppi utilizzano due reazioni di trans-esterificazione, ma con una differenza sostanziale: mentre negli introni di tipo II la prima trans-esterificazione è effettuata, analogamente al processo di splicing nucleare catalizzato dallo spliceosoma, da 2'OH di una adenina interna all'introne stesso, negli introni di tipo I essa è effettuata dal 3'OH di una guanosina esterna alla sequenza dell'RNA.
+
++ **Introni del gruppo I**
+
+Questi introni si torvano nei geni degli rRNA nucleari di alcuni protozoi, e hanno dimensioni comprese tra 250 e 500 nt.
+
+Contengono una "tasca" in grado di legare qualunque nucleotide o nucleoside purchè contenga il ribosio. 
+Inoltre hanno una **sequenza guida interna** che si appaia alla sequenza del sito al 5' e determina il sito di attacco nucleofilo al P
+dell'introne 5'.
+
+Questi introni assumono una struttura secondaria conservata che consiste in diverse regioni appaiate, numerate da P1 a P9.
+A livello tridimensionale questa struttura è organizzata in modo da avvicinare i siti di splicing al 5' e al 3' ed è dotata delle attività catalitiche necessarie per le due reazioni di trans-esterificzione.
+
+Il meccanismo di splicing comporta due reazioni di trans-esterificazione, la prima delle quali effettuata da una **guanosina** esogena mono-, di- o trifosfato (**exoG**) il cui 3'OH effettua un attaco nucleofilo al fosfato al 5' dell'introne. 
+In questa reazione l'exoG viene legata all'estremità 5' dell'introne liberando il 3'OH dell'esone a monte.
+A questo punto una guanosina all'estremità 3' dell'introne si colloca nel sito attivo, sclazando l'exoG, dove ha luogo la seconda reazione di trans-esterificazione tra il 3'OH dell'esone a monte e il fosfato del sito di splicing al 3'.
+
+(immagine 49)
+
++ **Introni del gruppo II**
+
+Gli introni di questo gruppo hanno una lunghezza compresa tra i 400 e i 1000 nt.
+
+La maggior parte degli introni del gruppo II è formata da due componenti principali: un ribozima in grado di catalizzare la reazione di autosplicing e una open reading frame codificante per proteine coinvolte nello splicing e nella mobilizzazione dell'introne.
+
+Questi introni sono caratterizzati da una struttura secondaria conservata dotata di attività catalitica.
+La struttura secondaria del ribozima è caratterizzata da sei tipiche strutture a stem-loop, denominate D1-D6, che si irradiano da un nucleo centrale e si organizzano a livello tridimensionale in modo da portare in prossimità i siti di splicing al 5' e al 3'.
+
+Il meccanismo catalitico è analogo a quello degli introni spliceosomali e consiste di due reazioni di trans-esterificazione: la prima è data dall'attacco nucleofilo del 2'OH di un'**adenina** interna all'introne (nella regione D6) al fosfato del sito di splicing al 5' nella seconda il 3'OH dell'esone a monte effettua un attacco nucleofilo al fosfato nel sito di splicing al 3', risultante nella concatenazione degli esoni e nella formazione di un intermedio a forma di cappio
+
+(immagine 50)
+
+SnRNP U2 e snRNP U6 hanno somiglianze strutturali con gli introni di tipo II.
+Forse il self-splicing del gruppo II è stato il punto di partenza per l'evoluzione allo splicing tramite l'utilizzo dello spliceosoma.
+
+
+### Splicing alternativo
+
+Lo splicing alternativo consiste nel meccanismo attraverso il quale uno stesso per-mRNA può subire eventi di splicing differenti che portano alla creazione di diversi mRNA alternativi, che a loro volta possono codificare differenti proteine.
+
+Oltre il 90% dei geni umani è interessato da splicing alternativo.
+
+Questo fenomeno fu scoperto da Daved Baltimore che osservò che il gene per la catena pesante $\mu$ dell'immunoglobulina di topo poteva esprimere una forma secreta ($\mu$$_s$) e una forma legata alla membrana ($\mu$$_m$).
+
+L'assortimento combinatorio di eventi di splicing può portare alla generazione di un numero incredibilmente grande di trascritti, come nel caso del gene *Dscam* di Drosophila che può generare oltre 38000 varianti.
+
+Il gene Dscam codifica per recettori che servono per la formazione di connessioni neuronali, e sono caratterizzati da domini extracellulari simili alle immunoglobuline uniti da una regione che attraversa la
+membrana.
+
+Questo gene ha 95 esoni variabili su 115 totali. 
+L'mRNA maturo presenta 24 esoni, 4 dei quali (A, B, C e D), sono presenti come serie di esoni alternativi.
+L'mRNA maturo contiene 1/12 alternative dell'esone A, 1/48 alternative dell'esone B, 1/33 alternative dell'esone C e 1/2 alternative dell'esone D. 
+Tutte le combinazioni possibili (12 x 48 x 33 x 2) danno origine a 38016 trascritti alternativi codificanti proteine che avrebbero la stessa struttura, ma con una sequenza aa diversa dei domini A, B, C e D.
+NB: Drosophila ha circa 14000 geni!
+
++ Un **esone costitutivo** è presente in tutte le varianti trascrizionali.
+
++ Un **esone regolato** è un esone alternativo che viene incorporato in funzione di segnali di regolazione.
+
+Lo splicing alternativo può essere:
+
++ **costitutivo**. Se  vi sono delle ambiguità nella sequenza intronica; il sistema non è in grado di distinguere tra 2 o più accoppiamenti alternativi. Tramite scelte *casuali* vengono formate diverse versioni della proteina, e queste vengono prodotte in tutte le cellule in cui il gene viene espresso.
+
+Un esempio è la trascrizione del gene *CaMKII$\delta$*. Questo gene contiene 3 esoni alternativi presenti in modo alternativo. 
+Il gene è espresso in tutti i tipi cellulari e tessuti di mammifero e codifica per una chinasi.
+Le 3 isoforme svolgono la stessa attività ma hanno una diversa localizzazione: $\delta$A si trova a livello neuronale, mentre $\delta$B e $\delta$C si trovano a livello cardiaco.
+
++ **regolato**. Vengono prodotte versioni diverse della proteina in momenti, condizioni e tipi cellulari diversi (nella sua forma più semplice la proteina può essere semplicemente inattiva o attiva).
+
+Un esempio è l'$alpha$-tropomionina di ratto regola la contrazione delle cellule muscolari.
+Il pre-mRNA subisce schemi di splicing diversi a seconda del tipo cellulare in cui viene trascritto.
+
+### Regolazione dello splicing
+
+L'elevata specificità del riconoscimento dei siti di splicing dipende da motivi di sequenza addizionali, coinvolti nella regolazione dello splicing, e localizzati negli esoni o negli intorni, che agiscono come **attivatori (enhancer)** o **repressori (silencer)** del processo di splicing.
+Questi elementi di regolazione, in funzione della loro localizzazione all'interno del pre-mRNA e della loro attività, vengono classificati come **enhancer** e **silencer esonici (ESE e ESS)** o **enhnacer** e **silencer intronici (ISE e ISS)**.
+
+Il prosesoo di splicing può essere controllato tramite un *controllo positivo* o *negativo*.
+
+Nel controllo positivo gli elementi ESE vengono normalmente riconosciuti da proteine della famiglia **SR** che contengono uno o più domini in grado di legare l'RNA e una regione, detta SR, ricca di serine e arginine.
+L'interazione tra ESE e proteine SR facilita l'assemblaggio dello spliceosoma. 
+
+Nel controllo negativo gli elementi ESS vengono, invece, legati da repressori dello splicing, costituiti da una famiglia di ribonucleoproteine denominate **hnRNP** contenenti domini **RRM** capaci di legare l'RNA.
+L'interazione tra i motivi ESS e le proteine hnRNP può inibire lo splicing attraverso vari meccanismi, che tipicamento consistono nella inibizione di interazioni essenziali tra le componenti dello spliceosoma o nel mascheramento degli stessi siti di splicing.
+
+Uno dei sistemi più studiati di regolazione dello splicing riguarda la determinazione del sesso in *Drosophila melanogaster*.
+
+In *Drosophila* il sesso è determinato dal rapporto tra i cromosomi X e gli autosomi, pari a 1 nella femmina e a 0,5 nel maschio.
+Il differente dosaggio del cromosoma X nei maschi e nelle femmine comporta un diverso livello di espressione di due geni docificnati i *fattori trascrizionali* **SisA** e **SisB**, localizzati sul cromosoma X doppio nelle femmina rispetto al maschio.
+
+Questi fattori trascrizionali attivano l'espressione del gene denominato **Sex-lethal (Sxl)** a partire da un suo *promotore precoce* (**P$_e$**).
+
+L'azione di questi attivatori trascrizionali (*SisA* e *SisB*) è contrastata da un repressore trascrizionale codificato dal gene **Dpn** e localizzato sul cromosoma 2.
+
+Il gene *Sxl* risulterà espresso solo nelle femmine, dove gli attivatori espressi  da *SisA* e *SisB* sono in eccesso rispetto al prodotto *dpn*.
+
+Al contrario, nei maschi, in cui il livello di *SisA* e *SisB* è dimezzato, prevarrà l'effetto del repressore *Dpn* e *Sxl* non verrà espresso.
+
+*Sxl* viene poi trascritto, sia nelle femmine che nei maschi, a partire da un secondo promotore denominato **P$_m$** (o di mantenimento) a monte di *P$_e$*.
+Il pre-mRNA così generato subirà un diverso processo di splicing nei maschi e nelle femmine,in quanto in queste ultime *Sxl*, già presente perchè espressa a partire da *P$_e$*, è in grado di autoregolare lo splicing del suo pre-mRNA.
+
+*Sxl* funge da **repressore** dello splicing inducendo l'espressione di due isoforme di mRNA *Sxl*, di cui solo quella espressa nelle femmine è in grado di esprimere una proteina funzionale, che a sua volta controlla lo splicing del gene **tra** (transformer).
+
+Solo l'isoforma di *tra* espressa nelle femmine codifica per un prodotto funzionale che a differenza di Sxl funziona come attivatore dello splicing utilizzando come cofattore la proteina *Tra2*.
+In questo modo nei maschi e nelle femmine vengono prodotte due isoforme differenti della proteina *doublesex (dsx)*.
+Queste due isoforme hanno una porzione N-terminale in comune e una porzione C-terminale maschio-specifica (150 aa) o femmina-specifica (30 aa) che inducono lo sviluppo dello stato maschile o femminile.
+
+**(AGGIUNGERE???)**
+
+### Editing dell'RNA
+
+L'editing dell'RNA è un processo post-trascrizionale che genera molecole di RNA che differiscono dal loro stampo di DNA in una o più posizioni, modificando così l'informazione genetica presente nel gene.
+L'editing utilizza due diversi meccanismi:
+
++ la **conversione** di una base in un'altra;
++ l'**inserzione** o **delezione** di nucleotidi.
+
+La funzione svolta dall'editing è quella di apportare le opportune correzioni per rendere i trascritti funzionali o per modulare l'espressione di prodotti alternativi in diverse condizioni o tessuti.
+
+Esempi di editing per conversione di basi nei mammiferi sono:
+
++ la conversione della citosina in uracile nel gene per l'**apolipoproteina B**, il cui trascritto a seconda che subisca o meno il processo di editing, può codificare due proteine distinte **ApoB100** e **ApoB48**.
+
+**ApoB100** viene prodotta negli epatociti del fegato e serve per il trasporto e il rilascio del colesterolo ai tessuti, mentre **ApoB48** viene prodotta nell'intestino e serve per il trasporto del colesterolo ai tessuti. 
+
+La conversione della citosina in uracile nella posizione 6666 dell'mRNA, catalizzata dalla deaminasi APOBEC1, avviene solo nell;intestino e, comportando la trasformazione del codone CAA in UAA, introduce un codone di stop prematuro, responsabile della formazione dell'isoforma ApoB.
+
++ la conversione di adenosina (A) in inosina (I). Questo evento interessa il gene per la subunità 2 del canale ionico AMPA che risponde al glutammato (GRIA2) in cui uno degli enzimi ADAR riconosce come substrato l'RNA a doppio filamento formato dall'appaiamento di un esone e del successivo introne (l'editing avviene prima dello splicing). L'editing in GRIA2 introduce cambiamenti nella sequenza amminoacidica. 
+
+La conversione della glutamina in arginina modifica la permeabilità al calcio del canale. Senza questo editing sia lo sviluppo del cervello che del sistema ematopoietico sono gravemente compromessi.
+
+Un esempio di editing inserzionale è stato scoperto nel protozoo *Trypanosoma brucei*.
+
+L'RNA prodotto da questi protozoi diviene funzionale solo dopo che l'editing, che consiste nell'aggiunta e delezione di uridine in specifiche posizioni, sia stato completato.
+
+I geni sono quindipresenti nel genoma in una forma criptica e sono ufficialmente riconoscibili. Per questa ragione sono anche definiti **criptogeni**.
+Le posizioni specifiche che dovranno essere editate e il numero corretto di U sono determinati dagli **RNA guida (gRNA)**.
+Questi sono piccoli RNA che contengono una breve sequenza antisenso che si appaia con il trascritto non editato a valle del sito in cui andranno inserite o eventualmente rimosse le uridine.
+
+Nell'editing per inserzione di nucleotidi, nella zona adiacente al tratto di complementarietà si ha una regione (regione di editing) non appaiata per la presenza di A che non hanno le corrispettive U nel pre-mRNA.
+Una endonucleasi taglia in corrispondenza del sito di editing riconoscendo la regione non appaiata con i gRNA e, successivamente, l'enzima **TUTasi (Terminal Uridil Transferasi)** aggiunge le U al 3'OH del frammento di pre-RNA a monte.
+Una ligasi, infine, unisce le estremità 3'OH e 5'-fosfato ristabilendo la continuità della molecola di RNA.
+
+Il processo di editing inserzionale è generalmente molto esteso e richiede numerosi gRNA. 
+
+Le molecole di *gRNA* presentano 3 regioni:
+
+1. una regione **ancora**;
+2. una regione indicante il sito di aggiunta di U (ricca in A);
+3. un segmento 3' poli-U il cui ruolo non è chiaro.
+
+Procedimento:
+
++ la regione ancora si appaia a valle della regione da editare;
++ la regione ricca in A del gRNA protrude poichè non presenta basi complementari sul pre-RNA;
++ un'endonucleasi riconosce questa struttura e taglia sul filamento opposto (RNA da editare);
++ una TUTasi addiziona le U;
++ una RNA ligasi ricollega il filamento.
+
+
+### Traslocazione nucleo-citoplasmatica degli RNA
+
+Una volta completato il processo di maturazione all'interno del nucleo gli RNA devono essere traslocati nel citoplasma, dove l'mRNA maturo putrà essere tradotto in proteina.
+ 
+Il trasporto di molecole con PM superiore ai 50kDa avviene tramite un processo di trasporto attivo (richiede energia) mediato dal **complesso del poro nucleare (NPC)**, grandi complessi multiproteici i cui componenti sono denominati **nucleoporine**.
+
+I fattori proteici che agiscono come mediatori del trasporto attivo degli mRNA attraversp gli NPC controllano anche che il processo di maturazione sia stato completato e sia avvenuto correttamente.
+Solo le molecole di mRNA associate al giusto corredo di proteine dunque, sono selezionate per il trasporto; questo passaggio viene chiamato **rimodellamento dell'mRNP**. 
+
+Il trasporto è mediato dai recettori di trasporto nucleare che vengono caricati sull'mRNA maturo.
+Una volta trasportato nel citoplasma il recettore di trasporto nucleare si stacca e ritorna nel nucleo per essere riciclato.
+
+
+
+
+
+
+
 
 
 
