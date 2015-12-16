@@ -19,7 +19,10 @@
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
-\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
 \ifxetex
   \usepackage[setpagesize=false, % page size defined by xetex
               unicode=false, % unicode breaks when used with xetex
@@ -42,6 +45,7 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
 
+\date{}
 
 \begin{document}
 
@@ -152,12 +156,12 @@ compie un giro completo ogni 34 A e ha un diametro di circa 20 A. La
 distanza tra due coppie di basi adiacenti è di 3,4 A e ci sono, quindi,
 circa 10,4 coppie di basi per ogni giro di elica. L'elica presenta
 un'asimmetria dovuta alla posizione delle molecole di deossiribosio ai
-lati delle basi: come conseguenza della opposta polarità 5'$\rightarrow$
-3' delle due eliche, i due zuccheri di ciascuna coppia di nucleotidi si
-vengono a trovare dallo stesso lato. Questa asimmetria genera nella
-doppia elica due solchi di dimensioni diverse detti \textbf{solco
-maggiore} e \textbf{solco minore}, con diametro 22 A e 12 A
-rispettivamente.
+lati delle basi: come conseguenza della opposta polarità
+5'\(\rightarrow\) 3' delle due eliche, i due zuccheri di ciascuna coppia
+di nucleotidi si vengono a trovare dallo stesso lato. Questa asimmetria
+genera nella doppia elica due solchi di dimensioni diverse detti
+\textbf{solco maggiore} e \textbf{solco minore}, con diametro 22 A e 12
+A rispettivamente.
 
 \paragraph{Strutture alternative del
 DNA}\label{strutture-alternative-del-dna}
@@ -279,7 +283,7 @@ negativo, il Tw dovrà cambiare nella direzione opposta.
 
 Se Lk = costante
 
-\textbf{$\Delta$Tw = - $\Delta$Wr}
+\textbf{\(\Delta\)Tw = - \(\Delta\)Wr}
 
 Molecole circolari covalentemente chiuse di uguale lunghezza (stessa
 sequenza di basi) ma che differiscono solo per il numero di legame, sono
@@ -287,18 +291,18 @@ definite \textbf{topoisomeri}.
 
 Consideriamo ora il caso di un DNA circolare completamente rilassato
 (cccDNA): il suo numero di legame Lk sarà uguale al suo twist e il
-writhe sarà 0. Definiamo in questo caso \textbf{Lk = Lk$_0$}. Se
+writhe sarà 0. Definiamo in questo caso \textbf{Lk = Lk\(_0\)}. Se
 vogliamo paragonare il grado di superelicità di due DNA che hanno la
 stessa lunghezza, come due diversi topoisomeri, questa differenza è
 definita da:
 
-\textbf{$\Delta$Lk = Lk - Lk$_0$}
+\textbf{\(\Delta\)Lk = Lk - Lk\(_0\)}
 
-Se il $\delta$Lk di un cccDNA è diverso da 0, la molecola conterrà della
-tensione e sarà superavvolta. Con Lk \textless{} Lk$_0$ e $\Delta$Lk
-\textless{} 0, il DNA è superavvolto negativamente, se Lk \textgreater{}
-Lk$_0$ e $\Delta$Lk \textgreater{} 0, allora il DNA è superavvolto
-positivamente
+Se il \(\delta\)Lk di un cccDNA è diverso da 0, la molecola conterrà
+della tensione e sarà superavvolta. Con Lk \textless{} Lk\(_0\) e
+\(\Delta\)Lk \textless{} 0, il DNA è superavvolto negativamente, se Lk
+\textgreater{} Lk\(_0\) e \(\Delta\)Lk \textgreater{} 0, allora il DNA è
+superavvolto positivamente
 
 Senza introduzione di tagli, essendo Lk costante, se si forza il DNA a
 cambiare Wr, la molecola compenserà cambiando Tw e viceversa.
@@ -384,7 +388,7 @@ In base al meccanismo di reazione si gli enzimi si suddividono in:
   superavvolgimenti negativi. Le topoisomerasi di tipo I, a seconda che
   formino un legame tirosina-5'fosfato o tirosina-3'fosfato, sono divise
   in \emph{tipo A} e \emph{tipo B} rispettivamente. Le tipo A richiedono
-  anche ioni Mg$^2$$^+$ o Zn$^2$$^+$.
+  anche ioni Mg\(^2\)\(^+\) o Zn\(^2\)\(^+\).
 \end{itemize}
 
 (immagine p41)
@@ -459,28 +463,28 @@ densità}.
 
 Inizialmente fecero crescere cellule di \emph{E. coli} in un terreno di
 coltura a cui vennero aggiunti dei sali d'ammonio che contenevano
-l'isotopo pesante dell'azoto $^1$$^5$N, al posto dell'isotopo normale
-$^1$$^4$N. Le molecole di DNA che contengono $^1$$^5$N hanno una
-``densità'' maggiore rispetto a quella di molecole di DNA contenenti
-$^1$$^4$N e, dopo centrifugazione all'equilibrio in soluzioni
-concentrate di cloruro di cesio, si troveranno verso il fondo della
-provetta da centrifugazione.
+l'isotopo pesante dell'azoto \(^1\)\(^5\)N, al posto dell'isotopo
+normale \(^1\)\(^4\)N. Le molecole di DNA che contengono \(^1\)\(^5\)N
+hanno una ``densità'' maggiore rispetto a quella di molecole di DNA
+contenenti \(^1\)\(^4\)N e, dopo centrifugazione all'equilibrio in
+soluzioni concentrate di cloruro di cesio, si troveranno verso il fondo
+della provetta da centrifugazione.
 
 Le cellule di \emph{E. coli} vennero fatte duplicare per molte
 generazioni in un terreno contenente sali pesanti dell'azoto, affinchè
-tutte le cellule avessero molecole di DNA contenenti $^1$$^5$N. A quel
-punto, le cellule furono raccolte tramite centrifugazione, lavate per
-togliere ogni traccia di terreno contenente $^1$$^5$N, diluite in un
-terreno contenente sali d'ammonio con l'isotopo leggero $^1$$^4$N e
-fatte crescere in queste condizioni per due generazioni.
+tutte le cellule avessero molecole di DNA contenenti \(^1\)\(^5\)N. A
+quel punto, le cellule furono raccolte tramite centrifugazione, lavate
+per togliere ogni traccia di terreno contenente \(^1\)\(^5\)N, diluite
+in un terreno contenente sali d'ammonio con l'isotopo leggero
+\(^1\)\(^4\)N e fatte crescere in queste condizioni per due generazioni.
 
 Se fosse stata vera l'ipotesi semiconservatica, dopo una generazione,
 tutte le cellule di \emph{E. coli} che avevano replicato il loro DNA
 avrebbero dovuto avere molecole di DNA contenente un filamento parentale
-marcato con $^1$$^5$N e un filamento neosintetizzato marcato con
-$^1$$^4$N. Tutte le molecole avrebbero dovuto avere, quindi, una densità
-intermedia rispetto a quella di un DNA a doppia elica tutto pesante o
-tutto leggero.
+marcato con \(^1\)\(^5\)N e un filamento neosintetizzato marcato con
+\(^1\)\(^4\)N. Tutte le molecole avrebbero dovuto avere, quindi, una
+densità intermedia rispetto a quella di un DNA a doppia elica tutto
+pesante o tutto leggero.
 
 Se invece fosse risultata vera l'ipotesi conservativa della replicazione
 del DNA i ricercatori si aspettavano che alla prima generazione metà del
@@ -505,8 +509,8 @@ replicazione}. La replicazione può essere \textbf{unidirezionale} o
 \textbf{bidirezionale} a seconda del numero di forche replicative.
 
 \emph{Unidirezionale} = una sola forca replicativa si allontana
-dall'origine (rara, es. plasmide ColE1 di E. coli, fago $\Phi$ 29 e gli
-adenovirus). \emph{Bidirezionale} = due forche replicative procedono
+dall'origine (rara, es. plasmide ColE1 di E. coli, fago \(\Phi\) 29 e
+gli adenovirus). \emph{Bidirezionale} = due forche replicative procedono
 contemporaneamente allontanandosi dall'origine in direzioni opposte.
 
 (immagine 06)
@@ -586,14 +590,14 @@ formazione del legame fosfodiesterico nel rispetto della regola della
 complementarietà tra le basi con il filamento di DNA stampo.
 
 nella formazione di ciascun legame fosfodiesterico, il fosfato in
-posizione $\alpha$ del dNTP viene legato al 3'OH dell'innesco portando
+posizione \(\alpha\) del dNTP viene legato al 3'OH dell'innesco portando
 alla liberazione di pirofosfato. L'energia libera di questa reazione è
 piuttosto modesta, e l'energia addizionale che spinge la reazione verso
 la polimerizzazione è fornita dall'idrolisi del pirofosfato da parte di
 un enzima chiamato \textbf{pirofosfatasi}.
 
 Le DNA polimerasi possiedono un'attività sintetica con polarità 5'
-$\rightarrow$ 3'.
+\(\rightarrow\) 3'.
 
 (immagine 08)
 
@@ -610,23 +614,23 @@ con un proprio sito attivo.
 replicativo}\label{fedeltuxe0-del-processo-replicativo}
 
 La fedeltà del processo replicativo è di circa 1 errore ogni
-10$^9$-10$^1$$^0$ nucleotidi polimerizzati.
+10\(^9\)-10\(^1\)\(^0\) nucleotidi polimerizzati.
 
 Un sistema basato solo sulla stereochimica di coppie di basi che
 rispettino la regola della complementarietà non sarebbe in grado di
 raggiungere l'accuratezza indicata sopra. La selettività delle
-polimerasi è piuttosto limitata (1 errore ogni 10$^5$ circa) per la
+polimerasi è piuttosto limitata (1 errore ogni 10\(^5\) circa) per la
 presenza di forme tautomeriche delle basi azotate. Questi errori sono
-rimosis da un'attività esonucleasica 3'$\rightarrow$ 5' che ha, quindi,
-una polarità invera alla direzione di sintesi del DNA. Tale attività ha
-la funzione di agire come correttore di bozze \textbf{(attività
-proofreading)}. Quando la DNA polimerasi rileva la presenza di un
-appaiamento non corretto tra le coppie di basi, il complesso
-stampo-innesco si allontana dal sito catalitico di polimerizzazione
-della DNA polimerasi e si avvicina al sito esonucleasico con funzione
-proofreading. Tale attività elimina il nucleotide errato e permetta alla
-polimerasi di riprendere la sintesi senza che il complesso ternario
-innesco-stampo-enzima si sia dissociato.
+rimosis da un'attività esonucleasica 3'\(\rightarrow\) 5' che ha,
+quindi, una polarità invera alla direzione di sintesi del DNA. Tale
+attività ha la funzione di agire come correttore di bozze
+\textbf{(attività proofreading)}. Quando la DNA polimerasi rileva la
+presenza di un appaiamento non corretto tra le coppie di basi, il
+complesso stampo-innesco si allontana dal sito catalitico di
+polimerizzazione della DNA polimerasi e si avvicina al sito
+esonucleasico con funzione proofreading. Tale attività elimina il
+nucleotide errato e permetta alla polimerasi di riprendere la sintesi
+senza che il complesso ternario innesco-stampo-enzima si sia dissociato.
 
 La fedeltà della replicazione del DNA può essere dunque riassunta in:
 
@@ -646,13 +650,13 @@ del filamento
 discontinuo}\label{forcella-di-replicazione-sintesi-del-filamento-continuo-e-del-filamento-discontinuo}
 
 Poichè tutte le DNA polimerasi possono polimerizzare il DNA soltanto in
-direzione 5' $\rightarrow$ 3', ciò crea un problema nella progressione
+direzione 5' \(\rightarrow\) 3', ciò crea un problema nella progressione
 della forcella replicativa. Soltanto uno dei due filamenti di neosintesi
 può essere sintetizzato in modo continuo seguendo la direzione della
 forcella replicativa: questo filamento di neosintesi viene chiamato
 \textbf{filamento continuo} o \textbf{leading strand}. Per rispettare la
-polarità di sintesi del DNA (5' $\rightarrow$ 3') l'altro filamento deve
-essere sintetizzato in modo discontinuo e genera quello che viene
+polarità di sintesi del DNA (5' \(\rightarrow\) 3') l'altro filamento
+deve essere sintetizzato in modo discontinuo e genera quello che viene
 definito \textbf{filamento ritardato} o \textbf{lagging strand}. Tale
 filamento è definito ritardato perchè la sua la sua sintesi può iniziare
 solo dopo che il progredire della forcella di replicazione ha generato
@@ -731,24 +735,24 @@ La DNA polimerasi replicativa di E. coli è la \textbf{DNA polimerasi III
 oloenzima}, una macchina proteica molto complessa formata da numerose
 subunità che si assemblano in modo sequenziale a formare un dimero
 catalitico. Ci sono due copie del nucleo catalitico, che è formato da 3
-subunità: \textbf{$\alpha$} (attività DNA polimerizzante),
-\textbf{$\varepsilon$} (attività esonucleasica correttore di bozze
-3'$\rightarrow$ 5') e \textbf{$\theta$} (stimola la esonucleasi). Ci
-sono anche due copie delle subunità \textbf{$\tau$}, che media la
+subunità: \textbf{\(\alpha\)} (attività DNA polimerizzante),
+\textbf{\(\varepsilon\)} (attività esonucleasica correttore di bozze
+3'\(\rightarrow\) 5') e \textbf{\(\theta\)} (stimola la esonucleasi). Ci
+sono anche due copie delle subunità \textbf{\(\tau\)}, che media la
 dimerizzazione dei 2 nuclei catalitici. Questi possono assemblarsi sul
 DNA solo dopo che un complesso di 5 proteine, chiamato
-\textbf{``complesso $\gamma$''}, è riuscito a caricare sul DNA due copie
-della subunità $\beta$; per tale processo il complesso $\gamma$, che è
-una \emph{ATPasi DNA-dipendente}, richiede e consuma ATP. La subunità
-\textbf{$\beta$} forma un omodimero con una forma a ciambella in grado
-di abbracciare il singolo filamento di DNA che passa nel foro della
-ciambella.
+\textbf{``complesso \(\gamma\)''}, è riuscito a caricare sul DNA due
+copie della subunità \(\beta\); per tale processo il complesso
+\(\gamma\), che è una \emph{ATPasi DNA-dipendente}, richiede e consuma
+ATP. La subunità \textbf{\(\beta\)} forma un omodimero con una forma a
+ciambella in grado di abbracciare il singolo filamento di DNA che passa
+nel foro della ciambella.
 
-Il dimero $\beta$ ha una struttura a forma di anello con un diametro di
-80 A ed una cavità di 35 A. Lo spazio tra l'anello proteico ed il DNA è
-occupato da H$_2$O. L'anello $\beta$ è legato al DNA, ma non entra a
-contatto direttamente con il DNA; scivola sul DNA stabilendo o
-eliminando contatti con le molecole di H$_2$O.
+Il dimero \(\beta\) ha una struttura a forma di anello con un diametro
+di 80 A ed una cavità di 35 A. Lo spazio tra l'anello proteico ed il DNA
+è occupato da H\(_2\)O. L'anello \(\beta\) è legato al DNA, ma non entra
+a contatto direttamente con il DNA; scivola sul DNA stabilendo o
+eliminando contatti con le molecole di H\(_2\)O.
 
 I due nuclei catalitici presenti nel modello dimerico di replicazione
 del DNA replicano contemporaneamente il filamento leading e il filamento
@@ -768,25 +772,25 @@ della polimerasi (900 kDa):
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  2 copie di \textbf{nuclei catalitici} ($\alpha$, $\varepsilon$,
-  $\theta$);
+  2 copie di \textbf{nuclei catalitici} (\(\alpha\), \(\varepsilon\),
+  \(\theta\));
 \item
-  2 copie della proteina $\tau$, responsabile della dimerizzazione;
+  2 copie della proteina \(\tau\), responsabile della dimerizzazione;
 \item
   2 copie dell'anello \textbf{``clamp'' (pinza)}, formato da un
-  omodimero della subunità $\beta$. Questo mantiene i nuclei catalitici
-  sul filamento stampo, si lega al DNA ed è responsabile della
-  processività della polimerasi;
+  omodimero della subunità \(\beta\). Questo mantiene i nuclei
+  catalitici sul filamento stampo, si lega al DNA ed è responsabile
+  della processività della polimerasi;
 \item
-  1 complesso $\gamma$ o \textbf{``clamp loader''} formato da 5
-  proteine, carica l'anello $\beta$ sul DNA.
+  1 complesso \(\gamma\) o \textbf{``clamp loader''} formato da 5
+  proteine, carica l'anello \(\beta\) sul DNA.
 \end{itemize}
 
-Il clamp loader utilizza ATP per caricare l'anello $\beta$ sul complesso
-stampo-primer. A questo punto $\beta$ cambia conformazione e lega il
-nucleo polimerasico. Il dimero $\tau$ lega il nucleo polimerasico e
-svolge la funzione di dimerizzazione legando un secondo nucleo
-polimerasico associato ad un altro anello $\beta$. Ciascuno dei
+Il clamp loader utilizza ATP per caricare l'anello \(\beta\) sul
+complesso stampo-primer. A questo punto \(\beta\) cambia conformazione e
+lega il nucleo polimerasico. Il dimero \(\tau\) lega il nucleo
+polimerasico e svolge la funzione di dimerizzazione legando un secondo
+nucleo polimerasico associato ad un altro anello \(\beta\). Ciascuno dei
 complessi catalitici sintetizza 1 dei nuovi filamenti di DNA. Durante la
 sintesi del filamento guida la polimerasi resta sempre associata allo
 stampo, mentre durante la sintesi del filamento ritardato la polimerasi
@@ -797,11 +801,11 @@ polimerasico che sintetizza il filamento ritardato.
 
 (immagine 11)
 
-Quando un frammento di Okazaki è completo l'anello $\beta$ viene aperto
-dal complesso $\gamma$ rilasciando l'ansa. $\gamma$ è una pinza
-molecolare che tramite l'utilizzo di ATO riesce a modificare la
-conformazione di $\beta$. La polimerasi del filamento ritardato si
-sposta da un anello $\beta$ a quello successivo senza dissociarsi dal
+Quando un frammento di Okazaki è completo l'anello \(\beta\) viene
+aperto dal complesso \(\gamma\) rilasciando l'ansa. \(\gamma\) è una
+pinza molecolare che tramite l'utilizzo di ATO riesce a modificare la
+conformazione di \(\beta\). La polimerasi del filamento ritardato si
+sposta da un anello \(\beta\) a quello successivo senza dissociarsi dal
 complesso replicativo.
 
 E. coli presenta dunque più DNA polimerasi:
@@ -811,28 +815,29 @@ E. coli presenta dunque più DNA polimerasi:
 \item
   \textbf{DNA polimerasi I} (103 kDa). Formata da un'unica subunità con
   due domini. Il frammento di Klenow (68 kDa) ha attività polimerasica
-  ed esonucleasica 3' $\rightarrow$ 5'. Il dominio con attività
-  esonucleasica 5' $\rightarrow$ 3' (35 kDa) rimuove i primer di RNA e
+  ed esonucleasica 3' \(\rightarrow\) 5'. Il dominio con attività
+  esonucleasica 5' \(\rightarrow\) 3' (35 kDa) rimuove i primer di RNA e
   poi riempie i vuoti tra i frammenti di Okazaki. Riempie anche i vuoti
   che si formano durante la riparazione del DNA. È l'unica con attività
-  esonucleasica 5' $\rightarrow$ 3';
+  esonucleasica 5' \(\rightarrow\) 3';
 \item
   \textbf{DNA polimerasi II}. Riempie le interruzioni in seguito a danno
   strutturale (risposta SOS inducibile);
 \item
   \textbf{DNA polimerasi III}. E' resposabile dell'allungamento della
   forcella di replicazione. Svolge polimerizzazione in direzione 5'
-  $\rightarrow$ 3' e attività esonucleasica in direzione 3'
-  $\rightarrow$ 5'. Possiede un nucleo catalitico formato da 3 subunità
-  $\alpha$ (attività polimerasica), $\varepsilon$ (esonucleasica 3'
-  $\rightarrow$ 5') e $\theta$ (stimolo all'esonucleasi);
+  \(\rightarrow\) 3' e attività esonucleasica in direzione 3'
+  \(\rightarrow\) 5'. Possiede un nucleo catalitico formato da 3
+  subunità \(\alpha\) (attività polimerasica), \(\varepsilon\)
+  (esonucleasica 3' \(\rightarrow\) 5') e \(\theta\) (stimolo
+  all'esonucleasi);
 \item
   \textbf{DNA polimerasi IV e V}, sintesi di DNA translesione (bypass).
 \end{itemize}
 
 Nel DNA completamente replicato non possono venire inglobati i piccoli
 frammenti di RNA sintetizzati dalla DNA primasi: questi vengono
-principalmente rimossi dall'attività esonucleasica 5' $\rightarrow$ 3'
+principalmente rimossi dall'attività esonucleasica 5' \(\rightarrow\) 3'
 della DNA polimerasi I che, mentre elimina gli RNA primer, è in grado di
 riempire i buchi o ``gap'' che essa stessa genera. I ``nick'', cioè le
 interruzioni che rimangono tra i vari frammenti di Okazaki sono, infine,
@@ -909,21 +914,22 @@ polimerasi:
 \def\labelenumi{\arabic{enumi}.}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  \textbf{polimerasi $\alpha$} (inizia la sintesi dei nuovi filamenti);
+  \textbf{polimerasi \(\alpha\)} (inizia la sintesi dei nuovi
+  filamenti);
 \item
-  \textbf{polimerasi $\varepsilon$} (allunga il filamento continuo);
+  \textbf{polimerasi \(\varepsilon\)} (allunga il filamento continuo);
 \item
-  \textbf{polimerasi $\delta$} (allunga il filamento discontinuo).
+  \textbf{polimerasi \(\delta\)} (allunga il filamento discontinuo).
 \end{enumerate}
 
-La polimerasi $\alpha$ è atipica. Questa polimerasi è capace di iniziare
-la sintesi di una nuova catena e può iniziare sia la sintesi del
-filamento continuo che di quello ritardato. La pol $\alpha$ è formata da
-più subunità: una subunità catalitica (180 kDa) e tre subunità
-accessorie. Le subunità accessorie sono formate da una subunità B,
-necessaria per l'assemblaggio del complesso, ed altre due subunità più
-piccole per l'attività primasica (RNA polimerasi). Il complesso è
-chiamato \textbf{polimerasi $\alpha$-primasi}.
+La polimerasi \(\alpha\) è atipica. Questa polimerasi è capace di
+iniziare la sintesi di una nuova catena e può iniziare sia la sintesi
+del filamento continuo che di quello ritardato. La pol \(\alpha\) è
+formata da più subunità: una subunità catalitica (180 kDa) e tre
+subunità accessorie. Le subunità accessorie sono formate da una subunità
+B, necessaria per l'assemblaggio del complesso, ed altre due subunità
+più piccole per l'attività primasica (RNA polimerasi). Il complesso è
+chiamato \textbf{polimerasi \(\alpha\)-primasi}.
 
 \paragraph{Il processo replicativo negli
 eucarioti}\label{il-processo-replicativo-negli-eucarioti}
@@ -970,37 +976,37 @@ elicasi. Le interazioni tra le due elicasi vengono eliminate.
 (immagine 15)
 
 L'inizio della sintesi di DNA sulla leading strand richiede l'azione del
-\textbf{complesso DNA polimerasi $\alpha$-primasi} che porta alla
+\textbf{complesso DNA polimerasi \(\alpha\)-primasi} che porta alla
 sintesi del primo RNA primer (circa 10 bp) e 20-30 basi di DNA (iDNA =
 iniziatore).
 
 A questo stadio avviene una reazione definita \textbf{scambio delle
-polimerasi}. Pol $\alpha$-primasi viene sostituita dalla DNA polimerasi
-$\delta$ sul 3'OH della catena nascente di DNA. Per effettuare questo
-scambio intervengono due proteine proteine:
+polimerasi}. Pol \(\alpha\)-primasi viene sostituita dalla DNA
+polimerasi \(\delta\) sul 3'OH della catena nascente di DNA. Per
+effettuare questo scambio intervengono due proteine proteine:
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  \textbf{PCNA},un trimero, simile all'anello $\beta$ di E. coli;
+  \textbf{PCNA},un trimero, simile all'anello \(\beta\) di E. coli;
 \item
-  \textbf{RFC} (simile al clamp loader $\gamma$ di E. coli).
+  \textbf{RFC} (simile al clamp loader \(\gamma\) di E. coli).
 \end{itemize}
 
 La pinza PCNA viene caricata sul DNA per azione di RFC, il quale
 utilizza ATP per aprire l'anello PCNA.
 
-Pol $\alpha$-primasi viene rimpiazzata da pol $\delta$ sul filamento
-lento e pol $\varepsilon$ sul filamento guida.
+Pol \(\alpha\)-primasi viene rimpiazzata da pol \(\delta\) sul filamento
+lento e pol \(\varepsilon\) sul filamento guida.
 
-Nella sintesi del DNA degli eucarioti la processività della pol $\delta$
-e $\varepsilon$ dipende da PCNA, mentre nei procarioti dipende
-dall'anello $\beta$.
+Nella sintesi del DNA degli eucarioti la processività della pol
+\(\delta\) e \(\varepsilon\) dipende da PCNA, mentre nei procarioti
+dipende dall'anello \(\beta\).
 
 (immagine 17)
 
 Successivamente interviene \textbf{FEN1}, una esonucleasi, a rimuovere i
-primer di RNA e, formando un complesso con DNA polimerasi $\delta$
+primer di RNA e, formando un complesso con DNA polimerasi \(\delta\)
 sintetizza DNA in modo analogo alla DNA pol I di E. coli
 
 (immagine 18)
@@ -1010,7 +1016,7 @@ di un legame fosfodiestere.
 
 (immagine 19)
 
-Non è noto un equivalente di $\tau$ di E. coli responsabile della
+Non è noto un equivalente di \(\tau\) di E. coli responsabile della
 coordinazione della replicazione negli eucarioti.
 
 Una differenza tra procarioti ed eucarioti è che nei procarioti, non
@@ -1024,8 +1030,8 @@ altro momento del ciclo (Fase G1). Una volta che la cromatina eucariota
 all'origine e vi si legano formando il complesso ORC-Cdc6-Cdt1 che,
 idrolizzando ATP, carica l'elicasi Mcm2-7. Quando Mcm2-7 è caricato, il
 complesso Cdc6-Cdt1 non serve più. Solo quando la cellula entra nella
-fase S, l'elicasi si attiva e viene caricata la pol $\alpha$-primasi ed
-inizia la sintesi.
+fase S, l'elicasi si attiva e viene caricata la pol \(\alpha\)-primasi
+ed inizia la sintesi.
 
 Gli eventi di abilitazione alla replicazione sono sotto il controllo
 dell'attività CDK/ciclina. La formazione del complesso di
@@ -1247,7 +1253,8 @@ Una prima opera di riparazione dei danni al DNA viene eseguita dalle DNA
 polimerasi.
 
 La \textbf{DNA polimerasi III}: questo complesso svolge, grazie alla
-subunità $\varepsilon$, un'attività esonucleasica 3' $\rightarrow$ 5'.
+subunità \(\varepsilon\), un'attività esonucleasica 3' \(\rightarrow\)
+5'.
 
 L'inserimento di un nucleotide non corretto produce una deformazione
 strutturale del filamento di DNA che induce la polimerasi a fermarsi o a
@@ -1262,12 +1269,12 @@ essere suddivisa in due frammenti:
 \itemsep1pt\parskip0pt\parsep0pt
 \item
   il maggiore, chiamato \textbf{frammento di Klenow} è dotato di
-  un'attività polimerasica 5' $\rightarrow$ 3' e di un'attività
-  esonucleasica 3' $\rightarrow$ 5' (correzione delle bozze). I due siti
-  attivi sono separati 30 A (separazione spaziale tra il sito dove viene
-  aggiunta la base da quello dove viene escissa);
+  un'attività polimerasica 5' \(\rightarrow\) 3' e di un'attività
+  esonucleasica 3' \(\rightarrow\) 5' (correzione delle bozze). I due
+  siti attivi sono separati 30 A (separazione spaziale tra il sito dove
+  viene aggiunta la base da quello dove viene escissa);
 \item
-  il minore possiede anche un'attività esonucleasica 5' $\rightarrow$
+  il minore possiede anche un'attività esonucleasica 5' \(\rightarrow\)
   3', che determina l'escissione di nucleotidi a valle dell'enzima.
 \end{itemize}
 
@@ -1286,13 +1293,14 @@ sintetizzano il tratto di DNA utilizzando le stesse proteine ausiliarie
 Aggirato il danno la pol viene sostituita nuovamente dalla pol
 replicativa.
 
-Queste polimerasi introducono errori con una frequenza 10$^-$$^1$,
-10$^-$$^3$, ma risolvono il grave problema dell'arresto della sintesi.
+Queste polimerasi introducono errori con una frequenza 10\(^-\)\(^1\),
+10\(^-\)\(^3\), ma risolvono il grave problema dell'arresto della
+sintesi.
 
 Le pol translesione in E. coli sono la DNA pol IV (dinB) e V (umuCD).
 
 La sintesi delle DNA pol translesione è indotta in risposta al danno al
-DNA. In E. coli RecA attiva DNA pol V umuD$_2$C a UmuD'$_2$C (è il
+DNA. In E. coli RecA attiva DNA pol V umuD\(_2\)C a UmuD'\(_2\)C (è il
 sistema SOS, vedi dopo).
 
 (immagine 22)
@@ -1458,14 +1466,14 @@ meccanismo del BER può procedere attraverso due vie:
 \itemsep1pt\parskip0pt\parsep0pt
 \item
   \textbf{short patch BER}, preponderante nei mammiferi. Qui la DNA pol
-  $\beta$, attraverso l'attività liasica che tale polimerasi possiede,
-  rimuove il deossiribosio privo della base e la stessa pol $\beta$
+  \(\beta\), attraverso l'attività liasica che tale polimerasi possiede,
+  rimuove il deossiribosio privo della base e la stessa pol \(\beta\)
   riempie il buco di un nucleotide così creatosi. Successivamente il
   legame fosfodiesterico è saldato da una ligasi specializzata (DNA
   ligasi 3) con l'aiuto della proteina XRCC1;
 \item
-  \textbf{long patch BER}, prevede l'azione della DNA pol $\delta$ e
-  $\varepsilon$ e di PCNA che allungano il 3'OH di 2-10 nt, attraverso
+  \textbf{long patch BER}, prevede l'azione della DNA pol \(\delta\) e
+  \(\varepsilon\) e di PCNA che allungano il 3'OH di 2-10 nt, attraverso
   una reazione di ``strand displacement''. Il filamento di DNA spelato
   via è poi tagliato da una nucleasi denominata FEN1 che riconosce la
   particolare struttura che si forma durante la reazione. La
@@ -1536,14 +1544,14 @@ venire inserita una base sbagliata, oppure si possono formare delle
 piccole bolle dovute allo scivolamento dell'apparato replicativo in
 corrispondenza di sequenze nucleotidiche ripetute.
 
-Tali strutture anomale sono riconosciute dai complessi MutS$\alpha$ e
-MutS$\beta$ che reclutano, successivamente, i complessi MutL$\alpha$ e
-MutL$\beta$ (questi complessi sono omologhi di quelli di E. coli ma
+Tali strutture anomale sono riconosciute dai complessi MutS\(\alpha\) e
+MutS\(\beta\) che reclutano, successivamente, i complessi MutL\(\alpha\)
+e MutL\(\beta\) (questi complessi sono omologhi di quelli di E. coli ma
 hanno maggiore specificità).
 
 Il filamento di DNA neosintetizzato contenente gli errori replicativi
 viene riconosciuto e processato da una esonucleasi (Exo1) che degrada il
-filamento di DNA in direzione 5' $\rightarrow$ 3'. Successivamente,
+filamento di DNA in direzione 5' \(\rightarrow\) 3'. Successivamente,
 tramite interazioni con l'apparato di replicazione, viene
 ri-sintetizzato il filamento di DNA corretto.
 
@@ -1569,8 +1577,8 @@ richiede l'azione di numerose proteine ricombinative.
 Nel meccanismo di HR, il complesso eterotrimerico Mre11/Rad50/Nbs1
 (chiamato \textbf{MRN}) con l'ausilio di altre proteine come
 \textbf{Rad51} e \textbf{Rad52}, modifica il DBS originario causando la
-degradazione in direzione 5' $\rightarrow$ 3' delle due estremità 5' di
-ciascun DSB.
+degradazione in direzione 5' \(\rightarrow\) 3' delle due estremità 5'
+di ciascun DSB.
 
 Si generano, così, delle regioni di DNA a singolo filamento che sono
 stabilizzate dal legame della \textbf{proteina RPA}. Successivamente le
@@ -1744,7 +1752,7 @@ nucleosoma.
 Le proteine istoniche, che interagiscono con il DNA carico
 negativamente, sono fortemente basiche (oltre 20\% degli aa sono Arg e
 Lys). Presentano una struttura conservata costituita da tre regioni ad
-$\alpha$-elica denominata \textbf{histone-fold} e da una coda
+\(\alpha\)-elica denominata \textbf{histone-fold} e da una coda
 N-terminale.
 
 Tutti gli istoni sono soggetti a modificazioni covalenti; la maggior
@@ -1770,7 +1778,7 @@ essenziali di quese strutture proteiche.
 
 Un gene è una sequenza di DNA contenente le informazioni per la sintesi
 di un prodotto indipendente (rRNA, tRNA, RNA regolatori, mRNA
-$\rightarrow$ proteina).
+\(\rightarrow\) proteina).
 
 Si definisce \textbf{``espressione genica''} il meccanismo attraverso
 cui l'informazione presente in una sequenza di DNA viene utilizzata per
@@ -1826,7 +1834,7 @@ La trascrizione dei geni sia nei procarioti che negli eucarioti è
 regolata da sequenze specifiche di DNA che costituiscono delle regioni
 di controllo della trascrizione.
 
-L'RNA pol sintetizza l'RNA in direzione 5' $\rightarrow$ 3'.
+L'RNA pol sintetizza l'RNA in direzione 5' \(\rightarrow\) 3'.
 
 L'RNA pol si lega a particolari sequenze sul DNA che si chiamano
 \textbf{promotori} e che sono situate all'inizio del gene. Il promotore
@@ -1840,8 +1848,8 @@ una singola molecola di RNA.
 L'RNA pol, a differenza della DNA pol, non ha bisogno di un innesco per
 sintetizzare un nuovo filamento di RNA. Dopo il suo posizionamento, il
 gruppo 3'OH del primo nucleotide reagisce con il successivo nucleoside
-5' trifosfato il cui fosfato in posizione $\alpha$ è usato per formare
-il legame fosfodiesterico, mentre i fosfati $\beta$ e $\gamma$ sono
+5' trifosfato il cui fosfato in posizione \(\alpha\) è usato per formare
+il legame fosfodiesterico, mentre i fosfati \(\beta\) e \(\gamma\) sono
 rilasciati come una molecola di pirofosfato.
 
 La bolla di trascrizione è lunga circa 25 pb, ma il tratto che forma un
@@ -1851,12 +1859,12 @@ ibrido tra DNA e RNA è lungo 8-9 pb.
 
 La chimica della sintesi degli RNA è la stessa per tutti i tipi di RNA;
 catalizza la formazione del legame fosfodiesterico utilizzando ioni
-Mg$^2$$^+$ quali cofattori. L'enzima è completamente processivo, per cui
-un trascritto completo viene sintetizzato da un'unica RNA polimerasi.
-Una volta iniziata la sintesi dell'RNA, la RNA polimerasi si sposta
-unidirezionalmente lungo la catena stampo di DNA trascrivendo l'RNA in
-direzione 5' $\rightarrow$ 3'. Non necessitano di primer di innesco e
-non sono dotate di attività di correzione dei trascritti.
+Mg\(^2\)\(^+\) quali cofattori. L'enzima è completamente processivo, per
+cui un trascritto completo viene sintetizzato da un'unica RNA
+polimerasi. Una volta iniziata la sintesi dell'RNA, la RNA polimerasi si
+sposta unidirezionalmente lungo la catena stampo di DNA trascrivendo
+l'RNA in direzione 5' \(\rightarrow\) 3'. Non necessitano di primer di
+innesco e non sono dotate di attività di correzione dei trascritti.
 
 Le RNA polimerasi sono capaci di individuare e trascrivere
 selettivamente i geni interagendo, con l'ausilio di altre proteine
@@ -1874,30 +1882,30 @@ Questo oloenzima è costituito da 5 subunità:
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  2 subunità \textbf{$\alpha$}.
+  2 subunità \textbf{\(\alpha\)}.
 \end{itemize}
 
 Queste subunità sono responsabili dell'assemblaggio del complesso e
 contengono due domini che hanno funzioni diverse: il dominio C-terminale
-(chiamato $\alpha$CTD) si lega a una zona del promotore chimata
+(chiamato \(\alpha\)CTD) si lega a una zona del promotore chimata
 \textbf{UP-element} (elemento a monte), mentre il dominio N-terminale è
 responsabile dell'interazione con le altre subunità dell'enzima;
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  1 subunità \textbf{$\beta$}.
+  1 subunità \textbf{\(\beta\)}.
 \end{itemize}
 
 Questa contiene il sito catalitico, che sintetizza l'RNA, di cui fanno
-parte anche due atomi di Mg$^2$$^+$ essenziali per la sintesi. Uno di
-questi atomi è sempre presente nel sito attivo, l'altro viene
+parte anche due atomi di Mg\(^2\)\(^+\) essenziali per la sintesi. Uno
+di questi atomi è sempre presente nel sito attivo, l'altro viene
 trasportato nel complesso dai nucleotidi in entrata;
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  1 subunità \textbf{$\beta$'}.
+  1 subunità \textbf{\(\beta\)'}.
 \end{itemize}
 
 Questa subunità si lega al DNA in maniera non specifica;
@@ -1905,30 +1913,31 @@ Questa subunità si lega al DNA in maniera non specifica;
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  1 subunità \textbf{$\omega$}.
+  1 subunità \textbf{\(\omega\)}.
 \end{itemize}
 
 Questa subunità ha la funzione di promuovere e mantenere stabile il
 complesso.
 
 Per legarsi in maniera specifica al promotore, la polimerasi ha bisogno
-di una sesta subunità, chiamata \textbf{$\sigma$}.
+di una sesta subunità, chiamata \textbf{\(\sigma\)}.
 
-L'enzima completo \textbf{$\alpha$$_2$$\beta$$\beta$'$\omega$$\sigma$}
-(o \textbf{oloenzima}) ha un peso molecolare di circa 480 kDa.
+L'enzima completo
+\textbf{\(\alpha\)\(_2\)\(\beta\)\(\beta\)'\(\omega\)\(\sigma\)} (o
+\textbf{oloenzima}) ha un peso molecolare di circa 480 kDa.
 
-Il fattore $\sigma$ è costituito da 4 domini, distribuiti sul nucleo
+Il fattore \(\sigma\) è costituito da 4 domini, distribuiti sul nucleo
 enzimatico, in parte verso l'esterno per riconoscere e legare il
 promotore e in parte nella regione interna tra le due parti della
-``pinza'', formata dalle sub $\beta$ e $\beta$', occupando parzialmente
-il canale dove si posiziona il DNA.
+``pinza'', formata dalle sub \(\beta\) e \(\beta\)', occupando
+parzialmente il canale dove si posiziona il DNA.
 
-Il fattore $\sigma$ funziona come un vero e proprio fattore di
-trascrizione. Con $\sigma$ legato si riduce la capacità globale della
+Il fattore \(\sigma\) funziona come un vero e proprio fattore di
+trascrizione. Con \(\sigma\) legato si riduce la capacità globale della
 pol di legarsi al DNA, ma aumenta moltissimo la sua affinità per il
 promotore. Questo permette all'RNA pol di essere generalmente sempre
-legata al DNA (senza $\sigma$) e poter riconoscere con molta precisione
-i promotori (quando c'è $\sigma$).
+legata al DNA (senza \(\sigma\)) e poter riconoscere con molta
+precisione i promotori (quando c'è \(\sigma\)).
 
 Al suo interno, l'RNA pol, ha un solco lungo circa 55 A con una
 larghezza di circa 25 A. Esso può accogliere un tratto di DNA lungo
@@ -1951,16 +1960,16 @@ Per trascrivere un determinato gene l'enzima dve essere in grado di
 riconoscerne il sito di inizio con grande precisione.
 
 Questo problema è risolto da due diversi elementi: la sequenza specifica
-del DNA chiamta \textbf{promotore} e la **subunità $\sigma$ che si
-associa al core della polimerasi. Il fattore $\sigma$ riconosce il
+del DNA chiamta \textbf{promotore} e la **subunità \(\sigma\) che si
+associa al core della polimerasi. Il fattore \(\sigma\) riconosce il
 promotore, costituito da sequenze conservate che si trovano a monte del
 sito di inizio della trascrizione, ma solo quando è parte integrante
 della RNA pol oloenzima.
 
-In E. coli il fattore $\sigma$ più usato è $\sigma$$^7$$^0$ (peso
-molecolare di 70 kDa), che riconosce un promotore costituito da due
-sequenze conservate, lunghe 6 nucleotidi, che si trovano in posizione
-\textbf{-10} (TATA box) e \textbf{-35}.
+In E. coli il fattore \(\sigma\) più usato è \(\sigma\)\(^7\)\(^0\)
+(peso molecolare di 70 kDa), che riconosce un promotore costituito da
+due sequenze conservate, lunghe 6 nucleotidi, che si trovano in
+posizione \textbf{-10} (TATA box) e \textbf{-35}.
 
 La sequenza consenso dell'elemento -10 è, sul filamento codificante,
 TATAAT. L'elemento -35 ha come consenso la sequenza TTGACA. Il fatto che
@@ -1973,35 +1982,38 @@ viene trascritto ogni 2 secondi, mentre uno debole viene trascritto ogni
 2 minuti. La sequenza del tratto ``spacer'' (tra la regione -10 e -35)
 non è importante.
 
-Il fattore $\sigma$ è diviso in 4 regioni, o domini, chiamati:
-\textbf{$\sigma$$_1$, $\sigma$$_2$, $\sigma$$_3$ e $\sigma$$_4$}.
+Il fattore \(\sigma\) è diviso in 4 regioni, o domini, chiamati:
+\textbf{\(\sigma\)\(_1\), \(\sigma\)\(_2\), \(\sigma\)\(_3\) e
+\(\sigma\)\(_4\)}.
 
-La regione $\sigma$$_2$ riconosce l'elemento -10, mentre la regione
-$\sigma$$_4$ riconosce l'elemento -35. $\sigma$$_4$ è costituita da due
-$\alpha$-eliche che formano un dominio elica-giro-elica
+La regione \(\sigma\)\(_2\) riconosce l'elemento -10, mentre la regione
+\(\sigma\)\(_4\) riconosce l'elemento -35. \(\sigma\)\(_4\) è costituita
+da due \(\alpha\)-eliche che formano un dominio elica-giro-elica
 (helix-turn-helix) che è tipico di molti fattori che si legano al DNA.
 Un'elica interagisce con le basi esposte nel solco maggiore della doppia
 elica e l'altra si posiziona sopra al solco interagendo con lo scheletro
-zucchero-fosfato. L'interazione forte di $\sigma$$_4$ con la regione -35
-àncora specificamente l'oloenzima al DNA, mentre la regione $\sigma$$_2$
-ha il compito di promuovere l'apertura del DNA.
+zucchero-fosfato. L'interazione forte di \(\sigma\)\(_4\) con la regione
+-35 àncora specificamente l'oloenzima al DNA, mentre la regione
+\(\sigma\)\(_2\) ha il compito di promuovere l'apertura del DNA.
 
-La regione N-terminale di $\sigma$ ha un ruolo di regolazione molto
+La regione N-terminale di \(\sigma\) ha un ruolo di regolazione molto
 importante: se si elimina questo dominio, la proteina tronca è in grado
 di legarsi specificamente ai promotori anche in assenza di RNA pol
 ``core''. Questo dato suggerisce che la regione N-terminale mascheri le
-regioni $\sigma$$_2$ e $\sigma$$_4$ quando il fattore non è legato
-all'enzima ``core'' e quando non è in grado di occupare promotori in
-assenza delle subunità responsabili dell'attività di sintesi dell'RNA.
-Una volta che si forma l'oloenzima, un cambiamento conformazionale
-espone queste regioni rendendole in grado di legarsi al DNA.
+regioni \(\sigma\)\(_2\) e \(\sigma\)\(_4\) quando il fattore non è
+legato all'enzima ``core'' e quando non è in grado di occupare promotori
+in assenza delle subunità responsabili dell'attività di sintesi
+dell'RNA. Una volta che si forma l'oloenzima, un cambiamento
+conformazionale espone queste regioni rendendole in grado di legarsi al
+DNA.
 
 Il nucleo enzimatico ha una certa capacità di legare il DNA in maniera
 non specifica grazie all'attrazione elettrostatica fra proteina basica e
 acido nucleico. Questo legame è definito sito di legame debole. Il
-fattore $\sigma$ riduce la capacità di legare i siti deboli e conferisce
-la capacità di legare i promotori. L'oloenzima riconosce un promotore
-circa 10$^-$$^7$ volte meglio di una sequenza non specifica.
+fattore \(\sigma\) riduce la capacità di legare i siti deboli e
+conferisce la capacità di legare i promotori. L'oloenzima riconosce un
+promotore circa 10\(^-\)\(^7\) volte meglio di una sequenza non
+specifica.
 
 \subsubsection{Le 3 fasi della
 trascrizione}\label{le-3-fasi-della-trascrizione}
@@ -2065,7 +2077,7 @@ La transizione dalla fase di inizio abortivo a quella di allungamento
 (non chiara) comporta un cambiamento strutturale.
 
 Durante la fase di allungamento l'enzima si muove lungo il filamento
-stampo in direzione 3' $\rightarrow$ 5' sintetizzando la catena di RNA
+stampo in direzione 3' \(\rightarrow\) 5' sintetizzando la catena di RNA
 dal 5' al 3' e muove con sé la bolla di trascrizione; il DNA si apre
 nella direzione della sintesi e si richiude alle sue spalle, mantenendo
 la bolla di una lunghezza costante.
@@ -2077,9 +2089,9 @@ polimerasi rilascia il filamento di RNA prodotto e si dissocia dal DNA.
 coli}\label{passaggio-complesso-aperto-chiuso-in-e.-coli}
 
 Nel \textbf{complesso chiuso}: + il DNA si lega alla superficie con
-$\alpha$ e $\sigma$; + $\sigma$$_2$ e $\sigma$$_4$ sono esposti
-all'esterno e legano le zone -10 e -35; + l'interno del canale è
-occupato da $\sigma$$_1.1$.
+\(\alpha\) e \(\sigma\); + \(\sigma\)\(_2\) e \(\sigma\)\(_4\) sono
+esposti all'esterno e legano le zone -10 e -35; + l'interno del canale è
+occupato da \(\sigma\)\(_1.1\).
 
 Nel \textbf{complesso aperto} avviene l'isomerizzazione dell'RNA:
 
@@ -2087,13 +2099,13 @@ Nel \textbf{complesso aperto} avviene l'isomerizzazione dell'RNA:
 \itemsep1pt\parskip0pt\parsep0pt
 \item
   il DNA è costretto ad una piegatura di 90° che permette allo stampo di
-  raggiungere il sito catalitico dove ci sono 2 Mg$^2$$^+$;
+  raggiungere il sito catalitico dove ci sono 2 Mg\(^2\)\(^+\);
 \item
   avviene l'apertura dei filamenti di DNA;
 \item
-  $\sigma$$_1.1$ si sposta;
+  \(\sigma\)\(_1.1\) si sposta;
 \item
-  $\sigma$$_3$ e $\sigma$$_4$ bloccano il canale di uscita.
+  \(\sigma\)\(_3\) e \(\sigma\)\(_4\) bloccano il canale di uscita.
 \end{itemize}
 
 Infine, nel \textbf{complesso ternario} formato da DNA, RNA ed
@@ -2102,9 +2114,9 @@ oloenzima;
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  $\sigma$$_3$ e $\sigma$$_4$ liberano il canale di uscita;
+  \(\sigma\)\(_3\) e \(\sigma\)\(_4\) liberano il canale di uscita;
 \item
-  $\sigma$$_4$ si stacca parzialmente dall'elemento -35;
+  \(\sigma\)\(_4\) si stacca parzialmente dall'elemento -35;
 \item
   l'RNA esce dal canale.
 \end{itemize}
@@ -2118,7 +2130,7 @@ coprire una zona più estesa).
 
 Nella fase di allungamento il complesso diminuisce le sue dimensioni
 (parliamo della fase iniziale in cui l'RNA ha una lunghezza di circa di
-10 bp). Può perdere $\sigma$ e perde i contatti da -55 a -35 (servono
+10 bp). Può perdere \(\sigma\) e perde i contatti da -55 a -35 (servono
 solo per il riconoscimento).
 
 Infine, nella fase allungamento (RNA di 15-20b): l'enzima copre 30-40
@@ -2168,7 +2180,7 @@ circa 40 nt, denominata \textbf{sito di utilizzo di Rho (rut)}. Questo
 sito si trova a valle della regione codificante e quindi Rho non
 incontrerà sul suo cammino un ribosoma che sta sintetizzando. Una volta
 legato, Rho agisce come una elicasi ATP-dipendente che si muove in
-direzione 5' $\rightarrow$ 3', per traslocare verso il sito della
+direzione 5' \(\rightarrow\) 3', per traslocare verso il sito della
 trascrizione e promuovere il distacco della polimerasi.
 
 Rho ha una struttura a omoesamero e assume una forma ad anello.
@@ -2274,7 +2286,7 @@ iniziare.
 \paragraph{La RNA pol II}\label{la-rna-pol-ii}
 
 Mentre nei procarioti interviene un solo fattore addizionale di
-trascrizione ($\sigma$), negli eucarioti l'RNA pol II, per iniziare la
+trascrizione (\(\sigma\)), negli eucarioti l'RNA pol II, per iniziare la
 propria trascrizione, necessita di 2 gruppi di fattori di trascrizione
 (qualsiasi proteina sia necessaria per l'inizio della trascrizione ma
 non sia parte della polimerasi, è un fattore din trascrizione):
@@ -2710,8 +2722,8 @@ cromatina favorisce il reclutamento di proteine contenenti un
 specificatamente altre proteine che inducono, per esempio, l'attivazione
 dei geni vicini.
 
-La \emph{metilazione} interessa i residui di Arg (fino a 2 -CH$_3$) e
-Lys (fino a 3 -CH$_3$).
+La \emph{metilazione} interessa i residui di Arg (fino a 2 -CH\(_3\)) e
+Lys (fino a 3 -CH\(_3\)).
 
 La metilazione della coda istonica recluta proteine che danno inizio
 alla formazione di eterocromatina.
@@ -2804,7 +2816,7 @@ in unos tato più aperto ed accessibile.
 
 Nel passaggio 4, TFIID si lega a una regione accessibile del DNA. Anche
 una delle subunità di TFIID (chiamata
-TAF$_I$\$\emph{I$250 o TAF1) possiede attività acetiltransferasica.  Insieme, CBP e TAF$}I\$\$\_I\$250
+TAF\(_I\)\$\_I\(250 o TAF1) possiede attività acetiltransferasica. Insieme, CBP e TAF\)\_I\$\$\_I\$250
 destabilizzano ulteriori nucleosomi per permettetre l'avvio della
 trascrizione.
 
@@ -2818,7 +2830,7 @@ trascrizione)}\label{domini-di-legame-al-dna-le-famiglie-di-fattori-di-trascrizi
 Vediamo quali sono le strutture proteoiche più frequentemente
 identificate nei domini di legame al DNA degli attivatori
 trascrizionali. Questi domini sono costituiti, nella maggior parte dei
-casi, da strutture ad $\alpha$-elica che riconoscono la sequenza
+casi, da strutture ad \(\alpha\)-elica che riconoscono la sequenza
 specifica di DNA interagendo con il solco maggiore della doppia elica.
 
 Le interazioni specifiche tra DNA e proteina sono dovute principalmente
@@ -2842,17 +2854,17 @@ primaria}, \textbf{due cisteine} e \textbf{due istidine} distanziate tra
 loro di 3, 13 e 3 residui. Nella \emph{struttura secondaria} i 4 aa (2
 cys e 2 his) vanno a legare \textbf{un atomo di zinco}, formando un'ansa
 di circa 12-13 aa. L'ansa è divisa in \textbf{due domini diversi}
-formando, a sinistra, una struttura a \textbf{foglietto $\beta$} e, a
-destra, un'\textbf{$\alpha$-elica}.
+formando, a sinistra, una struttura a \textbf{foglietto \(\beta\)} e, a
+destra, un'\textbf{\(\alpha\)-elica}.
 
 L'atomo di zinco è legato covalentemente alle due cisteine e alle due
-istidine, secondo lo schema \textbf{Cys$_2$/His$_2$}.
+istidine, secondo lo schema \textbf{Cys\(_2\)/His\(_2\)}.
 
 Un intero dito di zinco è generalmente formato da 23 residui con le
 cisteine e le istidine molto conservate alla sua base.
 
 La punta dell'ansa è formata in genere da amminoacidi idrofobici che
-stabilizzano la struttura dell'ansa, mentre l'$\alpha$-elica va a
+stabilizzano la struttura dell'ansa, mentre l'\(\alpha\)-elica va a
 interagire con il solco maggiore della doppia elica del DNA; linker di
 7-8 aa separano più dita adiacenti.
 
@@ -2870,8 +2882,8 @@ un massimo di 37 ``dita'' (TFIIIA ne presenta 9, mentre Sp1 ne presenta
   dita di zinco. Questi recettori dimerizzano e riconoscono il loro sito
   di legame sul DNA costituito da 2 sequenze di 6 nt orientate in
   direzione opposta, con una spaziatura di 3 nt tra loro. In queste
-  proteine, che hanno dita di zinco del tipo Cys$_2$/Ciys$_2$, non si
-  riscontrano ripetizioni in serie della struttura a dito.
+  proteine, che hanno dita di zinco del tipo Cys\(_2\)/Ciys\(_2\), non
+  si riscontrano ripetizioni in serie della struttura a dito.
 \end{itemize}
 
 Questi recettori presentano una regione N-terminale, una regione
@@ -2903,8 +2915,8 @@ bersaglio sul DNA, che di solito si trova in un enhancer. Come dimero
 (omo o etero) il recettore/attivatore lega una singola sequenza di
 riconoscimento. Il dominio di legame al DNA ha 2 ``dita di zinco'' di
 tipo leggermente diverso, con un consenso
-Cys-X$_2$-Cys-X$_1$$_3$-Cys-X$_2$-Cys, chiamato ``dito di zinco
-Cys$_2$/Cys$_2$''. I siti di legame al DNA sono corti e palindromi,
+Cys-X\(_2\)-Cys-X\(_1\)\(_3\)-Cys-X\(_2\)-Cys, chiamato ``dito di zinco
+Cys\(_2\)/Cys\(_2\)''. I siti di legame al DNA sono corti e palindromi,
 AGAAAnnnTGTTCT. Ciascun monomero lega un mezzo sito. A questo punto, il
 promotore associato all'enhancer è attivato e la trascrizione inizia.
 
@@ -2912,7 +2924,7 @@ promotore associato all'enhancer è attivato e la trascrizione inizia.
 HLH)}\label{elica-ansa-elica-helix-loop-helix-hlh}
 
 Il dominio HLH, ha una struttura monomerica caratterizzata da \textbf{2
-$\alpha$-eliche anfipatiche} (presentano residui idrofobici su una
+\(\alpha\)-eliche anfipatiche} (presentano residui idrofobici su una
 faccia e residui carichi sull'altra) connesse da un'ansa.
 
 In generale un monomero è costituito da circa 40 aa e l'elica più lunga
@@ -2930,7 +2942,7 @@ al partner nell'eterodimero di legarsi al DNA.
 \subsubsection{Elica-giro-elica (helix-turn-helix,
 HTH)}\label{elica-giro-elica-helix-turn-helix-hth}
 
-La struttura generica del motivo HTH è costituita da 3 $\alpha$-eliche
+La struttura generica del motivo HTH è costituita da 3 \(\alpha\)-eliche
 ripiegate in cui l'elica 3, chiamata anche \textbf{elica R (elica di
 riconoscimento)}, si posiziona nel solco maggiore del DNA. I residui
 amminoacidici dell'elica R che si affacciano sul DNA interagiscono
@@ -2938,7 +2950,7 @@ specificamente con le basi della sequenza di riconoscimento. La
 sostituzione di una si queste basi abbassa notevolmente l'affinità della
 proteina per quella sequenza.
 
-In alcuni casi le $\alpha$-eliche possono essere 2 o 4, sempre con
+In alcuni casi le \(\alpha\)-eliche possono essere 2 o 4, sempre con
 un'elica R che interagisce nel solco maggiore della doppia elica.
 
 Di questa famiglia di attivatori fa parte anche l'\textbf{omeodominio
@@ -2950,7 +2962,7 @@ contatto con il solco maggiore del DNA. Attivatori contenenti un
 omeodominio sono presenti in tutti gli eucarioti. Le proteine possono
 essere sia attivatori che repressori.
 
-L'omeodominio è costituito da 3 $\alpha$-eliche strutturate come nel
+L'omeodominio è costituito da 3 \(\alpha\)-eliche strutturate come nel
 dominio HTH, in cui l'elica R contatta il solco maggiore del DNA
 riconoscendo una sequenza di 6pb. L'omeodominio contiene anche un
 braccio flessibile, non strutturato, che interagisce specificamente con
@@ -2960,9 +2972,9 @@ il solco minore del DNA.
 zipper)}\label{domini-a-cerniera-di-leucina-leucine-zipper}
 
 Questi attivatori sono dimeri formati da due lunghe strutture ad
-$\alpha$-elica, ciascuna delle quali contiene, contemporaneamente, un
+\(\alpha\)-elica, ciascuna delle quali contiene, contemporaneamente, un
 dominio di dimerizzazione e un dominio basico di legame al DNA.
-Quest'ultimo è formato dalla parte terminale delle due $\alpha$-eliche
+Quest'ultimo è formato dalla parte terminale delle due \(\alpha\)-eliche
 che si inseriscono nel solco maggiore della doppia elica ma sulle facce
 opposte del DNA, dove gli elementi di risposta sono costituiti da una
 coppia di sequenze di 4 pb con orientamento opposto, distanziati da un
@@ -2970,11 +2982,11 @@ nucleotide.
 
 Il dominio di dimerizzazione presenta, a livello della struttura
 primaria, un residuo di leucina ogni 7 aa. In questo modo, una volta
-acquisita la struttura ad $\alpha$-elica, e poichè un giro di elica
+acquisita la struttura ad \(\alpha\)-elica, e poichè un giro di elica
 corrisponde a circa 3,5 residui amminoacidici, le leucine vengono a
 trovarsi, ogni due giri, sullo stesso lato dell'elica. L'assemblaggio
 della struttura dimerica è dovuto ai legami idrofobici tra le leucine
-che protrudono dalle due $\alpha$-eliche.
+che protrudono dalle due \(\alpha\)-eliche.
 
 Si forma una \textbf{struttura a Y}, in cui il gambo della Y è formato
 dalla serratura di leucine, e le due regioni basiche si biforcano
@@ -3020,7 +3032,7 @@ Esempi di questi elementi sono:
 \end{itemize}
 
 L'attivatore HSTF attivo, ovvero fosforilato, attiva circa 20 geni. Nei
-procarioti il fattore corrispondente è $\sigma$ 32.
+procarioti il fattore corrispondente è \(\sigma\) 32.
 
 I fattori specifici di trascrizione legano i **``response elements (RE,
 elementi responsivi)**.
@@ -3216,7 +3228,8 @@ RNA polimerasi, mentre trascrive, porta sulla sua coda anche proteine di
 modificazione del pre-mRNA che vengono trasferite sull'RNA nascente al
 momento opportuno.
 
-\subsubsection{L'aggiunta del ``cap''}\label{laggiunta-del-cap}
+\subsubsection{\texorpdfstring{L'aggiunta del
+``cap''}{L'aggiunta del cap}}\label{laggiunta-del-cap}
 
 Gli mRNA eucariotici vengono generati nel processo trascrizionale
 all'intenro del nucleo a partire da un RNA precursore (hnRNA) che deve
@@ -3226,7 +3239,7 @@ Il \textbf{capping} consiste nell'aggiunta di uno specifico nucleotide
 modificato con le funzioni di protezione e riconoscimento all'estremità
 5' dell'mRNA precursore.
 
-Il cap è costituito da \textbf{7-metilguanosina (m$^7$G)} legata al
+Il cap è costituito da \textbf{7-metilguanosina (m\(^7\)G)} legata al
 nucleotide iniziale del trascritto mediante un insolito legame 5'-5'. La
 sequenza degli eventi che porta all'aggiunta del cap richiede 4 diverse
 attività enzimatiche:
@@ -3235,8 +3248,8 @@ attività enzimatiche:
 \def\labelenumi{\arabic{enumi}.}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  una RNA trifosfatasi rimuove il $\gamma$-fosfato all'estremità 5' del
-  trascritto nascente;
+  una RNA trifosfatasi rimuove il \(\gamma\)-fosfato all'estremità 5'
+  del trascritto nascente;
 \item
   una guanilil transferasi aggiunge un GMP, derivato dal GTP, al
   difosfato rimasto all'estremità del trascritto formando un legame
@@ -3244,7 +3257,7 @@ attività enzimatiche:
 \item
   una RNA metil transferasi del trascritto trasferisce un gruppo
   metilico dall S-adenosilmetionina (AdoMet) all'azoto in posizione 7
-  (N$_7$) della guanosina aggiunta nella reazione precedente;
+  (N\(_7\)) della guanosina aggiunta nella reazione precedente;
 \item
   un'altra metil transferasi usa un'altra molecola di AdoMet per
   metilare il 2'-OH del primo nucleotide del trascritto.
@@ -3261,7 +3274,7 @@ Nel \textbf{cap0}, presente solo negli RNA virali, non vi sono
 nucleotidi metilati oltre alla 7-metilguanosina.
 
 Per alcuni RNA, come snRNA o snoRNA, si osserva una ipermetilazione del
-m$^7$G cap, localizzata nel citoplasma, per formare
+m\(^7\)G cap, localizzata nel citoplasma, per formare
 \textbf{2,7,7-trimetilguanosina}.
 
 Il cap viene aggiunto nelle prime fasi della trascrizione, dopo che il
@@ -3722,9 +3735,9 @@ codificare differenti proteine.
 Oltre il 90\% dei geni umani è interessato da splicing alternativo.
 
 Questo fenomeno fu scoperto da Daved Baltimore che osservò che il gene
-per la catena pesante $\mu$ dell'immunoglobulina di topo poteva
-esprimere una forma secreta ($\mu$$_s$) e una forma legata alla membrana
-($\mu$$_m$).
+per la catena pesante \(\mu\) dell'immunoglobulina di topo poteva
+esprimere una forma secreta (\(\mu\)\(_s\)) e una forma legata alla
+membrana (\(\mu\)\(_m\)).
 
 L'assortimento combinatorio di eventi di splicing può portare alla
 generazione di un numero incredibilmente grande di trascritti, come nel
@@ -3766,12 +3779,12 @@ Lo splicing alternativo può essere:
   tutte le cellule in cui il gene viene espresso.
 \end{itemize}
 
-Un esempio è la trascrizione del gene \emph{CaMKII$\delta$}. Questo gene
-contiene 3 esoni alternativi presenti in modo alternativo. Il gene è
-espresso in tutti i tipi cellulari e tessuti di mammifero e codifica per
-una chinasi. Le 3 isoforme svolgono la stessa attività ma hanno una
-diversa localizzazione: $\delta$A si trova a livello neuronale, mentre
-$\delta$B e $\delta$C si trovano a livello cardiaco.
+Un esempio è la trascrizione del gene \emph{CaMKII\(\delta\)}. Questo
+gene contiene 3 esoni alternativi presenti in modo alternativo. Il gene
+è espresso in tutti i tipi cellulari e tessuti di mammifero e codifica
+per una chinasi. Le 3 isoforme svolgono la stessa attività ma hanno una
+diversa localizzazione: \(\delta\)A si trova a livello neuronale, mentre
+\(\delta\)B e \(\delta\)C si trovano a livello cardiaco.
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
@@ -3781,9 +3794,9 @@ $\delta$B e $\delta$C si trovano a livello cardiaco.
   semplice la proteina può essere semplicemente inattiva o attiva).
 \end{itemize}
 
-Un esempio è l'$alpha$-tropomionina di ratto regola la contrazione delle
-cellule muscolari. Il pre-mRNA subisce schemi di splicing diversi a
-seconda del tipo cellulare in cui viene trascritto.
+Un esempio è l'\(alpha\)-tropomionina di ratto regola la contrazione
+delle cellule muscolari. Il pre-mRNA subisce schemi di splicing diversi
+a seconda del tipo cellulare in cui viene trascritto.
 
 \subsubsection{Regolazione dello
 splicing}\label{regolazione-dello-splicing}
@@ -3828,7 +3841,7 @@ sul cromosoma X doppio nelle femmina rispetto al maschio.
 
 Questi fattori trascrizionali attivano l'espressione del gene denominato
 \textbf{Sex-lethal (Sxl)} a partire da un suo \emph{promotore precoce}
-(\textbf{P$_e$}).
+(\textbf{P\(_e\)}).
 
 L'azione di questi attivatori trascrizionali (\emph{SisA} e \emph{SisB})
 è contrastata da un repressore trascrizionale codificato dal gene
@@ -3843,11 +3856,12 @@ Al contrario, nei maschi, in cui il livello di \emph{SisA} e \emph{SisB}
 non verrà espresso.
 
 \emph{Sxl} viene poi trascritto, sia nelle femmine che nei maschi, a
-partire da un secondo promotore denominato \textbf{P$_m$} (o di
-mantenimento) a monte di \emph{P$_e$}. Il pre-mRNA così generato subirà
-un diverso processo di splicing nei maschi e nelle femmine,in quanto in
-queste ultime \emph{Sxl}, già presente perchè espressa a partire da
-\emph{P$_e$}, è in grado di autoregolare lo splicing del suo pre-mRNA.
+partire da un secondo promotore denominato \textbf{P\(_m\)} (o di
+mantenimento) a monte di \emph{P\(_e\)}. Il pre-mRNA così generato
+subirà un diverso processo di splicing nei maschi e nelle femmine,in
+quanto in queste ultime \emph{Sxl}, già presente perchè espressa a
+partire da \emph{P\(_e\)}, è in grado di autoregolare lo splicing del
+suo pre-mRNA.
 
 \emph{Sxl} funge da \textbf{repressore} dello splicing inducendo
 l'espressione di due isoforme di mRNA \emph{Sxl}, di cui solo quella
@@ -4004,5 +4018,123 @@ Il trasporto è mediato dai recettori di trasporto nucleare che vengono
 caricati sull'mRNA maturo. Una volta trasportato nel citoplasma il
 recettore di trasporto nucleare si stacca e ritorna nel nucleo per
 essere riciclato.
+
+\subsection{La traduzione}\label{la-traduzione}
+
+\subsubsection{Il codice genetico}\label{il-codice-genetico}
+
+Il codice genetico è lo stesso in tutti gli organismi, procarioti ed
+eucarioti, per cui viene detto che il \emph{codice genetico è}
+\textbf{universale}.
+
+Il codice genetico è formato da 64 codoni (triplette di basi), 3 dei
+quali (\textbf{UAA}, \textbf{UAG} e \textbf{UGA}) non codificano per
+alcun amminoacido, e sono detti \textbf{codoni di stop}. I codoni di
+stop segnalano la terminazione della sintesi proteica.
+
+Gli altri 61 codoni codificano per i 20 tipi di amminoacidi che vengono
+utilizzati nella sintesi proteica: ne deriva che un amminoacido può
+essere codificato da più codoni. I diversi codoni che specificano per lo
+stesso amminoacido vengono chiamati \textbf{codoni sinonimi} e un codice
+così fatto viene detto \textbf{codice degenerato}.
+
+Il codice genetico però \emph{non è ambiguo}, cioè ciascum codone
+codifica per un solo amminoacido, senza eccezioni.
+
+Il protagonista della sintesi proteica è l'RNA:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  l'\textbf{RNA messaggero (mRNA)} porta l'informazione copiata dal DNA
+  sotto forma di codoni;
+\item
+  l'\textbf{RNA transfer (tRNA)} decifra il codice mediante uno
+  specifico anticodone e, associato a lui vi è un particolare
+  amminoacido;
+\item
+  l'\textbf{RNA ribosomale (rRNA)} si associa con una serie di proteine
+  per formare iribosomi, per sintetizzare le proteine.
+\end{itemize}
+
+\subsubsection{Il tRNA}\label{il-trna}
+
+Francis Crick ipotizzò l'esistenza di ``adattatori'' molecolari che
+potessero riconoscere da una parte i codoni del messaggio genetico e
+dall'altra gli specifici amminoacidi da inserire nella sequenza delle
+proteine. Questo adattatore è il \textbf{tRNA (RNA transfer, RNA di
+trasferimento)}. In ogni cellula esiste almeno un tipo di tRNA per
+ciascuno dei 20 tipi di amminoacidi utilizzati nella sintesi proteica,
+ma spesso ve ne è anche più di uno.
+
+I tRNA sono piccole molecole costituite da una sequenza di 73-93 nt. I
+tRNA hanno una caratteristica struttura secondaria a trifoglio
+risultante dall'appaiamento di basi complementari che si trovano in
+diverse regioni della sequenza nucleotidica.
+
+Nella struttura a trifoglio riconosciamo:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  un \textbf{braccio accettore} formato dalle due estremità della
+  molecola;
+\item
+  3 bracci costituiti ciascuno da uno stelo a doppio filamento e da
+  un'ansa di basi non appaiate, chiamato \textbf{braccio T\(\Psi\)C};
+\item
+  un \textbf{braccio D};
+\item
+  un \textbf{braccio dell'anticodone}
+\item
+  un braccio accessorio di lunghezza variabile (a volte).
+\end{itemize}
+
+Il \textbf{braccio accettore} è formato dall'appaiamento delle due
+estremità della molecola, ed è così chiamato perchè su di esso si lega
+l'amminoacido. L'amminoacido si lega all'estremità 3', che è sempre una
+A preceduta da due C.
+
+Il \textbf{braccio T\(\Psi\)C} così chiamato per la presenza, nella sua
+ansa a singolo filamento, di questa sequenza, dove T indica una timina e
+\(\Psi\) indica la base modificata \textbf{pseudouridina}.
+
+Il \textbf{braccio D} prende il nome dalla presenza nella sua ansa di
+un'altra base modificata, la \textbf{diidrouridina}.
+
+Il \textbf{braccio dell'anticodone} è così chiamato per la presenza
+nella sua ansa della tripletta di nucleotidi che riconosce per
+appaiamento di basi il codone sull'mRNA, e si trova sempre fiancheggiata
+al lato 3' da una purina e al lato 5' da un uracile.
+
+Il \textbf{braccio variabile} è situato tra il braccio T\(\Psi\)C e
+quello dell'anticodone ed è di lunghezza variabile da 3 a 21 basi nei
+diversi tRNA.
+
+La struttura a trifoglio non rappresenta la vera struttura dei tRNA. I 4
+steli a doppio filamento infatti, vanno nel loro insieme a formare una
+struttura tridimensionale complessa. La struttura secondaria a trifoglio
+di tutti i tRNA è ripiegata su se stessa a formare una struttura
+terziaria (tridimensionale) a \textbf{L}.
+
+Nella struttura a L troviamo l'anticodone all'estremità del braccio
+lungo della L, questo è esposto verso l'esterno per rotazione della
+regione dell'anticodone. L'amminoacido è caricato sull'estremità del
+braccio corto della L. I due bracci T\(\Psi\)C e D vanno a formare
+l'angolo della L, con le due anse non appaiate all'esterno dell'angolo.
+
+I tRNA non hanno però alcuna diretta affinità specifica per gli
+amminoacidi che devono caricare. Il processo di caricamento degli
+amminoacidi sui corrispondenti tRNA viene catalizzato da una classe di
+enzimi, chiamati \textbf{amminoacil-tRNA sintetasi}.
+
+Mentre ogni amminoacil-tRNA sintetasi riconosce specificamento un solo
+amminoacido, essa riconosce tuti i tRNA sui quali questo può essere
+caricato, cioè i cosiddetti \textbf{tRNA isoaccettori}.
+
+Il ruolo delle amminoacil-tRNA sintetasi è quello di catalizzare la
+formazione di un legame acilico ad alta energia tra il gruppo
+carbossilico dell'amminoacido e il gruppo idrossilico in posizione 2' o
+3' della adenosina che costituisce l'estremità 3' del tRNA.
 
 \end{document}

@@ -1991,6 +1991,90 @@ Solo le molecole di mRNA associate al giusto corredo di proteine dunque, sono se
 Il trasporto è mediato dai recettori di trasporto nucleare che vengono caricati sull'mRNA maturo.
 Una volta trasportato nel citoplasma il recettore di trasporto nucleare si stacca e ritorna nel nucleo per essere riciclato.
 
+## La traduzione
+
+### Il codice genetico
+
+Il codice genetico è lo stesso in tutti gli organismi, procarioti ed eucarioti, per cui viene detto che il *codice genetico è* **universale**.
+
+Il codice genetico è formato da 64 codoni (triplette di basi), 3 dei quali (**UAA**, **UAG** e **UGA**) non codificano per alcun amminoacido, e sono detti **codoni di stop**. I codoni di stop segnalano la terminazione della sintesi proteica.
+
+Gli altri 61 codoni codificano per i 20 tipi di amminoacidi che vengono utilizzati nella sintesi proteica: ne deriva che un amminoacido può essere codificato da più codoni. 
+I diversi codoni che specificano per lo stesso amminoacido vengono chiamati **codoni sinonimi** e un codice così fatto viene detto **codice degenerato**.
+
+Il codice genetico però *non è ambiguo*, cioè ciascum codone codifica per un solo amminoacido, senza eccezioni.
+
+Il protagonista della sintesi proteica è l'RNA:
+
++ l'**RNA messaggero (mRNA)** porta l'informazione copiata dal DNA sotto forma di codoni;
++ l'**RNA transfer (tRNA)** decifra il codice mediante uno specifico anticodone e, associato a lui vi è un particolare amminoacido;
++ l'**RNA ribosomale (rRNA)** si associa con una serie di proteine per formare iribosomi, per sintetizzare le proteine.
+
+### Il tRNA
+
+Francis Crick ipotizzò l'esistenza di "adattatori" molecolari che potessero riconoscere da una parte i codoni del messaggio genetico e dall'altra gli specifici amminoacidi da inserire nella sequenza delle proteine.
+Questo adattatore è il **tRNA (RNA transfer, RNA di trasferimento)**.
+In ogni cellula esiste almeno un tipo di tRNA per ciascuno dei 20 tipi di amminoacidi utilizzati nella sintesi proteica, ma spesso ve ne è anche più di uno.
+
+I tRNA sono piccole molecole costituite da una sequenza di 73-93 nt.
+I tRNA hanno una caratteristica struttura secondaria a trifoglio risultante dall'appaiamento di basi complementari che si trovano in diverse regioni della sequenza nucleotidica. 
+
+Nella struttura a trifoglio riconosciamo:
+
++ un **braccio accettore** formato dalle due estremità della molecola;
++ 3 bracci costituiti ciascuno da uno stelo a doppio filamento e da un'ansa di basi non appaiate, chiamato **braccio T$\Psi$C**;
++ un **braccio D**;
++ un **braccio dell'anticodone**
++ un braccio accessorio di lunghezza variabile (a volte).
+
+Il **braccio accettore** è formato dall'appaiamento delle due estremità della molecola, ed è così chiamato perchè su di esso si lega l'amminoacido.
+L'amminoacido si lega all'estremità 3', che è sempre una A preceduta da due C. 
+
+Il **braccio T$\Psi$C** così chiamato per la presenza, nella sua ansa a singolo filamento, di questa sequenza, dove T indica una timina e $\Psi$ indica la base modificata **pseudouridina**.
+
+Il **braccio D** prende il nome dalla presenza nella sua ansa di un'altra base modificata, la **diidrouridina**.
+
+Il **braccio dell'anticodone** è così chiamato per la presenza nella sua ansa della tripletta di nucleotidi che riconosce per appaiamento di basi il codone sull'mRNA, e si trova sempre fiancheggiata al lato 3' da una purina e al lato 5' da un uracile.
+
+Il **braccio variabile** è situato tra il braccio T$\Psi$C e quello dell'anticodone ed è di lunghezza variabile da 3 a 21 basi nei diversi tRNA.
+
+La struttura a trifoglio non rappresenta la vera struttura dei tRNA.
+I 4 steli a doppio filamento infatti, vanno nel loro insieme a formare una struttura tridimensionale complessa.
+La struttura secondaria a trifoglio di tutti i tRNA è ripiegata su se stessa a formare una struttura terziaria (tridimensionale) a **L**.
+
+Nella struttura a L troviamo l'anticodone all'estremità del braccio lungo della L, questo è esposto verso l'esterno per rotazione della regione dell'anticodone.
+L'amminoacido è caricato sull'estremità del braccio corto della L.
+I due bracci T$\Psi$C e D vanno a formare l'angolo della L, con le due anse non appaiate all'esterno dell'angolo.
+
+I tRNA non hanno però alcuna diretta affinità specifica per gli amminoacidi che devono caricare. 
+Il processo di caricamento degli amminoacidi sui corrispondenti tRNA viene catalizzato da una classe di enzimi, chiamati **amminoacil-tRNA sintetasi**.
+
+Mentre ogni amminoacil-tRNA sintetasi riconosce specificamento un solo amminoacido, essa riconosce tuti i tRNA sui quali questo può essere caricato, cioè i cosiddetti **tRNA isoaccettori**.
+
+Il ruolo delle amminoacil-tRNA sintetasi è quello di catalizzare la formazione di un legame acilico ad alta energia tra il gruppo carbossilico dell'amminoacido e il gruppo idrossilico in posizione 2' o 3' della adenosina che costituisce l'estremità 3' del tRNA. 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
