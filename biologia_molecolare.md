@@ -2053,7 +2053,55 @@ Mentre ogni amminoacil-tRNA sintetasi riconosce specificamento un solo amminoaci
 
 Il ruolo delle amminoacil-tRNA sintetasi è quello di catalizzare la formazione di un legame acilico ad alta energia tra il gruppo carbossilico dell'amminoacido e il gruppo idrossilico in posizione 2' o 3' della adenosina che costituisce l'estremità 3' del tRNA. 
 
+Il caricamento dell'amminoacido sul tRNA avviene in due passaggi consecutivi, entrambi catalizzati dalla stessa amminoacil-tRNA sintetasi:
 
+1. l'amminoacido viene attivato usando l'energia di una moleocla di ATP formando amminoacil-AMP (aa) e rilasciando pirofosfato (PP$_1$);
+
+(immagine 52)
+
+2. l'energia dell'amminoacil-AMP viene utilizzata per trasferire l'amminoacido al tRNA per formare amminoacil-tRNA con liberazione di AMP.
+
+
+(immagine 53)
+
+
+Le amminoacil-tRNA sintetasi hanno sempre 3 siti di legame:
+
+1. uno per l'amminoacido;
+2. uno per il tRNA corrispondente;
+3. uno per la molecola di ATP necessaria alla reazione.
+
+Le amminoacil-tRNA sintetasi possono essere monomeriche, dimeriche o tetrameriche, ma svolgono sempre la stessa funzione.
+Sulla base della struttura del loro sito attivo, le sintetasi possono essere divise in due gruppi:
+
+1. le **sintetasi di classe I**, generalmente monomeriche, legano inizialmente l'amminoacido al 2'OH del tRNA;
+2.le **sintetasi di classe II**, generalmente dimeriche o tetrameriche, legano l'amminoacido al 3'OH del tRNA.
+
+
+Esistono dei meccanismi di controllo dell'accuratezza del caricamento dei tRNA; questo meccanismo viene detto di **"correzione di bozze"**.
+In genere le sintetasi escludono dal sito di attivazione alcuni amminoacidi perchè troppo grandi o con forme diverse da quella corretta, ma possono erroneamente accettare un amminoacido errato strutturalemnte simile a quello corretto.
+
+La frequenza di errore viene ridotta dal passaggio dell'amminoacil-AMP, prima del trasferimento sul tRNA, in un *"sito di correzione"* presente nell'enzima stesso.
+
+**Esempio:** amminoacil-sintetasi per l'isoleucina di *E. coli*.
+
+Questa sintasi esclude dal sito alcuni amminoacidi perchè strutturalmente troppo grandi o non compatibili, ma può accettarne altre sempre non corrette, come la *valina* e attivarla (cioè legarla all'AMP.
+L'amminoacido attivato però, prima di essere trasferito sul tRNA, transita nel sito di correzione dell'enzima stesso che, se l'amminoacido è corretto (in questo caso l'isoleucina), lascia prosegure la reazione, mentre se coinvolge un amminoacido errato (come la valina) porta a idrolisi del *Val-AMP*.
+
+La frequenza con cui la valina viene caricata erroneamente sull'AMP è di 1/225, mentre la frequenza con cui il meccanismo di correzione fallisce è di 1/270.
+Questo significa che la frequenza con cui viene formato Val-tRNA$^I$$^l$$^e$ è di: (1/225 x 1/270) = 1/60.000
+
+
++ **La teoria del vacillamento**
+
+Poiché il codice genetico utilizza 61 codoni diversi per specificare 20 amminoacidi, ci si aspetta che nella sintesi proteica siano coinvolti 61 diversi tRNA, di cui alcuni caricati con lo stesso amminoacido. Tuttavia molti tRNA riconoscono più di un codone, facendo sì che il numero dei tRNA totali sia molto inferiore a 61 (es. nell'uomo sono presenti solo 48 tRNA diversi).
+
+La degenerazione del codice genetico in terza posizione (uno stesso amminoacido può essere espresso da più triplette che differiscono solo per la terza base), suggerì che nel riconoscimento codone-anticodone fossero implicati solo due appaiamenti di basi (1a e 2a del codone, 3a e 2a dell'anticodone).
+Non ci sarebbe un appaiamento specifico tra la 3a base del codone e la 1a dell'anticodone.
+
+Crick propose la **teoria del vacillamento (wobble)**, per cui nell'appaiamento codone-anticodone nel sito di decodificazione del ribosoma, l'ansa dell'anticodone del tRNA presenta una certa deformazione strutturale conferendo al tRNA una certa flessibilità di appaiamento.
+
+Inoltre, nella posizion 1 dell'anticodone, possono essere presenti basi modificate quali l'inosina e la tiouridina che hanno proprietà di appaiamento delle basi particolari.
  
 
 
