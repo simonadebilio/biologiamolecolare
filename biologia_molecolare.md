@@ -2046,6 +2046,12 @@ Nella struttura a L troviamo l'anticodone all'estremità del braccio lungo della
 L'amminoacido è caricato sull'estremità del braccio corto della L.
 I due bracci T$\Psi$C e D vanno a formare l'angolo della L, con le due anse non appaiate all'esterno dell'angolo.
 
+I tRNA vengono trascritti sotto forma di precursori che dovranno subire un processo di maturazione per generare i tRNA funzionali.
+
+I pre-tRNA eucariotici e procariotici contengono estremità più estese sia al 5' che al 3' che dovranno essere rimosse dall'azione di endonucleasi ed esonucleasi per generare le molecole di tRNA mature e funzionali.
+L'estremità 5' del tRNA maturo viene generata d aun taglio endonucleolitico catalizzato dall'enzima **RNasi P**, una ribonucleoproteina la cui componente primaria è l'**RNA M1** che esercita l'attività catalitica.
+
+
 I tRNA non hanno però alcuna diretta affinità specifica per gli amminoacidi che devono caricare. 
 Il processo di caricamento degli amminoacidi sui corrispondenti tRNA viene catalizzato da una classe di enzimi, chiamati **amminoacil-tRNA sintetasi**.
 
@@ -2104,11 +2110,38 @@ Crick propose la **teoria del vacillamento (wobble)**, per cui nell'appaiamento 
 Inoltre, nella posizion 1 dell'anticodone, possono essere presenti basi modificate quali l'inosina e la tiouridina che hanno proprietà di appaiamento delle basi particolari.
  
 
+### Il ribosoma
+
+I ribosomi sono delle *"macchine molecolari"* che sintetizzano le proteine decodificando l'informazione portata dall'mRNA.
+
+Tutti i ribosomi, sia procariotici che eucariotici, sono delle particelle ribonucleoproteiche, cioè sono composti da alcune molecole di RNA (**rRNA**) e da numerose proteine (**rp = proteine ribosomali**),
+
+rRNA e r-proteine sono assemblati a costituire due subunità ribosomali distinte, una maggiore e una minore.
+
+I ribosomi, le loro subunità e gli RNA che li compongono vengono generalemnte denominati in base alla loro velocità di sedimentazione.
+I valori in S delle subunità non sono additivi rispetto a quelli dei ribosomi interi perchè la velocità di sedimentazione non è direttamente proporzionale alla massa.
+
+I ribosomi procariotici sono, nel loro intero, denominati **70S** e sono formati da una subunità **30S** e da una **50S**.
+Quelli eucarioti sono, nel loro insieme, denominati **80S** e sono formati da una subunità **40S** e da una **60S**.
+
+Se in una cellula si nota un'alta presenza di rRNA significa che vi sono molti geni codificanti.
+
+La sintesi e la maturazione degli rRNA avviene nel nucleolo (corpo
+granulare sferico non delimitato da membrana).
+I geni codificanti per gli rRNA vengono trascritti sotto forma di grandi molecole di RNA precursore **pre-rRNA** che poi daranno origine alle molecole di RNA mature in seguito all'escissione delle porzioni in eccesso. Questo processo è denominato **processing (processamento)**.
+
+Il processing consiste in una serie di tagli endonucleolitici ed esonucleolitici 3'$\rightarrow$ 5' e 5' $\rightarrow$-3', ma non si ha la concatenazione dei frammenti prodotti (come avviene invece nello splicing).
+Il processing incomincia quando la trascrizione è quasi completata.
 
 
+In *E. coli* i geni per gli rRNA sono presenti in 7 copie, organizzati in altrettanti operoni ciascuno dei quali contiene una copia di ciascun tipo di rRNA (rRNA 5S, rRNA 16S, rRNA 23S).
 
+La trascrizione dell'operone genera un RNA precursore 30S che poi subirà un processing che richiede l'azione della **RNasi III**.
+Questo enzima effettua tagli endonucleoltici in 2 regioni complementari che fiancheggiano sia l'rRNA 16S che 23S.
 
+I pre-rRNA separati sono processati dalla **RNasi E** (endonucleasi, responsabile della rimozione dell'rRNA 5S dalla molecola precursore) al 5', ed al 3' dalla esonucleasi **RNasi T**.
 
+(immagine 54)
 
 
 
