@@ -2143,7 +2143,53 @@ I pre-rRNA separati sono processati dalla **RNasi E** (endonucleasi, responsabil
 
 (immagine 54)
 
+Il gene per l'rRNA 5S sono organizzati in tandem, hanno una diversa localizzazione nel genoma, non sono trascritti nel nucleolo e sono trascritti dalla RNA pol III. 
+Viene processato per rimozione dei nt al 3'. Entra poi nel nucleolo.
 
+Come snoRNP (ribonucleoproteine) gli RNA guida si appaiano a regioni complementari del pre-rRNA e portano un enzima che modifica la posizione appropriata.
+Altri RNA guida provocano modificazioni conformazionali della struttura del pre-rRNA esponendo i siti di taglio alla nucleasi per formare l’rRNA maturo. 
+Tutti questi RNA sono snoRNA ed agiscono insieme a proteine per formare le snoRNP (es. snoRNA E1 e E2 partecipano alla maturazione del 18S e snoRNA E3 a quella del 5.8S).
+
+Gli rRNA hanno una struttura secondaria complessa dovuta ad appaiamenti di basi intramolecolari tra regioni complementari.
+Le regioni appaiate assumono una struttura a doppia elica e nel loro insieme si ripiegano, nel ribosoma, in una complessa struttura tridimensionale.
+
++ **La biogenesi dei ribosomi**
+
+(immagine 55)
+
+La biogenesi dei ribosomi è stata studiata in S. cerevisiae; è un processo dinamico che comprende la sintesi e la modificazione dell'rRNA, l'assemblaggio con le r-proteine e l'assemblaggio transitorio con proteine non rp.
+
+Una volta avvenuto l'assemblaggio i ribosomi vengono trasportati attraverso i pori nucleari nel citoplasma.
+
++ **La struttura del ribosoma**
+
+La struttura complessiva dei ribosomi è dovuta soprattutto agli rRNA che con la loro struttura tridimensionale costituiscono l'impalcatura
+su cui si assemblano le rp. 
+Le rp si trovano per lo più nella parte esterna del ribosoma, e hanno in genere una struttura globulare con prolungamenti che si infilano nell'rRNA.
+
+Le rp (rpL e rpS) assistono l'rRNA nel ripiegamento e nell'acquisizione della sua corretta struttura tridimensionale. 
+Le rp sono in genere delle proteine piccole e basiche che non partecipano direttamente alla catalisi.
+
+Nella struttura della subunità minore 30S distinguiamo una "base" e una "testa"; dalla base protrude una "piattaforma" che è separata dalla testa da un "solco". 
+Nella subunità maggiore 50S osserviamo una "protuberanza centrale" fiancheggiata da un lato da un "peduncolo" e dall'altro da una "cresta". Quest'ultima è separata dalla protuberanza centrale da una "valle".
+
+(immagine 56)
+
+Il ribosoma ha 3 siti di legame per il tRNA: 
+
+1. il **sito A** (accettore), che lega il tRNA amminoacilato in ingresso;
+2. il **sito P** (peptidilico), che lega l'ultimo tRNA entrato e porta la catena peptidica nascente;
+3. il **sito E** (exit), che lega il tRNA scarico che deve essere rilasciato.
+
+I siti A e P si trovano a cavallo tra le due subunità, cosicché ciascuno di essi è composto di due emisiti, uno nella subunità minore e uno nella subunità maggiore del ribosoma.
+
+I tRNA sono posizionati in modo che gli anticodoni, che si torvano all'estremo del braccio lungo della struttura a L dei tRNA, si possano appaiare con i codsoni dell'mRNA nella subunità minore del ribosoma in quello che viene chiamato **centro di decodificazione**.
+Le estremità del braccio corto della struttura a L dei tRNA che portano l'amminoacido e il peptide nascente, si trovano nella subunità maggiore e in particolare nel **centro della peptidil transferasi**, sito responsabile della formaizone dei legami peptidici.
+
+Nella subunità 30S sono presenti due piccoli canali, uno di entrata e uno di uscita, in cui scorre l'mRNA durante il processo di traduzione.
+
+Il canale di entrata è di una larghezza tale per cui l'mRNA perde le sue strutture secondarie ed entra disteso nel centro di deocdificazione, dove gli appaiamenti codone-anticodone nei siti A e P sono facilitati dal fatto che, tra i due codoni, l'mRNA forma un angolo.
+Nella subunità 50S si trova un altro canale, il tunnel per l;uscita della catena peptidica nascente che attraversa la subunità partendo dal centro peptidil transferasico.
 
 
 
