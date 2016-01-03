@@ -2170,6 +2170,13 @@ Le rp si trovano per lo più nella parte esterna del ribosoma, e hanno in genere
 Le rp (rpL e rpS) assistono l'rRNA nel ripiegamento e nell'acquisizione della sua corretta struttura tridimensionale. 
 Le rp sono in genere delle proteine piccole e basiche che non partecipano direttamente alla catalisi.
 
+E` possibile costituire subunità ribosomali funzionanti in vitro.
+Perchè questo avvenga le r-proteine devono essere aggiunte all'rRNA in *gruppo con un ordine definito*.
+
+In E. coli il primo passaggio della ricostituzione della subunità 30S è l'associazione dell'rRNA 16S con un gruppo di 15 r-proteine, che sono le ultime che si erano staccate al momento della dissociazione della subunità ribosomale. Solo dopo si ha l'assemblaggio delle rimanenti 6 r-proteine (le prime che si erano dissociate).
+All'interno di questi gruppi anche le singole r-proteine si associano alla ribonucleoproteina in formazione con un ordine preciso: alcune si associano per prime legandosi direttamente all'rRNA, mentre altre si possono associare solo dopo che si sono assemblate le prime.
+
+
 Nella struttura della subunità minore 30S distinguiamo una "base" e una "testa"; dalla base protrude una "piattaforma" che è separata dalla testa da un "solco". 
 Nella subunità maggiore 50S osserviamo una "protuberanza centrale" fiancheggiata da un lato da un "peduncolo" e dall'altro da una "cresta". Quest'ultima è separata dalla protuberanza centrale da una "valle".
 
@@ -2189,7 +2196,115 @@ Le estremità del braccio corto della struttura a L dei tRNA che portano l'ammin
 Nella subunità 30S sono presenti due piccoli canali, uno di entrata e uno di uscita, in cui scorre l'mRNA durante il processo di traduzione.
 
 Il canale di entrata è di una larghezza tale per cui l'mRNA perde le sue strutture secondarie ed entra disteso nel centro di deocdificazione, dove gli appaiamenti codone-anticodone nei siti A e P sono facilitati dal fatto che, tra i due codoni, l'mRNA forma un angolo.
-Nella subunità 50S si trova un altro canale, il tunnel per l;uscita della catena peptidica nascente che attraversa la subunità partendo dal centro peptidil transferasico.
+Nella subunità 50S si trova un altro canale, il tunnel per l'Fuscita della catena peptidica nascente che attraversa la subunità partendo dal centro peptidil transferasico.
+
+(immagine 57)
+
+## I meccanismi della sintesi proteica 
+
+Sia nei procarioti che negli eucarioti la sintesi di tutte le proteine inizia all'*estremità ammino terminale* (segue la direzione NH$_2$-terminale $\rightarrow$ COOH-terminale) come l'amminoacido **metionina**.
+
+Questo aa è codificato dal codone **AUG** (in alcuni casi vengono usati i codoni GUG e UUG).
+
+La sintesi proteica si divide in 3 fasi: inizio, allungamento e terminazione.
+
+### L'inizio della sintesi nei procarioti
+
+Nei procarioti la metionina di inizio è modificata chimicamente per aggiunta di un **gruppo formilico** che ne blocca il gruppo amminico.
+Questo avviene ad opera dell'enzima **metionil-tRNA transformilasi** dopo essere stata caricata sul tRNA.
+
+Il gruppo amminico degli aa, durante la sintesi proteica, è essenziale per la formazione del legame peptidico con l'aa precedente. La presenza del gruppo formilico impedisce perciò alla metionina modificata di essere utilizzata nella fase di allungamento.
+
+Per questo motivo nella cellula ci sono 2 tipo di tRNA per la metionina:
+
++ il tRNA di inizio **tRNA$_i$$^f$$^M$$^e$$^t$** per la metionina che verrà formilata;
++ il **tRNA$^M$$^e$$^t$** per le metionine che saranno inserite internamente alle catene peptidiche.
+
+Inoltre il tRNA di inizio fMet-tRNA$_i$$^f$$^M$$^e$$^t$ entra direttamente nell'*emisito P* senza passare nel sito A (come tutti gli altri amminoacil-tRNA).
+
+(immagine 59)
+
+L'inizio della traduzione convolge sempre l'interazione preliminare tra la sub. minore del ribosoma, fMet-tRNA$_i$$^f$$^M$$^e$$^t$, e mRNA (formano sub. 30S).
+Solo successivamente viene richiamata la subunità maggiore e si forma il complesso di inizio 70S.
+
+E' necessario che il complesso di inizio si assembli sull'mRNA in corrispondenza del codone di inizio (in genere AUG).
+I codoni AUG possono ovviamente essere presenti in più punti durante la fase di lettura aperta (ORF) senza però avere la funzione di segnale di inizio della traduzione.
+
+Come viene selezionato un codone AUG di inizio?
+
+Pochi nucleotidi a monte dell'AUG di inizio troviamo una sequenza molto conservata che viene chiamata **sequenza di Shine-Dalgarno (SD)**.
+Questa sequenza, AGGAGG, precede di 7 nucleotidi il codone di inizio e rappresenta il sito di legame dei ribosomi all'mRNA.
+
+Questa sequenza viene riconosciuta da una sequenza complementare di pirimidine sull'rRNA 16S della subunità ribosomiale minore (30S).
+L'interazione è fra estremità 3' dell'rRNA 16S con la sequenza di Shine-Dalgarno (è sufficiente un appaiamento di 4-6 basi).
+
+(immagine 58)
+
+#### Fattori di inizio nei procarioti
+
+Per il processo di inizio sono necessari anche vari fattori proteici, detti **fattori di inizio**, che nei procarioti sono solo 3: 
+
++ **IF1** 
+	1. contribuisce insieme a IF3 alla dissociazione del ribosoma 70S;
+	2. si lega alla subunità 30S nella regione che andrà a formare il sito A del ribosoma impedendo agli amminoacil-tRNA di entrarvi;
+
+2. **IF2** è una GTPasi (lega e idrolizza GTP per funzionare) che:
+	1. interagisce con la sub. 30S;
+	2. promuove l'associazione con fMet-tRNA$_i$$^f$$^M$$^e$$^t$ all'emisito P;
+	3. impedisce l'interazione con altri tRNA carichi;
+
+3. **IF3** 
+	1. è coinvolto nella dissociazione dei ribosomi interi nelle due subunità;
+	2. legato alla sub. 30S è essenziale perchè questa si leghi in modo specifico al sito di inizio sull'mRNA;
+	3. impedisc eil precoce legame con la sub. 50S;
+	4. aumenta la specificità del sito P per tRNA$_i$$^f$$^M$$^e$$^t$.
+
+Tutti e tre i fattori interagiscono con la subunità minore del ribosoma e sono necessari per la formazione del complesso di inizio 30S.
+
+#### Processo di inizio della traduzione nei procarioti
+
+Si ha un primo intervento di IF1, che legandosi alla sub. 30S nel ribosoma intero contribuisce alla dissociazione dello 2 sub..
+IF3 invece interagisce solo con la sub. 30S già dissociata e, impedendone la riassociazione con la sub. 50S la mantiene disponibile per un nuovo inizio.
+
+A questo punto **IF2-GTP** va a legarsi alla subunità 30S in prossimità dell'emisito P dove promuove l'ingresso del tRNA di inizio fMet-tRNA$_i$$^f$$^M$$^e$$^t$. A questo punto si ha il legame, mediato da IF3, dell'mRNA alla sub. 30S.
+
+Nel complesso di inizio 30S la presenza di IF1 e IF2 alle adiacenze degli emisiti A e P impedisce l'interazione della sub. ribosomale con qualsiasi altro tRNA carico tranne fMet-tRNA$_i$$^f$$^M$$^e$$^t$.
+
+Successivamente si ha l'associazione del complesso di inizio 30S con la subunità ribosomale 50S formando così il complesso 70S.
+Perchè questo avvenga devono essere rlasciati i fattori IF1 e IF3 (questo permette l'assemblaggio della sub. grande) e successivamente il rilascio di IF2 che dipende dall'idrolisi di GTP in GDP.
+
+Il complesso d'inizio a questo punto è formato da:
+
++ il ribosoma intero 70S;
++ un mRNA;
++ un fMet-tRNA$_i$$^f$$^M$$^e$$^t$.
+
+Ora può iniziare la fase di allungamento.
+
+
+### L'inizio della sintesi negli eucarioti
+
+Anche negli eucarioti la traduzione inizia con la formazione di un complesso tra la subunità ribosomale minore, l'mRNA e il tRNA di inizio, che vanno a costituire il **complesso di pre-inizio 43S**.
+
+A differenza dei procarioti, negli eucarioti la metionina di inizio *non* è formilata.
+Esistono comunque due tRNA per la metionina, uno utilizzato per l'inizio chiamato **tRNA$_i$$^M$$^e$$^t$**, e uno per la fase di allungamento chiamato **tRNA$^M$$^e$$^t$**.
+
+Un'altra differenza è il meccanismo di interazione tra mRNA e sub. piccola del ribosoma.
+Nei procarioti, la sequenza di SD permette un inizio della traduzione "interno" all'mRNA e quindi la possibilità di mRNA policistronici.
+Negli eucarioti, invece, la sub. minore del ribosoma interagisce inizialmente con l'estremità 5' dell'mRNA e da lì migra, mediante un processo di "scansione", lungo la 5'UTR fino a trovare il primo AUG che verrà utilizzato come codone di inizio della traduzione.
+Questo meccanismo è incompatibile con la presenza di più sequenze codificanti in una singola molecola di mRNA.
+
+#### Fattori di inizio
+
+Mentre nei procarioti sono necessari 3 fattori, ciascuno costituito da una singola catena polipeptidica, negli eucarioti i fattori sono più del doppio e sono molto grandi e costituiti da più subunità.
+
+I fattori di inizio eucariotici vengono indicati con la signa **eIF** cui seguono numeri e lettere di specificazione.
+
+#### Processo di inizio della traduzione negli eucarioti
+
+
+
+
 
 
 
