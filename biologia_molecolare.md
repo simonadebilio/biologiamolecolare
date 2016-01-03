@@ -1981,7 +1981,7 @@ Procedimento:
 
 ### Traslocazione nucleo-citoplasmatica degli RNA
 
-Una volta completato il processo di maturazione all'interno del nucleo gli RNA devono essere traslocati nel citoplasma, dove l'mRNA maturo putrà essere tradotto in proteina.
+Una volta completato il processo di maturazione all'interno del nucleo gli RNA devono essere traslocati nel citoplasma, dove l'mRNA maturo pfà essere tradotto in proteina.
  
 Il trasporto di molecole con PM superiore ai 50kDa avviene tramite un processo di trasporto attivo (richiede energia) mediato dal **complesso del poro nucleare (NPC)**, grandi complessi multiproteici i cui componenti sono denominati **nucleoporine**.
 
@@ -2291,7 +2291,7 @@ Esistono comunque due tRNA per la metionina, uno utilizzato per l'inizio chiamat
 
 Un'altra differenza è il meccanismo di interazione tra mRNA e sub. piccola del ribosoma.
 Nei procarioti, la sequenza di SD permette un inizio della traduzione "interno" all'mRNA e quindi la possibilità di mRNA policistronici.
-Negli eucarioti, invece, la sub. minore del ribosoma interagisce inizialmente con l'estremità 5' dell'mRNA e da lì migra, mediante un processo di "scansione", lungo la 5'UTR fino a trovare il primo AUG che verrà utilizzato come codone di inizio della traduzione.
+Negli eucarioti, invece, la sub. minore del ribosoma interagisce inizialmente con l'estremità 5' dell'mRNA e da lì migra, mediante un processo di "scansione", lungo la **5'UTR** (*Untraslated region*, è la regione dell'mRNA che si trova a monte rispetto al codone di inizio).fino a trovare il primo AUG che verrà utilizzato come codone di inizio della traduzione.
 Questo meccanismo è incompatibile con la presenza di più sequenze codificanti in una singola molecola di mRNA.
 
 #### Fattori di inizio
@@ -2301,6 +2301,45 @@ Mentre nei procarioti sono necessari 3 fattori, ciascuno costituito da una singo
 I fattori di inizio eucariotici vengono indicati con la signa **eIF** cui seguono numeri e lettere di specificazione.
 
 #### Processo di inizio della traduzione negli eucarioti
+
+I fattori **eIF1**, **eIF1A** e **eIF3** svolgono le stesse funzioni di IF1
+e IF3 procariotici, cioè contribuiscono alla dissociazione del ribosoma intero 80S nelle due subunità legando la subunità piccola 40S e alla stabilizzazione del complesso di inizio.
+
+Il fattore **eIF-2B** permette il legame di una molecola di GTP a
+**eIF-2**; questo legame aumenta l'affinità di eIF-2 per il Met-tRNA$_i$$^M$$^e$$^t$. Il Met-tRNAi viene legato a **eIF2-GTP**, formando un
+complesso ternario (Met-tRNA$_i$$^M$$^e$$^t$/eIF2-GTP) che viene
+caricato sul 40S da **eIF5**.
+
+Si ha così la formazione del **complesso di pre-inizio 43S** che comprende una subunità 40S, il Met-tRNA$_i$$^M$$^e$$^t$ e i fattori finora indicati.
+
+Separatamente si forma un complesso tra l'mRNA e il fattore **eIF4**; eIF4 è composto dalle subunità **eIF4A**, **eIF4B**, **eIF4E**, **eIF4G**.
+
+**eIF4G** è una grande proteina che costituisce un'impalcatura su cui si monta il complesso. E` legata a **eIF4E** e a **eIF4A**, insieme alle quali costituisce l'intermedio che prende il nome di **eIF4F**.
+
+eIF4F interagisce con l'mRNA mediante un'interazione specifica tra la subunità eIF4E e il cap legato all'ultimo nucleotide presente all'estremita 5' di tutti gli mRNA eucariotici. Per questo motivo viene anche chiamato **cap binding protein**.
+
+Successivamente, l'interazione tra il complesso di pre-inizio 43S e il complesso eIF4F/mRNA risulta nel **complesso di pre-inizio 48S** in cui l'estremità 5' dell'mRNA è legata alla subunità ribosomale 40S.
+
+A questo punto la sub 40S con i fattori associati inizia la scansione, ATP-dipendente, lungo la 5'UTR fino a trovare il codone di inizio AUG.
+ 
+Poichè la scansione può essere ostacolata dalla presenza di strutture secondarie (si formano per appaiamento intramolecolare di basi complementari) è necessaria un'*attività elicasica* che sciolga queste strutture.
+Questa attività è svolta dai fattori **eIF4A** e **eIF4B** che denaturano ogni struttura secondaria si trovi tra i primi 15 nucleotidi (solo eIF4A) e oltre i primi 15 nucleotidi (sia eIF4A che eIF4B).
+
+Anche negli eucarioti sono state identificate delle sequenze consenso, anche se non molto stringenti, dette **sequenze di Kozak** (RNNAUGG, dove R indica una purina).
+
+Durante la scansione la subunità 40S porta, nell'emisito P, il tRNA iniziatore il cui anticodono si appaia sul codone di inizio AUG. 
+Quando la sub. 40S si trova sul codone di inizio può essere reclutata la subunità la sub. 60S formando così il complesso 80S.
+
+Perchè questo avvenga è necessario il fattore antiassociativo **eIF6** che lega 60S impedendone  la riassociazione con la sub. 40S, mantenendola disponibile all'utilizzo.
+
+Perchè 60S possa essere reclutata, è anche necessario che il complesso di inizio 48S rilasci i fattori eIF2 e eIF3.
+Il reclutamento della sub. 60S porta al rilascio dei rimanenti fattori di inizio, con idrolisi di GTP da parte di **eIF5B**.
+
+Un'altra proteina è coinvolta nell'inizio della traduzione, la **PABP**, che si trova associata in varie copie alla coda poli(A) che si trova all'estremità 3' degli mRNA eucariotici.
+Questa proteina, pur rimanendo legata al poli(A), interagisce con il fattore di inizio eIF4G associato all'estremità 5' dello stesso mRNA.
+Questa interazione porta a contatto le due estremità dell'mRNA, che quindi assume una configurazione circolare (o ad ansa), cosicchè i ribosomi che terminano la traduzione al 3' dell'mRNA vengono rilasciati in prossimità del 5'.
+
+Il fattore eIF4F resta legato al cap tramite la sua subunità eIF4E.
 
 
 
