@@ -68,10 +68,11 @@ Se si riduce l'umidità relativa in cui si trova la fibra di DNA, esso assume la
 + le coppie di basi presentano una maggiore rispetto al piano perpendicolare all'asse della doppia elica;
 
 Questa forma è stata riconosciuta tramite studi di diffrazione ai raggi X in condizioni di *minore umidità (75%)* e *alta salinità*.
-Questa è, in vivo, la struttura tipica dei duplex DNA-RNA e RNA-RNA.  Il 2'-OH del ribosio impedisce alla molecola di assumere la forma B.
+Questa è, in vivo, la struttura tipica dei duplex DNA-RNA e RNA-RNA.
+Il 2'-OH del ribosio impedisce alla molecola di assumere la forma B.
 
 L'ultima conformazione è la **forma Z**. 
-Questa forma è *sinistrorsa* a causa del cambiamento dell’orientamento  del legame glucosidico base-zucchero tra la guanina e il deossiribosio. Nella forma B lo zucchero e la base sono presenti nella conformazione "anti", mentre nella forma Z si presentano nella conformazione "syn".
+Questa forma è *sinistrorsa* a causa del cambiamento dell’orientamento del legame glucosidico base-zucchero tra la guanina e il deossiribosio. Nella forma B lo zucchero e la base sono presenti nella conformazione "anti", mentre nella forma Z si presentano nella conformazione "syn".
 La forma Z ha un passo di 46 A, con 12 coppie di basi
 per giro d'elica, e un diametro di 18 A. 
 Rispetto alla forma B (passo 34Å), questo DNA ha una forma allungata e magra.
@@ -250,7 +251,7 @@ OriC di E. coli (genoma 4,2 Mbp) è una regione di 248 bp che contiene al suo in
 + 3 regioni di 13 bp ricche in AT;
 + 4 regioni di 9 bp (siti di legame per l’iniziatore DnaA).
 
-La particolarità di essere ricche in A e T è risultata, come vedremo, una caratteristica comune alle origini di replicazione identificate in altri organismi ed è legata al fatto che un'origine  di replicazione, per funzionare, deve potersi aprire ed è necessaria meno energia per denaturare localmente una regione di DNA ricca in A e T piuttosto che in C e G.
+La particolarità di essere ricche in A e T è risultata, come vedremo, una caratteristica comune alle origini di replicazione identificate in altri organismi ed è legata al fatto che un'origine di replicazione, per funzionare, deve potersi aprire ed è necessaria meno energia per denaturare localmente una regione di DNA ricca in A e T piuttosto che in C e G.
 
 ### Il processo replicativo
 
@@ -315,7 +316,7 @@ Il passaggio successivo consiste nel caricamento di **DnaB** e **DnaC** a livell
 DnaB possiede un'attività elicasica, per cui consumando ATP è in grado di separare i due filamenti di DNA. Lo svolgimento del DNA sia nella fase iniziale che nel successivo processo di allungamento della sintesi del DNA genera una tensione torsionale del DNA che è risolta da enzimi in grado di modificare la topologia del DNA e chiamati "DNA topoisomerasi".
 
 La bolla di denaturazione creatasi tende spontaneamente a rinaturare: per evitare questo il DNA a singolo filamento originatosi viene stabilizzato dal legame della **proteina SSB** alla regione di ssDNA.
-SSB è una proteina che ha un'affinità maggiore per il DNA  a singolo filamento che a doppio filamento.
+SSB è una proteina che ha un'affinità maggiore per il DNA a singolo filamento che a doppio filamento.
 
 Le proteine DnaA e SSB interagiscono con il DNA in modo cooperativo: questo sta a indicare che il legame tra una molecola di SSB all'ssDNA facilita il legame di una seconda molecola di SSB alla stessa molecola di DNA.
 
@@ -376,7 +377,7 @@ L’enzima di E. coli utilizza NAD come cofattore in sostituzione ad ATP, mentre
 
 (immagine 13)
 
-La terminazione della replicazione di E. coli è controllata da ripetizioni di una breve sequenza di 23 pb,  chiamata **ter**. 
+La terminazione della replicazione di E. coli è controllata da ripetizioni di una breve sequenza di 23 pb, chiamata **ter**. 
 Le sequenze *ter* sono posizionate a circa 180° rispetto a *oriC* e le diverse sequenze fanno terminare l'una o l'altra delle due forcelle di replicazione. 
 Per impedire il movimento delle forcelle di replicazione le sequenze *ter* vengono riconosciute da una **controelicasi unidirezionale (Tus)** che lega una proteina chiamata **TBP (Ter Binding Protein)** che impedisce alla forca replicativa di procedere oltre. 
 
@@ -423,7 +424,7 @@ Il complesso è chiamato **polimerasi $\alpha$-primasi**.
 
 Per dividersi e proliferare, tutte le cellule eucariotiche devono eseguire correttamene un programma genetico, definito ciclo cellulare, che sovrintende alla corretta replicazione e segregazione del materiale ereditario nelle cellule figlie.
 
-La selezione e preparazione delle origini di replicazione del DNA negli eucarioti inizia quando le cellule escono dalla mitosi e prosegue  nella fase G1 del ciclo cellulare.
+La selezione e preparazione delle origini di replicazione del DNA negli eucarioti inizia quando le cellule escono dalla mitosi e prosegue nella fase G1 del ciclo cellulare.
 In questo lasso di tempo si forma su ciascuna origine un **complesso di pre-replicazione (pre-RC)**.
 
 Il costituente principale del pre-RC è il complesso ORC.
@@ -576,7 +577,7 @@ I danni causati al DNA possono essere dovuti a:
 I processi riparativi possono essere raggruppati essenzialmente in 3 classi:
 
 + riparazione diretta del danno, in cui le basi vengono revertite chimicamente (es. fotoattivazione);
-+  riparazione tramite escissione, in cui segmenti più o meno lunghi di un filamento di DNA danneggiato vengono eliminati con siccessiva sintesi riparativa  utilizzando il filamento intatto come stampo;
++ riparazione tramite escissione, in cui segmenti più o meno lunghi di un filamento di DNA danneggiato vengono eliminati con siccessiva sintesi riparativa utilizzando il filamento intatto come stampo;
 + riparazione tramite aggiramento del danno (sintesi di translesione).
 
 Una prima opera di riparazione dei danni al DNA viene eseguita dalle DNA polimerasi.
@@ -724,7 +725,7 @@ Anche negli eucarioti è necessario che venga riconosciuto il filamento neosinte
 Negli eucarioti la metilazione del DNA non sembra giocare un ruolo altrettanto importante nella discriminazione dei filamenti, ma probabilmente sono interazioni proteina-proteina tra fattori di replicazione e proteine dell'MMR a giocare un ruolo rilevante nella scelta del filamento che deve essere riparato.
 Il meccanismo di discriminazione sembra poi essere diverso per il filamento leading e quello lagging.
 
-L'apparato enzimatico  che agisce durante la replicazione del DNA può compiere alcuni errori. 
+L'apparato enzimatico che agisce durante la replicazione del DNA può compiere alcuni errori. 
 Per esempio, sul filamento neosintetizzato può venire inserita una base sbagliata, oppure si possono formare delle piccole bolle dovute allo scivolamento dell'apparato replicativo in corrispondenza di sequenze nucleotidiche ripetute.
 
 Tali strutture anomale sono riconosciute dai complessi MutS$\alpha$ e MutS$\beta$ che reclutano, successivamente, i complessi MutL$\alpha$ e MutL$\beta$ (questi complessi sono omologhi di quelli di E. coli ma hanno maggiore specificità).
@@ -744,7 +745,7 @@ La riparazione fisica dei DSB avviene principalmente mediante un meccanismo di r
 
 Il primo meccanismo è chiamato **HR** (Homologous Recombination) e richiede l'azione di numerose proteine ricombinative.
 
-Nel meccanismo di HR, il complesso eterotrimerico Mre11/Rad50/Nbs1 (chiamato **MRN**) con l'ausilio di altre proteine come **Rad51** e **Rad52**, modifica il DBS originario causando la degradazione in  direzione 5' $\rightarrow$ 3' delle due estremità 5' di ciascun DSB.
+Nel meccanismo di HR, il complesso eterotrimerico Mre11/Rad50/Nbs1 (chiamato **MRN**) con l'ausilio di altre proteine come **Rad51** e **Rad52**, modifica il DBS originario causando la degradazione in direzione 5' $\rightarrow$ 3' delle due estremità 5' di ciascun DSB.
 
 Si generano, così, delle regioni di DNA a singolo filamento che sono stabilizzate dal legame della **proteina RPA**.
 Successivamente le proteine Rad51, Rad52 e altre proteine ricombinative, scalzano RPA e formano un filamento nucleoproteico in cui il DNA a singolo filamento è ricoperto da Rad51.
@@ -832,7 +833,7 @@ Il legame di H1 aumenta il compattamento del DNA sul nucleosoma, imponendo una c
 
 Le proteine istoniche, che interagiscono con il DNA carico negativamente, sono fortemente basiche (oltre 20% degli aa sono Arg e Lys). Presentano una struttura conservata costituita da tre regioni ad $\alpha$-elica denominata **histone-fold** e da una coda N-terminale.
 
-Tutti gli istoni sono soggetti a modificazioni covalenti; la maggior  parte delle quali interessano la regione N-terminale. 
+Tutti gli istoni sono soggetti a modificazioni covalenti; la maggior parte delle quali interessano la regione N-terminale. 
 Modifiche transitorie a livello di numerosi siti di acetilazione,
 fosforilazione e metilazione.
 
@@ -913,7 +914,7 @@ Uno di questi atomi è sempre presente nel sito attivo, l'altro viene trasportat
 
 + 1 subunità **$\beta$'**.
 
-Questa subunità  si lega al DNA in maniera non specifica;
+Questa subunità si lega al DNA in maniera non specifica;
 
 + 1 subunità **$\omega$**.
 
@@ -922,7 +923,7 @@ Questa subunità ha la funzione di promuovere e mantenere stabile il complesso.
 
 Per legarsi in maniera specifica al promotore, la polimerasi ha bisogno di una sesta subunità, chiamata **$\sigma$**.
 
-L'enzima completo **$\alpha$$_2$$\beta$$\beta$'$\omega$$\sigma$**  (o **oloenzima**) ha un peso molecolare di circa 480 kDa.
+L'enzima completo **$\alpha$$_2$$\beta$$\beta$'$\omega$$\sigma$** (o **oloenzima**) ha un peso molecolare di circa 480 kDa.
 
 Il fattore $\sigma$ è costituito da 4 domini, distribuiti sul nucleo enzimatico, in parte verso l'esterno per riconoscere e legare il promotore e in parte nella regione interna tra le due parti della "pinza", formata dalle sub $\beta$ e $\beta$', occupando parzialmente il canale dove si posiziona il DNA.
 
@@ -1112,7 +1113,7 @@ La struttura dei **promotori di Pol II** è piuttosto complessa.
 Il **promotore minimo** di Pol II è costituito dal tratto di DNA indispensabile per permettere ai fattori basali di far iniziare la trascrizione. Tale promotore minimo contiene l'elemento chiamato **iniziatore (INR)** da cui parte la trascrizione.
 
 Un altro elemento molto importante è una sequenza chiamata **TATA box** (sequenza conservata TATAAA). Tale sequenza è, in genere, preceduta da un altro elemento chiamato **BRE** che permette il legame del fattore basale **TFIIIB**.
-Un elemento chimato **DPE** è tipicamente presente in quei promotori che non  contengono le TATA box (**TATA-less*). 
+Un elemento chimato **DPE** è tipicamente presente in quei promotori che non contengono le TATA box (**TATA-less*). 
 L'elemento **DCE** può invece essere presente in più copie nei promotori contenenti la TATA box.
 
 + Le TATA-box sono presenti nel 32% dei nuclei del promotore. 
@@ -1439,7 +1440,7 @@ Le diverse attività biologiche dei vari steroidi dipendono da quali geni vengon
 
 Come avviene l'attivazione di un gene da parte di un ormone steroideo? 
 Ad esempio, nel caso del glucocorticoide cortisolo, l;ormone entra nella cellula dal fluido extracelloulare, diffonde attraverso il doppio strato lipidico ed entra nel citoplasma, qui si lega ad un recettore specifico. 
-Il legame dell'ormone cambia la conformazione del recettore e ne determina la traslocazione nel nucleo, dove agisce da fattore di trascrizione legandosi ad un elemento di risposta ai glucocorticoidi (GRE) del DNA. Il recettore dei glucocorticoidi  si lega al GRE come dimero, attivando la trascrizione del DNA, e portando alla sintesi di specifiche proteine nel citoplasma.
+Il legame dell'ormone cambia la conformazione del recettore e ne determina la traslocazione nel nucleo, dove agisce da fattore di trascrizione legandosi ad un elemento di risposta ai glucocorticoidi (GRE) del DNA. Il recettore dei glucocorticoidi si lega al GRE come dimero, attivando la trascrizione del DNA, e portando alla sintesi di specifiche proteine nel citoplasma.
 
 (immagine 42)
 
@@ -1466,7 +1467,7 @@ BHLH impediscono al partner nell’eterodimero di legarsi al DNA.
 
 ### Elica-giro-elica (helix-turn-helix, HTH)
 
-La struttura generica del motivo HTH è costituita da 3 $\alpha$-eliche ripiegate in cui l'elica  3, chiamata anche **elica R (elica di riconoscimento)**, si posiziona nel solco maggiore del DNA.
+La struttura generica del motivo HTH è costituita da 3 $\alpha$-eliche ripiegate in cui l'elica 3, chiamata anche **elica R (elica di riconoscimento)**, si posiziona nel solco maggiore del DNA.
 I residui amminoacidici dell'elica R che si affacciano sul DNA interagiscono specificamente con le basi della sequenza di riconoscimento. La sostituzione di una si queste basi abbassa notevolmente l'affinità della proteina per quella sequenza.
 
 In alcuni casi le $\alpha$-eliche possono essere 2 o 4, sempre con un'elica R che interagisce nel solco maggiore della doppia elica.
@@ -1478,7 +1479,7 @@ Attivatori contenenti un omeodominio sono presenti in tutti gli eucarioti.
 Le proteine possono essere sia attivatori che repressori.
 
 L’omeodominio è costituito da 3 $\alpha$-eliche strutturate come nel dominio HTH, in cui l'elica R contatta il solco maggiore del DNA riconoscendo una sequenza di 6pb.
-L'omeodominio  contiene anche un braccio flessibile, non strutturato, che interagisce specificamente con il solco minore del DNA.
+L'omeodominio contiene anche un braccio flessibile, non strutturato, che interagisce specificamente con il solco minore del DNA.
 
 ### Domini a cerniera di leucina (leucine zipper)
 
@@ -1553,7 +1554,7 @@ Successivamente viene reclutata la RNA polimerasi I che inizia la trascrizione.
 
 (immagine 44)
 
-### Elementi di controllo  della trascrizione nei geni trascritti dalle RNA pol III
+### Elementi di controllo della trascrizione nei geni trascritti dalle RNA pol III
 
 Le RNA pol II presentano 2 classi generali di promotori:
 
@@ -1561,7 +1562,7 @@ Le RNA pol II presentano 2 classi generali di promotori:
 Questi promotori hanno una struttura bipartita con corte sequenze consenso separate da una regione variabile e localizzate all’interno dell'unità di trascrizione. 
 Possono essere di **tipo1** (box A e box C) e di **tipo 2**
 (box A e box B);
-2. i promotori per snRNA invece, contengono elementi di controllo tra cui un tipico elemento TATA a monto del sito di inizio della trascrizione. Oltre a questa sequenza, che permette il legame specifico di TBP, questi promotori pososno contenere  anche le sequenze consenso per il legame degli elementi PSE e Oct. Questi ultimi sono riconosciuti anche nei promotori per snRNA trascritti dalla RNA pol II. 
+2. i promotori per snRNA invece, contengono elementi di controllo tra cui un tipico elemento TATA a monto del sito di inizio della trascrizione. Oltre a questa sequenza, che permette il legame specifico di TBP, questi promotori pososno contenere anche le sequenze consenso per il legame degli elementi PSE e Oct. Questi ultimi sono riconosciuti anche nei promotori per snRNA trascritti dalla RNA pol II. 
 Questi promotori sono detti di **tipo 3**. 
 
 (immagine 45)
@@ -1667,7 +1668,7 @@ La defosforilazione della posizione 2 richiama gli enzimi per la poliadenilazion
 
 ### La poliadenilazione e terminazione della trascrizione degli mRNA eucariotici
 
-Quando l'RNA pol II raggiunge la fine di un gene e trascrive uno specifico motivo di sequenza, denominato **segnale di poliadenilazione**, si innescano i meccanismi che portano alla terminazione del processo trascrizionale, al taglio del pre-mRNA  e all'aggiunta dei una coda di poli(A) all'estremità 3'.
+Quando l'RNA pol II raggiunge la fine di un gene e trascrive uno specifico motivo di sequenza, denominato **segnale di poliadenilazione**, si innescano i meccanismi che portano alla terminazione del processo trascrizionale, al taglio del pre-mRNA e all'aggiunta dei una coda di poli(A) all'estremità 3'.
 
 La trascrizone del segnale di poliadenilazione attiva il reclutamento da parte della coda CTD dell'RNA pol II di complessi proteici denominati **CPSF (Cleavage and Poly(A)denylation Specifity Factor)** e **CstF (Cleavage stimulation Factor)**.
 Il segnale di poliadenilazione, che più viene chiamato **segnale di cleavage** o **taglio**, è costituito normalmente dalla sequenza esanucleotidica **AAUAAA**, localizzata a 5-30 nt a monte del sito di taglio e poliadenilazione e viene riconosciuto dal complesso CPSF.
@@ -1880,7 +1881,7 @@ NB: Drosophila ha circa 14000 geni!
 
 Lo splicing alternativo può essere:
 
-+ **costitutivo**. Se  vi sono delle ambiguità nella sequenza intronica; il sistema non è in grado di distinguere tra 2 o più accoppiamenti alternativi. Tramite scelte *casuali* vengono formate diverse versioni della proteina, e queste vengono prodotte in tutte le cellule in cui il gene viene espresso.
++ **costitutivo**. Se vi sono delle ambiguità nella sequenza intronica; il sistema non è in grado di distinguere tra 2 o più accoppiamenti alternativi. Tramite scelte *casuali* vengono formate diverse versioni della proteina, e queste vengono prodotte in tutte le cellule in cui il gene viene espresso.
 
 Un esempio è la trascrizione del gene *CaMKII$\delta$*. Questo gene contiene 3 esoni alternativi presenti in modo alternativo. 
 Il gene è espresso in tutti i tipi cellulari e tessuti di mammifero e codifica per una chinasi.
@@ -1913,7 +1914,7 @@ Questi fattori trascrizionali attivano l'espressione del gene denominato **Sex-l
 
 L'azione di questi attivatori trascrizionali (*SisA* e *SisB*) è contrastata da un repressore trascrizionale codificato dal gene **Dpn** e localizzato sul cromosoma 2.
 
-Il gene *Sxl* risulterà espresso solo nelle femmine, dove gli attivatori espressi  da *SisA* e *SisB* sono in eccesso rispetto al prodotto *dpn*.
+Il gene *Sxl* risulterà espresso solo nelle femmine, dove gli attivatori espressi da *SisA* e *SisB* sono in eccesso rispetto al prodotto *dpn*.
 
 Al contrario, nei maschi, in cui il livello di *SisA* e *SisB* è dimezzato, prevarrà l'effetto del repressore *Dpn* e *Sxl* non verrà espresso.
 
@@ -2232,7 +2233,7 @@ I codoni AUG possono ovviamente essere presenti in più punti durante la fase di
 
 Come viene selezionato un codone AUG di inizio?
 
-Pochi nucleotidi a monte dell'AUG di inizio troviamo una sequenza molto conservata che viene chiamata **sequenza di Shine-Dalgarno (SD)**.
+Pochi nucleotidi a monte dell'AUG di inizio troviamo una sequenza molto conservata che viene chiamata **sequenza di Shine-Dalgarno (SD o RBS)**.
 Questa sequenza, AGGAGG, precede di 7 nucleotidi il codone di inizio e rappresenta il sito di legame dei ribosomi all'mRNA.
 
 Questa sequenza viene riconosciuta da una sequenza complementare di pirimidine sull'rRNA 16S della subunità ribosomiale minore (30S).
@@ -2248,12 +2249,12 @@ Per il processo di inizio sono necessari anche vari fattori proteici, detti **fa
 	1. contribuisce insieme a IF3 alla dissociazione del ribosoma 70S;
 	2. si lega alla subunità 30S nella regione che andrà a formare il sito A del ribosoma impedendo agli amminoacil-tRNA di entrarvi;
 
-2. **IF2** è una GTPasi (lega e idrolizza GTP per funzionare) che:
++ **IF2** è una GTPasi (lega e idrolizza GTP per funzionare) che:
 	1. interagisce con la sub. 30S;
 	2. promuove l'associazione con fMet-tRNA$_i$$^f$$^M$$^e$$^t$ all'emisito P;
 	3. impedisce l'interazione con altri tRNA carichi;
 
-3. **IF3** 
++ **IF3** 
 	1. è coinvolto nella dissociazione dei ribosomi interi nelle due subunità;
 	2. legato alla sub. 30S è essenziale perchè questa si leghi in modo specifico al sito di inizio sull'mRNA;
 	3. impedisc eil precoce legame con la sub. 50S;
@@ -2330,7 +2331,7 @@ Anche negli eucarioti sono state identificate delle sequenze consenso, anche se 
 Durante la scansione la subunità 40S porta, nell'emisito P, il tRNA iniziatore il cui anticodono si appaia sul codone di inizio AUG. 
 Quando la sub. 40S si trova sul codone di inizio può essere reclutata la subunità la sub. 60S formando così il complesso 80S.
 
-Perchè questo avvenga è necessario il fattore antiassociativo **eIF6** che lega 60S impedendone  la riassociazione con la sub. 40S, mantenendola disponibile all'utilizzo.
+Perchè questo avvenga è necessario il fattore antiassociativo **eIF6** che lega 60S impedendone la riassociazione con la sub. 40S, mantenendola disponibile all'utilizzo.
 
 Perchè 60S possa essere reclutata, è anche necessario che il complesso di inizio 48S rilasci i fattori eIF2 e eIF3.
 Il reclutamento della sub. 60S porta al rilascio dei rimanenti fattori di inizio, con idrolisi di GTP da parte di **eIF5B**.
@@ -2353,7 +2354,7 @@ Il caso più notevole è quello dell'inizio interno, scoperto e studiato in alcu
 
 Alcuni virus hanno un genoma costituito da una molecola di RNA che funge anche da mRNA.
 Questo RNA non è fornito di 5'cap e quindi non può sostenere una sintesi proteica che utilizzi il meccanismo cap-dipendente.
-Può essere però tradotto poichè contiene, nel tratto precedente la regione codificante, una particolare sequenza nucleotidica capace, con l'ausilio di specifici fattori proteici, di reclutare direttamente la subunità ribosomale 40S  e operare un inizio di traduzione "interno".
+Può essere però tradotto poichè contiene, nel tratto precedente la regione codificante, una particolare sequenza nucleotidica capace, con l'ausilio di specifici fattori proteici, di reclutare direttamente la subunità ribosomale 40S e operare un inizio di traduzione "interno".
 
 Le sequenze di RNA che hanno la proprietà di reclutare le sub. 40S indipendentemente dal 5'cap vengono chiamate **IRES**.
 
@@ -2373,7 +2374,7 @@ Ogni ciclo di allungamento è conposto da 3 passaggi:
 
 1. l'entrata nel sito A di un tRNA carico;
 2. il trasferimento del primo aa o della catena peptidica nascente dal tRNA nel sito P sul nuovo amminoacido legato al tRNA in posizione A con formazione del legame peptidico;
-3. la traslocazione di tutto l'insieme (codone dell'mRNA/tRNA/peptide nascente) dal sito A al sito P, in modo che l'mRNA esponga sul sito A (ora vuoto) il codone seguente. Si ristabiliscono  così le condizioni iniziali, con il sito P occupato dal peptidil-tRNA e il sito A vuoto, con inizio di un nuovo ciclo.
+3. la traslocazione di tutto l'insieme (codone dell'mRNA/tRNA/peptide nascente) dal sito A al sito P, in modo che l'mRNA esponga sul sito A (ora vuoto) il codone seguente. Si ristabiliscono così le condizioni iniziali, con il sito P occupato dal peptidil-tRNA e il sito A vuoto, con inizio di un nuovo ciclo.
 
 (immagine 61)
 
@@ -2462,7 +2463,7 @@ Non esistono tRNA con anticodoni complementari ai codoni di stop.
 
 I codoni di stop sono riconosciuti da fattori proteici di terminazione chiamati **RF (Release Factor)**.
 
-Nei procarioti di fattori **RF1** e **RF2** (detti di classe 1) entrano nel sito A riconoscendo direttamente i codoni  di terminazione: 
+Nei procarioti di fattori **RF1** e **RF2** (detti di classe 1) entrano nel sito A riconoscendo direttamente i codoni di terminazione: 
 
 + **RF1** riconosce UAA e UAG;
 + **RF2** riconosce UGA e UAA.
@@ -2486,13 +2487,68 @@ Negli eucarioti troviamo solo 2 fattori di rilascio:
 
 RF1 e RF2 hanno una struttura simile ai tRNA, ma non legano nessun aminoacido (anche questo è un fenomeno di *mimetismo molecolare*).
 
+(immagine 16.14 p409, da scannerizzare).
+
+Un ribosoma copre fisicamente 30 basi. Questo significa che uno stesso ribosoma può prendere contatto contemporaneamente con un codone di terminazione e un successivo codone di inizio, purchè questi siano separati da poche basi.
+
+Questo significa che lo stesso mRNA possa essere tradotto più volte.
+
+#### Inibizione della sintesi proteica da antibiotici
+
+Molti degli antibiotici maggiormente usati in terapia sono inibitori di qualche componente del processo di sintesi proteica.
+Alcuni sono in grado di inibire solo la sintesi proteica procariotica ma non quella eucariotica, permettendo di fermare la crescita batterica senza effetti negativi sulle cellule dell'organismo eucariotico infettato.
+
+Poiché ogni passaggio della sintesi proteica può essere inibito specificamente da uno o più antibiotici/tossine, gli antibiotici sono diventati uno strumento per lo studio della sintesi proteica.
+
+### Modificazioni post-traduzionali
+
+Una volta che il polipeptide si è formato come singolo filamento lineare, passa attraverso un tunnel di acqua nella subunità maggiore venendo rilasciato.
+Le proteine nascenti non sono strutturate, ma successivamente vanno incontro ad un processo chiamato **folding**. 
+
+Il processo di folding consiste nell'assunzione da parte della catena della sua struttura tridimensionale. Questa, di solito, è la coformazione biologica funzionale.
+
+Dopo il folding le proteine possono subire altre modificazioni post-traduzionali (coinvolgimento di legami covalenti).
+Specifici segnali, contenuti nella sequenza amminoacidica delle proteine, le dirigono alle loro destinazioni cellulari finali.
 
 
+Le modificazioni post-traduzionali possono essere:
 
++ **modificazioni chimiche**, dove si ha il legame di un gruppo chimico a gruppi NH$_2$-terminali o COOH-terminali, e a gruppi reattivi presenti nelle catene laterali dei residui amminoacidici. Solitamente queste modificazioni sono **reversibili**.
+Ad esempio:
+	1. *fosforilazione di Ser, Thr, e Tyr*. Gli enzimi fosforilanti sono chiamati **proteine chinasi**. Questi enzimi catalizzano il trasferimento del $\gamma$-fosfato dell'ATP su un residuo di serina, treonina o tirosina con liberazione di ADP. A seconda del residuo fosforilato possiamo distinguere le chinasi in: **serina/treonina chinasi**, **tirosina chinasi** e **chinasi a doppia specificità** (in grado di fosforilare tutti e 3 i residui). L'introduzione di un gruppo fosfato nella struttura terizaria di una proteina crea l'opportunità di formare nuovi appaiamenti elettrostatici e legami idrogeno che possono determinare una riorganizzazione locale della proteina;
+	2. *acetilaizone N-terminale*.
+L'acetil-CoA è il donatore di gruppi acetile che vengono covalentemente legati alle proteine sia all'estremità N-terminale che su residui interni di lisina. L'enzima che catalizza la reazione si chiama **N-acetil transferasi (NAT)** e agisce quando la proteina è ancora in fase di sintesi sul ribosoma;
+	3. *glicosilazione*. Questo è un complesso sistema di modificazione che può avvenire co- o post-traduzionalmente. Esistono 2 tipi diversi di glicosilazione, la N-glicosilazione e la O-glicosilazione, che differiscono per vari aspetti;
+	4. *attacco di gruppi lipidici*. Questa modificazione permette alla proteina di ancorarsi al bilayer di membrana andando a svolgere importanti funzioni cellulari (es. proteine G accoppiate ai recettori, costituiscono canali ionici...).
++ **modificazioni di maturazione**, dove si ha la rimozione o l'aggiunta di sequenze peptidiche. Generalmente queste modificazioni sono **irreversibili**.
+	1. *attivazione per taglio proteolitico degli enzimi di coagulazione;
+	2. *processamento dell'insulina*;
+	3. *autosplicing*. Questo è un processo autocatalitico che procede senza l'intervento di altre proteine accessorie. E' comune in batteri ed eucarioti primitivi. Il segmento interno, detto **inteina**, di una proteina è rimosso e le sue estremità vengono poi riunite.
+La sequenza peptidica escissa viene successivamente eliminata.
 
+### Regolazione della traduzione nei batteri
 
+In alcuni casi ci può essere un'interferenza tra il riconoscimento dell'RBS (sequenza di Shine-Dalgarno) e l'rRNA 16S.
+Possono essere presenti delle proteine che riconoscono particolari strutture e legano sequenze vicino all'RBS o è lo stesso mRNA che si appaia con se stesso ad impedire la traduzione.
 
+### Regolazione della traduzione negli eucarioti
 
+I meccanismi di regolazione della traduzione negli eucarioti si basano soprattutto su fosforilazioni post-traduzionali di fattori di inizio o di proteine che legano i fattori di inizio.
+Ad esempio:
+ 
++ la fosforilazione del fattore **eIF2$\alpha$** operata da specifiche chinasi in caso di stress cellulare o privazione degli aa, inibisce l'attività del fattore di scambio eEF2B che risulta in un blocco della formazione del complesso ternario eIF2-GTP/aa-tRNA e quindi in un'inibizione di tutta la sintesi proteica;
++ anche il fattore di inizio **eIF4E** che si lega al 5'cap degli mRNA ed è implicato nell'inizio della traduzione cap-dipendente, è soggetto a fosforilazione. In questo caso la fosforilazione avviene solo in presenza di *fattori di crescita* e risulta in una *stimolazione* della traduzione. eIF4E è inibito dal legame di altri fattori proteici, chiamati **4E-BP**. La fosforilazione di 4E-BP è mediata dalla chinasi **mTor**, attivata dai fattori di crescita (ormoni e fattori di divisione cellulare). In seguito alla fosforilazione 4E-BP si staccano da eIF4E con conseguente stimolazione della traduzione.
+
+#### Protein targeting
+
+Il processo di targeting o indirizzamento consiste nel meccanismo biologico tramite il quale le proteine sono condotte alla destinazione appropriata, all'interno della cellula o al di fuori di essa.
+
+Le proteine possono essere indirizzate verso uno lo spazio intenro di un organello, diverse membrane intracellulari, plasmamembrane o all'esterno della cellula tramite secrezione.
+
+Questa via può dunque essere *secretoria* o *non secretoria*.
+
+Questo processo di trasporto è condotto in base a informazioni contenute nella proteina stessa. 
+Un corretto processo di trasporto è cruciale per la cellula; errori possono causare malattie.
 
 
 
