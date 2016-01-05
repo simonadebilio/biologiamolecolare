@@ -238,7 +238,7 @@ La bolla si estende fino a quando non conterrà l’intero replicone
 In tutti i cromosomi degli eucarioti esistono numerose origini di replicazione. 
 L'osservazione di "bolle" di replicazione di dimensioni diverse indica due caratteristiche importanti delle origini dei cromosomi degli eucarioti:
 
-1. l'accessione delle origini non è simultanea, ma esistono delle origini "early" che vengono accese presto durante la fase di replicazione del DNA, mentre altre origini "late" vengono attivate a tempi successivi;
+1. l'accensione delle origini non è simultanea, ma esistono delle origini "early" che vengono accese presto durante la fase di replicazione del DNA, mentre altre origini "late" vengono attivate a tempi successivi;
 2. Le forcelle di replicazione che avanzano in direzioni opposte sul cromosoma possono fondersi tra di loro.
 
 (immagine 07)
@@ -362,7 +362,7 @@ E. coli presenta dunque più DNA polimerasi:
 
 + **DNA polimerasi I** (103 kDa). Formata da un'unica subunità con due domini. Il frammento di Klenow (68 kDa) ha attività polimerasica ed esonucleasica 3' $\rightarrow$ 5'. Il dominio con attività esonucleasica 5' $\rightarrow$ 3' (35 kDa) rimuove i primer di RNA e poi riempie i vuoti tra i frammenti di Okazaki. Riempie anche i vuoti che si formano durante la riparazione del DNA. È l’unica con attività esonucleasica 5’ $\rightarrow$ 3';
 + **DNA polimerasi II**. Riempie le interruzioni in seguito a danno strutturale (risposta SOS inducibile);
-+ **DNA polimerasi III**. E' resposabile dell'allungamento della forcella di replicazione. Svolge polimerizzazione in direzione 5' $\rightarrow$ 3' e attività esonucleasica in direzione 3’ $\rightarrow$ 5’. Possiede un nucleo catalitico formato da 3 subunità $\alpha$ (attività polimerasica), $\varepsilon$ (esonucleasica 3' $\rightarrow$ 5') e $\theta$ (stimolo all’esonucleasi);
++ **DNA polimerasi III**. E` resposabile dell'allungamento della forcella di replicazione. Svolge polimerizzazione in direzione 5' $\rightarrow$ 3' e attività esonucleasica in direzione 3’ $\rightarrow$ 5’. Possiede un nucleo catalitico formato da 3 subunità $\alpha$ (attività polimerasica), $\varepsilon$ (esonucleasica 3' $\rightarrow$ 5') e $\theta$ (stimolo all’esonucleasi);
 + **DNA polimerasi IV e V**, sintesi di DNA translesione (bypass).
 
 
@@ -508,7 +508,7 @@ I telomeri svolgono 3 funzioni:
 
 Legate ai telomeri vi sono anche due proteine, **TRF1** e **TRF2** (nei mammiferi), che riconoscono e legano la sequenza telomerica, proteggendo così le estremità del DNA. 
 
-E' stato osservato che le estremità dei telomeri non sono lineari, ma assumono una struttura a forma di loop denominata **T-loop**.
+E` stato osservato che le estremità dei telomeri non sono lineari, ma assumono una struttura a forma di loop denominata **T-loop**.
 Questa struttura è dovuta all'appaiamento tra le sequenze TTAGGG dell'estremità 3' che protrude a singolo filamento e il filamento complementare in un breve tratto denaturato nella ripetitiva adiacente al duplex.
 La struttura è stabilizzata dalla formazione di complessi con numerose proteine implicate nella funzione telomerica e nella protezione dell'estremità del cromosoma.
 
@@ -1035,7 +1035,7 @@ copre 30-40 basi.
 La trascrizione termina quando l'RNA pol raggiunge delle sequenze specifiche sul DNA chiamate **terminatori**. 
 
 L'arresto impedisce l'aggiunta di nuovi nucleotidi, l'enzima si dissocia dal DNA ed è pronto per un nuovo ciclo. 
-E' necessario che tutti i legami che mantengono uniti i due filamenti nel tratto ibrido DNA-RNA vengano rotti per pemettere il ri-appaiamento tra i filamenti complementari del DNA e la dissociazione del complesso.
+E` necessario che tutti i legami che mantengono uniti i due filamenti nel tratto ibrido DNA-RNA vengano rotti per pemettere il ri-appaiamento tra i filamenti complementari del DNA e la dissociazione del complesso.
 
 In E. coli esistono due meccanismi diversi per terminare la trascrizione: in un primo caso, sequenze denominate **terminatori intrinseci** (**Rho indipendenti**) inducono la polimerasi a staccarsi dal complesso e a rilasciare la catena di RNA prodotto, senza l'ausilio di alcun fattore aggiuntivo. 
 Nel secondo caso, denominato **terminazione Rho-dipendente**, la sequenza di terminazione non è in grado di promuovere da sola la dissociazione del complesso, ma necessita dell'azione della proteina Rho.
@@ -1127,7 +1127,7 @@ E posizionato a -3 - +5, e viene riconosciuta da TPB e TAFII (???). Agisce anche
 
 + L'elemento DPE è formato da 7 nucleotidi. Funziona nei TATA-less e richiede Inr. Viene riconoisciuto da TAF9 e TAF6 (subunità di TFIID).
 
-+ L'elemento DCE è legato a TAF1 e contribuisce all’attività dei promotori con TATA-box. E' presente in tre copie.
++ L'elemento DCE è legato a TAF1 e contribuisce all’attività dei promotori con TATA-box. E` presente in tre copie.
 
 + L'elemento BRE è l'unico riconosciuto da TFIIB.
 
@@ -2228,7 +2228,7 @@ Inoltre il tRNA di inizio fMet-tRNA$_i$$^f$$^M$$^e$$^t$ entra direttamente nell'
 L'inizio della traduzione convolge sempre l'interazione preliminare tra la sub. minore del ribosoma, fMet-tRNA$_i$$^f$$^M$$^e$$^t$, e mRNA (formano sub. 30S).
 Solo successivamente viene richiamata la subunità maggiore e si forma il complesso di inizio 70S.
 
-E' necessario che il complesso di inizio si assembli sull'mRNA in corrispondenza del codone di inizio (in genere AUG).
+E` necessario che il complesso di inizio si assembli sull'mRNA in corrispondenza del codone di inizio (in genere AUG).
 I codoni AUG possono ovviamente essere presenti in più punti durante la fase di lettura aperta (ORF) senza però avere la funzione di segnale di inizio della traduzione.
 
 Come viene selezionato un codone AUG di inizio?
@@ -2470,7 +2470,7 @@ Nei procarioti di fattori **RF1** e **RF2** (detti di classe 1) entrano nel sito
 
 Essi inducono l'idrolisi del polipeptide dal peptidil-tRNA direttamente, oppure indirettamente provocando un cambiamento strutturale del ribosoma, che a sua volta idrolizza il peptidil-tRNA.
 
-E' poi necessario il fattore **RF3** (classe 2) che provoca il rilascio dal ribosoma del fattore di classe 1.
+E` poi necessario il fattore **RF3** (classe 2) che provoca il rilascio dal ribosoma del fattore di classe 1.
 RF3 entra in scena legato a GDP interagendo, a livello del sito A ribosomale, con il fattore RF di classe 1 che vi si trova.
 In seguito alla liberazione del polipeptide stimolata dal fattore RF di classe 1, questo stimola lo scambio GDP-GTP su RF3, che a sua volta provoca il rilascio del fattore di classe 1 dal ribosoma.
 
@@ -2521,9 +2521,9 @@ L'acetil-CoA è il donatore di gruppi acetile che vengono covalentemente legati 
 	3. *glicosilazione*. Questo è un complesso sistema di modificazione che può avvenire co- o post-traduzionalmente. Esistono 2 tipi diversi di glicosilazione, la N-glicosilazione e la O-glicosilazione, che differiscono per vari aspetti;
 	4. *attacco di gruppi lipidici*. Questa modificazione permette alla proteina di ancorarsi al bilayer di membrana andando a svolgere importanti funzioni cellulari (es. proteine G accoppiate ai recettori, costituiscono canali ionici...).
 + **modificazioni di maturazione**, dove si ha la rimozione o l'aggiunta di sequenze peptidiche. Generalmente queste modificazioni sono **irreversibili**.
-	1. *attivazione per taglio proteolitico degli enzimi di coagulazione;
+	1. *attivazione per taglio proteolitico* degli enzimi di coagulazione;
 	2. *processamento dell'insulina*;
-	3. *autosplicing*. Questo è un processo autocatalitico che procede senza l'intervento di altre proteine accessorie. E' comune in batteri ed eucarioti primitivi. Il segmento interno, detto **inteina**, di una proteina è rimosso e le sue estremità vengono poi riunite.
+	3. *autosplicing*. Questo è un processo autocatalitico che procede senza l'intervento di altre proteine accessorie. E` comune in batteri ed eucarioti primitivi. Il segmento interno, detto **inteina**, di una proteina è rimosso e le sue estremità vengono poi riunite.
 La sequenza peptidica escissa viene successivamente eliminata.
 
 ### Regolazione della traduzione nei batteri
