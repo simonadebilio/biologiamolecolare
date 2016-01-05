@@ -1,5 +1,5 @@
-## Tecniche di biologia molecolare
-### Enzimi di restrizione
+# Tecniche di biologia molecolare
+## Enzimi di restrizione
 
 Enzimi che apportano tagli sui filamenti di DNA vengono chiamati **nucleasi**, e si distinguono in:
 
@@ -30,7 +30,7 @@ Per definizione *un'unità di un enzima di restrizione è la quantità di enzima
 Tutti gli enzimi, in condizioni non ottimali, danno l'**"effetto star"**, che consiste nella capacità dell'enzima di "confondersi" riconoscendo e tagliando sequenze simili, ma non identiche a quella target.
 Per evitare l'effetto target é opportuno attenersi alle condizioni specificate dai fornitori, con particolare riferimento al glicerolo e alla quantità di enzima, che non devono essere mai in eccesso.
 
-#### Nomenclatura
+### Nomenclatura
 
 Per assegnare in modo chiaro ed univoco un codice ad un enzima si è deciso che:
 
@@ -71,7 +71,7 @@ Esistono ER in graod di tagliare entrambi i filamenti della doppia elica nello s
 In questo caso le estremità possono sporgere al 5' o al 3' e vengono chiamate **sticky end**.
 Frammenti di DNA generati da tagli con ER possono essere legati tra di loro o inseriti in un vettore di clonaggio in provetta utilizzando l'enzima DNA ligasi.
 
-### L'elettroforesi su gel
+## L'elettroforesi su gel
 
 Molecole diverse di DNA, RNA  e proteine possono essere separate modiante elettroforesi su gel perchè differiscono nella loro carica elettrica, dimensione e struttura.
 
@@ -117,6 +117,84 @@ Utilizzando questa serie di frammenti di DNA a peso molecolare noto è possibile
 Congiungendo tutti i punti, riportati su un grafico semi-logarittimico, si dovrebbe formare una linea approssimativamente retta,da cui, nota la distanza dal pozzetto percorsa da una banda incognita, è possibile estrapolare il peso molecolare approssimativo.
 
 (immagine 65)
+
+# RNA interference
+
+
+
+L'RNA interference consiste nel processo biologico in cui molecole di RNA inibiscono l'espressione di un gene (solitamente causando la distruzione di specifiche molecole di mRNA).
+
+Storicamente questo fenomeno è stato indicato anche con altri nomi, quali:
+
++ **co-soppressione**. Il fenomeno dell'interferenza è stato per prima scoperto nei vegetali. Nel 1990, Jorgenson e colleghi, cercando di ottenere un fiore di colore scuro, avevano introdotto un **transgene** per la *chalone synthase* (responsabile della sintesi del pigmento anthocyanina) in cellule di petunia. Sorprendetemente, ottennero un fiore variegato. L'analisi delle cellule bianche rivelò che in queste erano assenti i mRNAs sia del transgene che del gene endogeno
+Con co-soppressione (1990) si indica il fenomeno per cui l'introduzione di un gene esogeno codificante per l'*enzima calcone sintasi* in petunia, silenzia sia il gene esogeno che quello endogeno;
++ un altro esempio di RNA interference è il **post-transcriptional gene silencing (PTGS)** del *gene par-1* di C. elegans tramite l'introduzione di RNA antisenso. 
+Lo stesso risultato venne ottenuto mediante l'introduzione di RNA senso usato come controllo negativo;
++ un altro fenomeno simile al PTGS è il **quelling**. Questo fenomeno è stato osservato in petunia ma avvenuto in una coltura di N. crassa trasformata con un plasmide contenente il *gene al1*.
+
+Nel 1998 gli studiosi Fire e Mello catalogarono tutti questi fenomeni
+isolati sotto un principio comune: RNA interference (**RNAi**).
+
+Continuando gli studi su C. elegans di Guo & Kemphues per cercare delle spiegazioni agli eventi da essi osservati, Fire e Mello ipotizzarono che le preparazioni di RNA antisenso contenessero piccole quantità di RNA senso e che la formazione di molecole ibride a doppio filamento (**dsRNA**) fosse responsabile del silenziamento genico osservato con l'anti-senso (RNAi).
+
+
+I meccanismi responsabili del fenomeno possono essere:
+
++ il silenziamento trascrizionale del gene;
++ il silenziamento post-trascrizionale del gene (PTGS), l'mRNA è sintetizzato e poi degradato.
+
+Nel 1995 Guo & Kemphues, per dimostrare che avevano clonato il gene par-1 (un gene necessario per la divisione mitotica dello zigote) di C.elegans, condussero esperimenti di PTGS con oligonucleotidi antisenso.
+
+Nel 1998, Fire & Mello circonstanziarono che l'iniezione di dsRNA era un modo molto efficiente per ottenere fenotipi mutanti in C.elegans.
+
+L'introduzione di una soluzione contenente filamenti di RNA senso ed antisenso era almeno dieci volte più efficace dei filamenti singoli.
+
+Le analisi elettroforetiche mostrarono che, all'interno dell'organismo, il materiale iniettato si conformava per la maggior parte come doppio filamento (dsRNA, RNA double strand) infatti le molecole di ssRNA (single strand RNA) venivano rapidamente degradate nel citoplasma.
+
+Di contro, osservarono che un tempo prolungato tra l'iniezione del filamento senso e di quello antisenso dava un calo drastico dell'efficienza fino alla totale assenza di effetto.
+
+Sorprendentemente, gli effetti di questa interferenza genica si
+mostravano sia nei soggetti iniettati che nella progenie.
+
+
+Che cos'è la RNA interference? Un fenomeno in cui l'espressione (o introduzione) di un RNA a doppio filamento (dsRNA) in un diverso range di organismi e tipi cellulari causa la degradazione di un mRNA bersaglio complementare.
+
+# Formazione e azione di siRNA e miRNA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
