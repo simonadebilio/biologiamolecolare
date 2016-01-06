@@ -1,0 +1,227 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\date{}
+
+\begin{document}
+
+\section{Reazione a catena della polimerasi
+(PCR)}\label{reazione-a-catena-della-polimerasi-pcr}
+
+La tecnica della PCR fu ideata nel 1983 da Kar B. Mullis. Questa tenica
+permette di selezionare e amplificare, da una preparazione eterogenea di
+DNA, un particolare tratto che ci interessa, producendone un grandissimo
+numero di copie (può amplificare un tratto di DNA per più di un milione
+di volte).
+
+Il processo di PCR prevede un certo numero di cicli (30-35) ed ogbu
+ciclo cinsiste di 3 passaggi:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{denaturazione} del DNA, avviene alla temperatura di 95°. Il
+  DNA stampo viene denaturato, i due filamenti si separano;
+\item
+  \textbf{appaiamento}, avviene alla temperatura di 55° circa. In questo
+  passaggio i primer si appaiano con il DNA stampo.
+\item
+  \textbf{sintesi}, avviene alla temperatura di 72°.
+\end{enumerate}
+
+La PCR consiste sostanzialmente in una replicazione in viste di un
+frammento di DNA ottenuta mediante una DNA polimerasi e 2
+oligonucleotidi lunghi 20-30 nt che fungono da inneschi
+(\textbf{primer}) per la replicazione e che sono responsabili della
+specificità dell'amplificazione.
+
+Gli elementi necessari per la PCR sono:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{2 oligonucleotidi} complementari alle 2 regioni che si torvano
+  sui filamenti opposti del DNA stampo, ai lati della regione che si
+  vuole amplificare;
+\item
+  un \textbf{DNA stampo} che contenga la regione da amplificare;
+\item
+  una \textbf{polimerasi termostabile} (non deve denaturarsi se portata
+  a 95°);
+\item
+  i 4 deossinucleotidi trifosfati.
+\end{itemize}
+
+Il DNA di partenza viene denaturato e poi ibridato con i 2 inneschi che
+vanno a legarsi ciascuno su un filamento a un estremo della regione da
+amplificare. Utilizzando i nucleosidi trifosfato che sono aggiunti alla
+miscela, la DNA polimerasi allunga gli inneschi in direzione 5'
+\(\rightarrow\) 3'.
+
+I primi tentativi vennero fatti utilizzando DNA polimerasi I di E.coli,
+che però veniva inattivata alla temperatura di denaturazione del DNA.
+
+Mullis introdusse l'utilizzo di polimerasi estratte da organismi
+termofili per effettuare il protocollo PCR. In questo modo non era più
+necessario ripreparare la miscela di amplificazione alla fine di ogni
+ciclo.
+
+La polimerasi termostabile maggiormente usata è quella di
+\emph{Thermophilus aquaticus}, la \textbf{Taq polimerasi}.
+
+Tutti questi passaggi vengono effettuati in appositi strumenti che sono,
+in sostanza, dei piccoli termostati in cui è possibile programmare in
+maniera opportuna innalzamenti e abbassamenti della temperatura.
+
+Un esempio di ciclo di amplificazine è:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{denaturazione}: 30 sec a 95°C per denaturare il DNA;
+\item
+  \textbf{associazione} (annealing): 30 sec a 40°-60°C per favorire
+  làassociaizone specifica degli inneschi;
+\item
+  \textbf{sintesi}: 2 min a 72°C, che è la temperatura ottimale per la
+  Taq pol.
+\end{enumerate}
+
+Esistono attualmente in commercio un gran numero di DNA polimerasi
+termostabili con caratteristiche diverse:
+
+La \emph{Taq} è priva di attività esonucleasi 3' \(\rightarrow\) 5'
+(correzione bozze) ed incorpora nucleotidi sbagliati con la frequenza
+piuttosto alta di 1 ogni (circa) 10 Kb. Nello stesso tempo però, è
+sufficientemente processiva per amplificare senza problemi DNA stampo
+lunghi 3-5 Kb.
+
+Caratteristiche della Taq polimerasi: + attività \textbf{DNA
+polimerasica} 5' \(\rightarrow\) 3'; + attività \textbf{esonucleasi} 5'
+\(\rightarrow\) 3'; + attività di \textbf{Terminal transferasi}
+(debole).
+
+Viceversa, gli enzimi con attività esonucleasica 3' \(\rightarrow\) 5'
+come Pwo e Pfu sono molto più fedeli (1-3 errori ogni 1000 Kb), non
+presentano attività di terminal transferasi, ma hanno una bassa
+processività.
+
+Enzimi come la \emph{Taq} vanno bene per la maggior parte delle
+applicaizoni in PCR.
+
+Enzimi con attività esonucleasica 3' \(\rightarrow\) 5' come \emph{Pfu}
+invece, sono necessari quando è molto importante amplificare in modo
+fedele il DNA stampo.
+
+Esistono pure in commercio muschele che sommano le proprietà più
+vantaggiose di entrambi gli enzimi.
+
+Esistono delle ``Golden Rules'' per disegnare delle buone coppie di
+primer:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  la lunghezza del primer deve essere compresa tra \textbf{18 e 22 paia
+  di basi};
+\item
+  se possibile, il primer deve avere una sequenza che contenga una
+  \textbf{percentuale di GC vicina al 50-60\%};
+\item
+  la temperatura di annealing deve essere compresa tra 50°C e 65°C, o
+  comunque non deve mai essere troppo bassa (per evitare problemi di
+  aspecificità);
+\item
+  il primer non deve contenere lunghi tratti di nucleotidi ripetuti (es.
+  GGGGGG);
+\item
+  la temperatura di annealing teorica (T\(_a\)) del \textbf{Primer
+  Forward} deve essere la stessa di quella del \textbf{Primer Revers} o,
+  almeno, molto simile. I due primer utilizzati per la PCR sono definiti
+  reverse e forward, a seconda che siano complementari al filamento 5'
+  \(\rightarrow\) 3' o a quello inverso 3' \(\rightarrow\) 5'.
+\item
+  si devono evitare i tratti che potrebbero dare ``self-annealing''
+  (riassociazione).
+\end{enumerate}
+
+Come si possono disegnano le coppie di primer?
+
+La probabilità associata indica, per una data lunghezza di un primer, la
+probabilità di riscontrare casualmente nel campione di DNA una sequenza
+identica:
+
+\textbf{P.A. = 4\(^n\)}
+
+Dove:
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \textbf{4} è il numero dei diversi nucleotidi del DNA (A, G, C, T);
+\item
+  \textbf{n} è la lunghezza dell'oligonucleotide.
+\end{itemize}
+
+Ad esempio, per un oligonucleotide di 16 basi, la probabilità di trovare
+una identica sequenza nel campione di DNA è inferiore a 1 su 4 miliardi,
+un numero più grande del numero di basi che compone l'intero genoma
+umano.
+
+Calcolare la \textbf{temperatura di ``annealing''} di un
+oligonucleotide.
+
+Per oligonucleotidi corti (meno di 20 bp) vale la regola empirica:
+
+T\(_a\) = 2 (A+T) + 4 (G+C)
+
+\{img/temperatura-annealing\}
+
+\end{document}

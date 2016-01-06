@@ -244,7 +244,7 @@ da Dicer;
 
 Esistono diversi metodi per la produzione di shRNA:
 
-+ **sintesi chimica di oligonucleotidi** di 50-70 nt, appaiati e ligati in un vettore. E' un metodo relativamente semplice, anche se la
++ **sintesi chimica di oligonucleotidi** di 50-70 nt, appaiati e ligati in un vettore. È un metodo relativamente semplice, anche se la
 sintesi di un oligonucleotide così lungo è più soggetta ad errori;
 + **trascrizione ad opera dell’RNA polimerasi III** a partire da un
 unico promotore (U6 o H1), di sequenze invertite codificanti per
@@ -283,7 +283,7 @@ quali:
 
 Possibili malattie alle quali potrebbe essere applicata la siRNA therapy sono: infezioni virali, cancro, malattie metaboliche, malattie genetiche, ecc...
 
-E' possibile raggiungere il pathway endogeno attraverso 2 vie:
+È possibile raggiungere il pathway endogeno attraverso 2 vie:
 
 + tramite un *vettore virale* per esprimere shRNA;
 + tramite un *siRNA che mimi il prodotto di clivaggio di Dicer nel citoplasma* incorporandosi direttamente nel complesso RISC.
@@ -490,7 +490,7 @@ La sfida principale nell'usare RNAi a scopi terapeutici rimane quella di superar
 + l'eliminazione tramite le urine;
 + la distribuzione non specifica.
 
-E' inoltre, necessaria l'introduzione di **sistemi REPORTER** sia esogeni che endogeni per identificare l'effettivo trasporto del farmaco all'interno delle cellule. E' fondamentale, infine, rispettare i parametri di efficacia e sicurezza.
+È inoltre, necessaria l'introduzione di **sistemi REPORTER** sia esogeni che endogeni per identificare l'effettivo trasporto del farmaco all'interno delle cellule. È fondamentale, infine, rispettare i parametri di efficacia e sicurezza.
 
 I limiti nell'utilizzo di terapie basate sull'RNA interference sono:
 
