@@ -226,12 +226,36 @@ cloroformio con etere che, infine verrà eliminato per evaporazione.
 
 Dopo aver rotto l'involucro cellulare e separato gli acidi nucleici dagli altri componenti solubili (proteine, carboidrati ecc.) avremo una miscela costituita prevalentemente da DNA genomico, DNA plasmidico ed RNA (rRNA, tRNA, mRNA).
 
+### Separazione del DNA plasmidico da quello genomico
+
 Per separare il DNA si compie un trattamento con Rasi seguito da una precipitazione selettiva con isopropanolo (a temperatura ambiente).
 
 In questo modo si ottiene una miscela contenente DNA genomico e plasmidico.
 
 Per separare i 2 DNA si sfruttano le differenze di peso molecolare mediante un ciclo di denaturazione e rinaturazione.
 
+Per separare il DNA plasmidico da quello cromosomale si sfruttano le
+differenze chimico-fisiche tra questi due tipi di macromolecole.
+
+In particolare si utilizza la capacità che hanno i plasmidi, specie quelli di piccole dimensioni, di riassumere una conformazione covalentemente chiusa, in seguito a una moderata denaturazione.
+
+In condizioni normali i plasmidi si trovano prevalentemente in forma **circolare superavvolta (supercoiled)** e, in misura minore, in forma circolare rilassata, caratteristica delle molecole che hanno perduto il superavvolgimento a causa di un interruzione in uno dei due filamenti (nick). Possono trovarsi anche in forma **lineare**, caratteristica delle molecole con una interruzione in entrambi i filamenti.
+
+Sottoponendo la soluzione contenente gli acidi nucleici a condizioni
+moderatamente denaturanti (per esempio in condizioni alcaline intorno
+a pH 12), il DNA cromosomale si frammenta in lunghi frammenti lineari,
+denaturandosi irreversibilmente, mentre i plasmidi, pur ridotti in condizioni denaturate, manterranno i due filamenti fisicamente concatenati (**denaturazione alcalina**).
+
+Dopo aver riportato la soluzione in condizioni normali (pH neutro) neutralizzando con acido, mentre i frammenti cromosomali rimarranno
+prevalentemente denaturati (si aggregano in un reticolo), i plasmidi
+saranno in grado di rinaturarsi velocemente riassumendo una forma
+circolare covalentemente chiusa.
+
+Per facilitare la separazione tra DNA plasmidico e cromosomale, si usano
+spesso tamponi contenenti **SDS** e ioni **K$^+$ che, legandosi alle proteine cromosomali, contribuiscono a creare un reticolo insolubile formato da un complesso nucleo-proteico cromosomale inglobato in micelle di SDS-K, che precipita.
+
+
+### Separazione del'mRNA dai restanti RNA
 
 Per separare l'RNA, invece, si compie un trattamento con Dnasi seguito da una precipitazione selettiva con LiCi e da un trattamento con guanidina tiocinato o con inibitori delle RNasi.
 
@@ -256,6 +280,54 @@ L'alcool etilico determina modificazioni strutturali degli acidi nucleici che ne
 Gli acidi nucleici possono essere completamente ed efficacemente separati anche mediante centrifugazioni differenziali. 
 
 La purificazione del DNA su gradiente isopicnico di saccarosio in bromuro di etidio è stata molti anni il metodo di purificazione più usato. Nonostante questo metodo fornisca DNA di grande purezza, a causa della sua laboriosità e potenziale tossicità, è stato in gran parte soppiantato da metodi basati su resine a scambio ionico.
+
+### Kit di rupificazione
+
+In alternativa ai classici metodi di purificazione degli acidi nucleici esistono in commercio numerosi kit di isolamento e purificazione degli acidi nucleici che rappresentano un'alternativa sempre più utilizzata.
+
+Esistono molti prodotti commerciali che garantiscono facilità d'uso, riproducibilità ed elevato livello di purificazione. 
+
+Si basano essenzialmente sull'utilizzo di:
+
++ resine a scambio ionico (scambiatori anionici come la DEAE cellulosa);
++ matrici silicee;
++ gel filtration;
++ ultrafiltrazione.
+
+Il principio sul quale si basa la purificazione degli acidi nucleici con matrice silicea è semplice: gli acidi nucleici si legano alle particelle della matrice in presenza di sali caotropici. 
+Dopo avere lavato la matrice silicea, gli acidi nucleici vengono eluiti in tamponi a basso contenuto di sali e sono pronti per le successive reazioni (clonaggio, digestione con enzimi di restrizione, blotting,
+sequenziamento manuale ed automatico, amplificazione, trascrizione inversa ecc.).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
